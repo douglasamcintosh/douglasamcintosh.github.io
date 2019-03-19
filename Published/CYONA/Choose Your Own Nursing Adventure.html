@@ -105,7 +105,11 @@ var saveAs=saveAs||navigator.msSaveBlob&&navigator.msSaveBlob.bind(navigator)||f
 	<div id="store-area" hidden><tw-storydata name="Choose Your Own Nursing Adventure" startnode="1" creator="Twine" creator-version="2.2.1" ifid="B11D654C-2AE8-4A58-ABDE-E2CEF8328F91" zoom="1" format="SugarCube" format-version="2.21.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
 
 
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
 
 
 </script><tw-tag name="Endpoint" color="red"></tw-tag>,<tw-tag name="Choice" color="yellow"></tw-tag>,<tw-tag name="Person" color="orange"></tw-tag><tw-passagedata pid="1" name="Arriving At Work" tags="Scene" position="25,900" size="100,100">Arriving at work. In car park getting out of car approaching workplace.
@@ -178,10 +182,10 @@ You have to deal with some nursing tasks now.
 
 You can
 
-[[Ask Glenn to check on Blair-&gt;Check On Blair][$BlairChecked to true]]
+[[Ask Glenn to check on Blair|Check On Blair][$BlairChecked to true]]
 
 &lt;&lt;if $GlennChecked is false&gt;&gt;\
-[[Ask Glenn how they are-&gt;Glenn Check Up][$GlennChecked = true, $TimeSpent += 1]]
+[[Ask Glenn how they are|Glenn Check Up][$GlennChecked = true, $TimeSpent += 1]]
 &lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="Check On Blair" tags="" position="600,775" size="100,100">&lt;&lt;if $GlennHappy gte 2&gt;&gt;
 Happy Glenn and Blair Response.
 
@@ -189,63 +193,89 @@ Happy Glenn and Blair Response.
 
 Blair reports feeling nihilistic to Glenn.
 
-\\&lt;&lt;else&gt;&gt;
+\&lt;&lt;else&gt;&gt;
 Not able to concentrate properly. Does superficial check in with Blair and thinks everything is fine.
 
-\&lt;&lt;set $BlairHappy -= 1&gt;&gt;&lt;&lt;set $BlairLied to true&gt;&gt;&lt;&lt;/if&gt;&gt;
-[[Next-&gt;Job Option One]]
+\&lt;&lt;set $BlairHappy -= 1&gt;&gt;
+\&lt;&lt;set $BlairLied to true&gt;&gt;
+\&lt;&lt;/if&gt;&gt;
+[[Next|Job Option One]]
 </tw-passagedata><tw-passagedata pid="12" name="Glenn Check Up" tags="" position="525,1025" size="100,100">Glenn happier
 
 Chats about what is going on.
 
-[[Next-&gt;Morning Task Allocation][$TimeSpent += 1, $GlennHappy += 1]] </tw-passagedata><tw-passagedata pid="13" name="Job Option One" tags="Choice" position="650,898" size="100,100">\&lt;&lt;if $TimeSpent gte 10&gt;&gt;
-[[SIX MONTH REVIEW TIME|Final Score]]
-	\&lt;&lt;else&gt;&gt;
-	\&lt;&lt;if $BlairStateReport is false&gt;&gt;
-	\&lt;&lt;set $BlairStateReport to true&gt;&gt;
-		\&lt;&lt;if $BlairLied is true&gt;&gt;\
+[[Next-&gt;Morning Task Allocation][$TimeSpent += 1, $GlennHappy += 1]] </tw-passagedata><tw-passagedata pid="13" name="Job Option One" tags="Choice" position="650,900" size="100,100">		\&lt;&lt;if $BlairStateReport is false&gt;&gt;
+		
+		\&lt;&lt;set $BlairStateReport to true&gt;&gt;
+		
+			\&lt;&lt;if $BlairLied is true&gt;&gt;
 Glenn reports that Blair is fine and there are no concerns.
-		\&lt;&lt;else&gt;&gt;
+			\&lt;&lt;else&gt;&gt;
 Glenn reports that Blair is feeling quite low and would benefit from being seen, earlier rather than later.
+			\&lt;&lt;/if&gt;&gt;
+			
 		\&lt;&lt;/if&gt;&gt;
-	\&lt;&lt;/if&gt;&gt;
 
+\&lt;&lt;if $TimeSpent gte 10&gt;&gt;
+
+[[SIX MONTH REVIEW TIME|Final Score]]
+
+\&lt;&lt;else&gt;&gt;
+	
 Today Alex, Blair and Charlie are your responsibility.
 
-\&lt;&lt;if $AlexSeen is false&gt;&gt;
-[[Spend time with Alex|Check On Alex][$AlexHappy += 1, $TimeSpent += 1, $AlexSeen = true]] \&lt;&lt;/if&gt;&gt;
+	\&lt;&lt;if not $AlexSeen&gt;&gt;
+[[Spend time with Alex|Check On Alex][$AlexHappy += 1, $TimeSpent += 1, $AlexSeen = true]] 
+	\&lt;&lt;/if&gt;&gt;
 
-\&lt;&lt;if $BlairSeen is false&gt;&gt;
-[[Spend time with Blair|Check On Blair2][$BlairHappy += 1, $TimeSpent += 1, $BlairSeen = true]] \&lt;&lt;/if&gt;&gt;
-
-\&lt;&lt;if $CharlieSeen is false&gt;&gt;
-[[Do Charlie&#39;s cognitive assessment|Assess Charlie][$CharlieRiskAlert += 1, $TimeSpent += 1, $CharlieSeen = true]] \&lt;&lt;/if&gt;&gt;
+	
+	
+		\&lt;&lt;if not $BlairSeen and not $BlairAtHospital&gt;&gt;
+[[Spend time with Blair|Check On Blair2][$BlairHappy += 1, $TimeSpent += 1, $BlairSeen = true]]  
+		&lt;&lt;/if&gt;&gt;
+		
+		\&lt;&lt;if not $BlairAtHospital&gt;&gt;
+			\&lt;&lt;if not $BlairSeen and $BlairHappy lte 1 and $TimeSpent gte 7&gt;&gt;
+You discover that Blair has had to be taken to the hospital due to a suspected overdose. Glenn has also had to go.
+		\&lt;&lt;set $BlairAtHospital = true&gt;&gt;
+			&lt;&lt;/if&gt;&gt;
+		&lt;&lt;/if&gt;
+		
+	&lt;&lt;/if&gt;&gt;
+	
+	\&lt;&lt;if not $CharlieSeen&gt;&gt;
+[[Do Charlie&#39;s cognitive assessment|Assess Charlie][$CharlieRiskAlert += 1, $TimeSpent += 1, $CharlieSeen = true]] 
+	\&lt;&lt;/if&gt;&gt;
 
 Glenn will do A or B depending.
+
 \&lt;&lt;/if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="14" name="Check On Alex" tags="Choice" position="900,748" size="100,100">\&lt;&lt;if $AlexHappy gte 1&gt;&gt;
+</tw-passagedata><tw-passagedata pid="14" name="Check On Alex" tags="Choice" position="900,750" size="100,100">\&lt;&lt;if $AlexHappy gte 1&gt;&gt;
 Alex happy:
 
-Alex says the voices were quite bad this morning. Your brief chat really helped, things are a bit better now.
+Alex says things are not too bad just now and thanks you for your help.
 
-		&lt;&lt;if $AlexHVN is false&gt;&gt;
-[[Discuss support options|Hearing Voices Network][$AlexHVN = true, $TimeSpent += 1]]&lt;&lt;/if&gt;
+		\&lt;&lt;if not $AlexHVN&gt;&gt;
+[[Discuss support options|Hearing Voices Network][$AlexHVN = true, $TimeSpent += 1]] &lt;&lt;/if&gt;&gt;
 
-		&lt;&lt;if $AlexTechniques is false&gt;&gt;
-[[Discuss management techniques|Voice management techniques][$AlexTechniques = true, $TimeSpent += 1]]&lt;&lt;/if&gt;&gt;
+		\&lt;&lt;if not $AlexTechniques&gt;&gt;
+[[Discuss management techniques|Voice management techniques][$AlexTechniques = true, $TimeSpent += 1]] &lt;&lt;/if&gt;&gt;
 
 
-\&lt;&lt;if $AlexHappy lt 1&gt;&gt;
+\&lt;&lt;else&gt;&gt;
+
 Alex unhappy:
 
-Alex is guarded tell&#39;s you that the voices have been horrific most of the morning.
+Alex is guarded tells you that the voices have been horrific most of the morning.
 
-		&lt;&lt;if $AlexMedicate is false&gt;&gt;
-[[Encourage use of as required medication|Alex Medicate][$AlexHappy -= 1, $AlexMedicate = true]]&lt;&lt;/if&gt;&gt;
+		\&lt;&lt;if not $AlexMedicate&gt;&gt;
+[[Encourage use of as required medication|Alex Medicate][$AlexHappy -= 1, $AlexMedicate = true]] &lt;&lt;/if&gt;&gt;
 
-		&lt;&lt;if $AlexTechniques is false&gt;&gt;
-[[Discuss management techniques|Voice management techniques][$AlexHappy += 1,$AlexTechniques = true, $TimeSpent += 1]]&lt;&lt;/if&gt;&gt;
-&lt;&lt;/if&gt;&gt;
+		\&lt;&lt;if not $AlexTechniques&gt;&gt;
+[[Discuss management techniques|Voice management techniques][$AlexTechniques = true, $TimeSpent += 1]]  &lt;&lt;/if&gt;&gt;
+
+\&lt;&lt;/if&gt;&gt;
+
 
 [[Finish with Alex|Job Option One]] 
 
@@ -257,21 +287,31 @@ If Blair is not happy.
 
 Create aLogic to sort this out.</tw-passagedata><tw-passagedata pid="15" name="Check On Blair2" tags="" position="900,900" size="100,100">Glenn will be checking on Alex at this point.
 
-Happy Glenn and Happy Alex should work out ok.
 
-Increment TimeSpent
 
+\&lt;&lt;if $BlairHappy gte 2&gt;&gt;
+
+\&lt;&lt;set $CharlieRiskAlert += 1&gt;&gt;
+
+	&lt;&lt;if $BlairLied&gt;&gt;
+Text about did not feel able to speak to Glenn.
+	&lt;&lt;/if&gt;&gt;
+	
 Happy Blair talks to you about the nihilistic thoughts. Says that things got a bit better after their chat with Glenn.
 
 Tells you that Charlie is a bit annoying with the constant repetition.
 
-Increment CharlieRiskAwareness
+[[Spend more time talking to Blair|More Blair][$TimeSpent += 1, $BlairHappy += 1]]
 
-[[Spend more time talking to Blair-&gt;More Blair]]
+[[Get back to the other work|Job Option One]] 
 
-[[Get back to the other work-&gt;Job Option One]] 
+&lt;&lt;else&gt;&gt;
 
 Unhappy Blair
+
+	&lt;&lt;if $BlairLied&gt;&gt;
+Text about did not feel able to speak to Glenn.
+	&lt;&lt;/if&gt;&gt;
 
 Blair tells you they took a significant overdose earlier in the day. They wanted to speak earlier but felt that Glenn was distracted.
 
@@ -279,7 +319,9 @@ No doctor available.
 
 Decrement CharlieRiskAwareness
 
-[[Arrange for trip to A&amp;E]]
+[[Arrange for trip to A&amp;E][$GlennAtHospital = true, $BlairAtHospital = 1, $TimeSpent += 2]]
+
+&lt;&lt;/if&gt;&gt;
 
 </tw-passagedata><tw-passagedata pid="16" name="Assess Charlie" tags="" position="900,1050" size="100,100">If CharlieRiskAwareness is too low Charlie will be missing.
 
@@ -293,39 +335,27 @@ Charlie&#39;s cognition seems worse than you expected following assessment.
 
 Increment CharlieRiskAwareness
 
-[[Back to work-&gt;Job Option One]] </tw-passagedata><tw-passagedata pid="17" name="Hearing Voices Network" tags="" position="900,600" size="100,100">Time spent chatting about HVN.
+[[Back to work-&gt;Job Option One]] </tw-passagedata><tw-passagedata pid="17" name="Hearing Voices Network" tags="" position="902,600" size="100,100">Time spent chatting about HVN.
 
 Increment AlexHappy
 
 Increment TimeSpent
 
-[[Next-&gt;Check On Alex]] 
-</tw-passagedata><tw-passagedata pid="18" name="Voice management techniques" tags="" position="1150,750" size="100,100">Increment AlexHappy
+[[Next|Check On Alex][$TimeSpent += 1]] 
+</tw-passagedata><tw-passagedata pid="18" name="Voice management techniques" tags="" position="1150,740" size="100,100">\&lt;&lt;if $AlexHappy gte 2&gt;&gt;
+Alex is thankful for the time you have spent.
 
-Increment TimeSpent
+Reports that Charlie has been looking quite lost and trying various door handles
+[[Next|Check On Alex][$AlexHappy += 1, $TimeSpent += 1]] 
 
-If Alex unhappy:
+&lt;&lt;else&gt;&gt;
+Alex is still distressed. Expresses a fear that you are just like the rest of the staff here.
+[[Next|Check On Alex][$TimeSpent += 1]] 
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Alex Medicate" tags="" position="1050,598" size="100,100">Alex complains that is the only advice they get.
 
-Complains that you are just part of the system of control. Refuses to speak to you any more.
+Pill for this, pill for that. Pills for the side effects.
 
-
-If Alex happy:
-
-Feels comforted.
-
-Asks how Blair is getting on.
-
-Says they saw Charlie looking a bit lost.
-
-Increment CharlieRiskAwareness
-
-[[Next-&gt;Job Option One]] </tw-passagedata><tw-passagedata pid="19" name="Alex Medicate" tags="" position="1050,600" size="100,100">Decrement AlexHappy
-
-Increment TimeSpent
-
-Alex complains that is the only advice they get.
-
-[[Next-&gt;Check On Alex]] </tw-passagedata><tw-passagedata pid="20" name="Charlie" tags="Person" position="100,450" size="100,100">Charlie bumf
+[[Next|Check On Alex][$TimeSpent += 1]] </tw-passagedata><tw-passagedata pid="20" name="Charlie" tags="Person" position="100,450" size="100,100">Charlie bumf
 
 &lt;&lt;back &quot;Return to where you were.&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="21" name="More Blair" tags="" position="1050,850" size="100,100">Increment TimeSpent
 Increment BlairHappy
@@ -347,7 +377,7 @@ Your manager gives some feedback on you shift so far.
 
 This is the scoring part of the game
 
-End.</tw-passagedata><tw-passagedata pid="25" name="StoryInit" tags="Meta" position="100,148" size="100,100">&lt;&lt;run UIBar.stow()&gt;&gt;
+End.</tw-passagedata><tw-passagedata pid="25" name="StoryInit" tags="Meta" position="400,300" size="100,100">&lt;&lt;run UIBar.stow()&gt;&gt;
 
 &lt;&lt;set $TimeSpent to 0&gt;&gt;
 
@@ -359,7 +389,7 @@ End.</tw-passagedata><tw-passagedata pid="25" name="StoryInit" tags="Meta" posit
 
 &lt;&lt;set $BlairHappy to 0&gt;&gt;
 &lt;&lt;set $BlairLied to false&gt;&gt;
-&lt;&lt;set $BlairAtHosp to false&gt;&gt;
+&lt;&lt;set $BlairAtHospital to false&gt;&gt;
 &lt;&lt;set $BlairStateReport to false&gt;&gt;
 &lt;&lt;set $BlairSeen to false&gt;&gt;
 
@@ -370,11 +400,17 @@ End.</tw-passagedata><tw-passagedata pid="25" name="StoryInit" tags="Meta" posit
 
 &lt;&lt;set $GlennHappy to 0&gt;&gt;
 &lt;&lt;set $GlennChecked to false&gt;&gt;
-&lt;&lt;set $GlennAtHosp to false&gt;&gt;
+&lt;&lt;set $GlennAtHospital to false&gt;&gt;
 
 </tw-passagedata><tw-passagedata pid="26" name="PassageHeader" tags="Header Meta" position="100,300" size="100,100">CYONA: PROTOTYPE
 -----</tw-passagedata><tw-passagedata pid="27" name="PassageFooter" tags="Meta Footer" position="250,300" size="100,100">-----
-AlexHappy is $AlexHappy, AlexSeen is $AlexSeen, BlairHappy is $BlairHappy, CharlieHappy is $CharlieHappy, GlennHappy is $GlennHappy, CharlieRiskAlert is $CharlieRiskAlert and CharlieEscaped is $CharlieEscaped.
+AlexHappy is $AlexHappy, AlexSeen is $AlexSeen, AlexTechniques is $AlexTechniques, 
+
+BlairHappy is $BlairHappy, BlairLied is $BlairLied,  
+
+CharlieHappy is $CharlieHappy, CharlieSeen is $CharlieSeen, CharlieRiskAlert is $CharlieRiskAlert and CharlieEscaped is $CharlieEscaped.
+
+GlennHappy is $GlennHappy, 
 
 Time Spent is $TimeSpent
 

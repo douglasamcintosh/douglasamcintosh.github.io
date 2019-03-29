@@ -309,6 +309,10 @@ html[data-debug-view] .debug.hidden .debug {
 	background-color: #bbb;
 }
 
+
+
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
@@ -318,7 +322,13 @@ html[data-debug-view] .debug.hidden .debug {
 
 
 
-</script><tw-tag name="Endpoint" color="red"></tw-tag>,<tw-tag name="Choice" color="yellow"></tw-tag>,<tw-tag name="Person" color="orange"></tw-tag><tw-passagedata pid="1" name="Arriving At Work" tags="Scene" position="25,900" size="100,100">It&#39;s already been a busy morning and now you&#39;re late for work. Not late, late. Just ... late.
+
+
+
+
+</script><tw-tag name="Endpoint" color="red"></tw-tag>,<tw-tag name="Choice" color="yellow"></tw-tag>,<tw-tag name="Person" color="orange"></tw-tag><tw-passagedata pid="1" name="Arriving At Work" tags="Scene" position="25,900" size="100,100">((Welcome to &#39;Bad Shift / Worse Shift: A Prototype CYONA&#39;, many errors have already been found. The intent is just to demonstrate a simple scenario.))
+
+It&#39;s already been a busy morning and now you&#39;re late for work. Not late, late. Just ... late.
 
 You should just be able to catch the end of the early report if you&#39;re quick.
 
@@ -335,7 +345,7 @@ Or you can just leave.
 You are running late and will get the chance to chat later.
 
 [[Mumble a quick hello and keep going|Alex Hellno][$TimeSpent =+ 1, $AlexHappy -= 1]]
-</tw-passagedata><tw-passagedata pid="3" name="Don&#39;t go to work" tags="Endpoint" position="25,1023" size="100,100">Getting back in the care you breathe a sigh, of relief or freedom you&#39;re not sure.
+</tw-passagedata><tw-passagedata pid="3" name="Don&#39;t go to work" tags="Endpoint" position="25,1023" size="100,100">Getting back in the care you breathe a sigh of relief, or freedom you&#39;re not sure.
 
 For cinematic reasons it is now the evening.
 
@@ -375,11 +385,10 @@ You make it in for the tail end of report. The other staff roll their eyes and t
 
 &lt;&lt;if not $GlennInfoSeen&gt;&gt;[[Glenn][$GlennHappy += 1, $GlennInfoSeen to true]]&lt;&lt;else&gt;&gt;Glenn&lt;&lt;/if&gt;&gt; comes in later looking a bit flustered.
 
-\&lt;&lt;if $OnTime is true&gt;&gt;
+&lt;&lt;if $OnTime is true&gt;&gt;
 Glenn gives a hesitant smile and annoys her fingernails.
 \&lt;&lt;set $GlennHappy += 1&gt;&gt;
 &lt;&lt;else&gt;&gt;\
-
 Glenn picking up on the testy atmosphere sits quietly and examines the floor.
 \&lt;&lt;set $GlennHappy -= 1&gt;&gt;&lt;&lt;/if&gt;&gt;
 
@@ -387,6 +396,8 @@ Glenn picking up on the testy atmosphere sits quietly and examines the floor.
 
 
 </tw-passagedata><tw-passagedata pid="9" name="Glenn" tags="Person" position="350,500" size="100,100">Glenn is a newly qualified nursing assistant who is on your team.
+
+&lt;&lt;set $GlennHappy += 1&gt;&gt;
 
 &lt;&lt;return &quot;Return to where you were.&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="10" name="Morning Task Allocation" tags="Choice" position="450,900" size="100,100">You have duties that require your attention.
 
@@ -398,24 +409,27 @@ There&#39;s something about &lt;&lt;if not $BlairInfoSeen&gt;&gt;[[Blair][$Blair
 
 There&#39;s something about &lt;&lt;if not $GlennInfoSeen&gt;&gt;[[Glenn][$GlennHappy += 1, $GlennInfoSeen to true]]&lt;&lt;else&gt;&gt;Glenn&lt;&lt;/if&gt;&gt; that worries you.
 
-[[Ask Glenn how they are|Glenn Check Up][$GlennChecked = true, $TimeSpent += 1]]
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="Check On Blair" tags="" position="600,775" size="100,100">&lt;&lt;if $GlennHappy gte 2&gt;&gt;
-Happy Glenn and Blair Response.
+[[Ask Glenn how they are|Glenn Check Up][$GlennChecked = true, $TimeSpent += 1, $GlennHappy += 1]]
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="11" name="Check On Blair" tags="" position="600,773" size="100,100">&lt;&lt;if $GlennHappy gte 1&gt;&gt;
+Glenn goes to check on Blair. As you pass by later you see them discussing something with a fairly intense look.
 
 \&lt;&lt;set $BlairHappy += 1&gt;&gt;&lt;&lt;set $GlennHappy += 1&gt;&gt;
-
-Blair reports feeling nihilistic to Glenn.
-
 \&lt;&lt;else&gt;&gt;
-Not able to concentrate properly. Does superficial check in with Blair and thinks everything is fine.
-
+Glenn goes to check on Blair. As you pass by later you see that Glenn has finished and Blair is sitting arms crossed, staring out the window at passing traffic.
 \&lt;&lt;set $BlairHappy -= 1&gt;&gt;
 \&lt;&lt;set $BlairLied to true&gt;&gt;
 \&lt;&lt;/if&gt;&gt;
-[[Next|Job Option One]]
-</tw-passagedata><tw-passagedata pid="12" name="Glenn Check Up" tags="" position="525,1025" size="100,100">Glenn happier
 
-Chats about what is going on.
+You get on with various other duties that have to be done.
+
+[[Next|Job Option One]]
+</tw-passagedata><tw-passagedata pid="12" name="Glenn Check Up" tags="" position="525,1025" size="100,100">Glenn nervously tells you what is causing them to be more distracted, than normal.
+
+The cat has eaten the goldfish. Glenn has no idea how the kids are going to react to this, as they loved the goldfish so, so much.
+
+You suggest a quick trip to the pet shop on the way home to buy an identical goldfish. Then telling the kids that it was &#39;Bring Your Pet To Work Day&#39; and hope they don&#39;t ask any probing questions.
+
+Glenn is delighted by your machievellian thinking and smiles.
 
 [[Next-&gt;Morning Task Allocation][$TimeSpent += 1, $GlennHappy += 1]] </tw-passagedata><tw-passagedata pid="13" name="Job Option One" tags="Choice" position="650,900" size="100,100">Today Alex, Blair and Charlie are your responsibility.
 
@@ -448,41 +462,37 @@ Glenn reports that Blair is feeling quite low and would benefit from being seen,
 		
 		&lt;&lt;/if&gt;&gt;
 		
-		End of first loop
-	
+		&lt;&lt;if not $BlairSeen&gt;&gt;
+		
 		[[Spend time with Blair|Check On Blair2][$BlairHappy += 1, $TimeSpent += 1, $BlairSeen = true]] 
+		
+		&lt;&lt;/if&gt;&gt;
 		
 	&lt;&lt;else&gt;&gt;
 	
- Blair at the big hoose?
-		
+Blair is at the hospital.
+
 	&lt;&lt;/if&gt;&gt;
 	
 	
 	\&lt;&lt;if not $CharlieSeen and $CharlieRiskAlert lte 3 and $TimeSpent gte 7&gt;&gt;
 	
-	Charlies Not OK!
-	
-[[Do Charlie&#39;s cognitive assessment|Assess Charlie Missing][$CharlieRiskAlert += 1, $TimeSpent += 1, $CharlieSeen = true]] 
+Time&#39;s getting on you should probably do Charlie&#39;s assessment.
+
+[[Do Charlie&#39;s cognitive assessment|Assess Charlie Missing][$CharlieRiskAlert += 1, $TimeSpent += 1, $CharlieSeen = true, $CharlieEscape = true]] 
 
 	&lt;&lt;else&gt;&gt;
 	
 		&lt;&lt;if not $CharlieSeen&gt;&gt;
-	Charlie&#39;s OK 
-	[[Do Charlie&#39;s cognitive assessment|Assess Charlie][$CharlieRiskAlert += 1, $TimeSpent += 1, $CharlieSeen = true]] 
-		&lt;&lt;/if&gt;&gt;
-		
-		&lt;&lt;if $CharlieSeen and $CharlieRiskAlert lte 3 and $TimeSpent gte 5&gt;&gt;
-		Charlie&#39;s legged it.
-		&lt;&lt;set $CharlieEscaped = true&gt;&gt;
+You should probably do Charlie&#39;s assessment.
+
+[[Do Charlie&#39;s cognitive assessment|Assess Charlie][$CharlieRiskAlert += 1, $TimeSpent += 1, $CharlieSeen = true]] 
 		&lt;&lt;/if&gt;&gt;
 		
 	&lt;&lt;/if&gt;&gt;
 	
 \&lt;&lt;/if&gt;&gt;
-</tw-passagedata><tw-passagedata pid="14" name="Check On Alex" tags="Choice" position="900,750" size="100,100">\&lt;&lt;if $AlexHappy gte 1&gt;&gt;
-Alex happy:
-
+</tw-passagedata><tw-passagedata pid="14" name="Check On Alex" tags="Choice" position="900,748" size="100,100">\&lt;&lt;if $AlexHappy gte 1&gt;&gt;
 Alex says things are not too bad just now and thanks you for your help.
 
 		\&lt;&lt;if not $AlexHVN&gt;&gt;
@@ -493,8 +503,6 @@ Alex says things are not too bad just now and thanks you for your help.
 
 
 \&lt;&lt;else&gt;&gt;
-
-Alex unhappy:
 
 Alex is guarded tells you that the voices have been horrific most of the morning.
 
@@ -508,70 +516,48 @@ Alex is guarded tells you that the voices have been horrific most of the morning
 
 
 [[Finish with Alex|Job Option One]] 
-
-Glenn will be doing Blair
-
-If Blair is happy this will be better
-
-If Blair is not happy.
-
-Create aLogic to sort this out.</tw-passagedata><tw-passagedata pid="15" name="Check On Blair2" tags="" position="900,900" size="100,100">Glenn will be checking on Alex at this point.
-
-
-
-\&lt;&lt;if $BlairHappy gte 2&gt;&gt;
-
+</tw-passagedata><tw-passagedata pid="15" name="Check On Blair2" tags="" position="900,900" size="100,100">\&lt;&lt;if $BlairHappy gte 2&gt;&gt;
 \&lt;&lt;set $CharlieRiskAlert += 1&gt;&gt;
 
-	&lt;&lt;if $BlairLied&gt;&gt;
-Text about did not feel able to speak to Glenn.
-	&lt;&lt;/if&gt;&gt;
+\	&lt;&lt;if $BlairLied&gt;&gt;
+Blair tells you that Glenn was distracted earlier.&lt;&lt;/if&gt;&gt;
 	
-Happy Blair talks to you about the nihilistic thoughts. Says that things got a bit better after their chat with Glenn.
+Blair reports suffering quite a lot of nihilistic thoughts earlier. Having an opportunity to talk is helping with challenging these thoughts.
 
-Tells you that Charlie is a bit annoying with the constant repetition.
+Blair says that Charlie has been very annoying today. Wandering around and constantly being brought back from the exit.
 
 [[Spend more time talking to Blair|More Blair][$TimeSpent += 1, $BlairHappy += 1]]
 
 [[Get back to the other work|Job Option One]] 
 
-&lt;&lt;else&gt;&gt;
+\&lt;&lt;else&gt;&gt;
+	\&lt;&lt;if $BlairLied&gt;&gt;
+Blair tells you that Glenn was distracted earlier.	&lt;&lt;/if&gt;&gt;
 
-Unhappy Blair
+Blair tells you they took a significant overdose earlier in the day. They wanted to speak earlier but felt that Glenn was not interested in them..
 
-	&lt;&lt;if $BlairLied&gt;&gt;
-Text about did not feel able to speak to Glenn.
-	&lt;&lt;/if&gt;&gt;
+There is no Doctor on site.
 
-Blair tells you they took a significant overdose earlier in the day. They wanted to speak earlier but felt that Glenn was distracted.
+\&lt;&lt;set $CharlieRiskAlert -= 1&gt;&gt;
 
-No doctor available.
-
-Decrement CharlieRiskAwareness
+You have to arrange for Blair to be taken to Accident &amp; Emergency.
 
 [[Arrange for trip to A&amp;E][$GlennAtHospital = true, $BlairAtHospital = 1, $TimeSpent += 2]]
 
-&lt;&lt;/if&gt;&gt;
+\&lt;&lt;/if&gt;&gt;
 
-</tw-passagedata><tw-passagedata pid="16" name="Assess Charlie" tags="" position="900,1050" size="100,100">If CharlieRiskAwareness is too low Charlie will be missing.
-
-[[Implement missing person search-&gt;Find Charlie]]
-
-If CharlieRiskAwareness is high enough.
+</tw-passagedata><tw-passagedata pid="16" name="Assess Charlie" tags="" position="900,1046" size="100,100">&lt;&lt;set $CharlieRiskAlert += 1&gt;&gt;
 
 You carry out the assessment.
 
-Charlie&#39;s cognition seems worse than you expected following assessment.
+Charlie&#39;s cognition seems worse than you expected. You mention to the other staff that Charlie might be at risk of wandering.
 
-Increment CharlieRiskAwareness
+[[Back to work-&gt;Job Option One]] 
+</tw-passagedata><tw-passagedata pid="17" name="Hearing Voices Network" tags="" position="902,600" size="100,100">You spend time chatting to Alex about the Hearving Boives Network.
 
-[[Back to work-&gt;Job Option One]] </tw-passagedata><tw-passagedata pid="17" name="Hearing Voices Network" tags="" position="902,600" size="100,100">Time spent chatting about HVN.
+Alex was not aware of the service and finds the information helpful.
 
-Increment AlexHappy
-
-Increment TimeSpent
-
-[[Next|Check On Alex][$TimeSpent += 1]] 
+[[Next|Check On Alex][$TimeSpent += 1, $AlexHappy += 1]] 
 </tw-passagedata><tw-passagedata pid="18" name="Voice management techniques" tags="" position="1150,740" size="100,100">\&lt;&lt;if $AlexHappy gte 2&gt;&gt;
 Alex is thankful for the time you have spent.
 
@@ -581,26 +567,22 @@ Reports that Charlie has been looking quite lost and trying various door handles
 &lt;&lt;else&gt;&gt;
 Alex is still distressed. Expresses a fear that you are just like the rest of the staff here.
 [[Next|Check On Alex][$TimeSpent += 1]] 
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Alex Medicate" tags="" position="1050,598" size="100,100">Alex complains that is the only advice they get.
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="19" name="Alex Medicate" tags="" position="1050,598" size="100,100">Alex complains, at length, that is the only advice they get.
 
 Pill for this, pill for that. Pills for the side effects.
 
 [[Next|Check On Alex][$TimeSpent += 1]] </tw-passagedata><tw-passagedata pid="20" name="Charlie" tags="Person" position="100,450" size="100,100">Charlie, a recent admission, requires a cognitive assessment.
 
-&lt;&lt;return &quot;Return to where you were.&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="21" name="More Blair" tags="" position="1050,850" size="100,100">Increment TimeSpent
-Increment BlairHappy
+&lt;&lt;return &quot;Return to where you were.&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="21" name="More Blair" tags="" position="1050,848" size="100,100">You spend some more time chatting with Blair.
 
-[[Next-&gt;Job Option One]] </tw-passagedata><tw-passagedata pid="22" name="Arrange for trip to A&amp;E" tags="" position="1175,950" size="100,100">Increment TimeSpent
-Increment TimeSpent
+Better get back to the other work, it will be time for your review soon.
 
-[[Back to work-&gt;Job Option One]] </tw-passagedata><tw-passagedata pid="23" name="Find Charlie" tags="" position="900,1200" size="100,100">Increment TimeSpent x2
+[[Next-&gt;Job Option One]] </tw-passagedata><tw-passagedata pid="22" name="Arrange for trip to A&amp;E" tags="" position="1175,950" size="100,100">You spend time arranging for Blair to go to the hospital. Also arranging for an escort.
 
-If Glenn away at hospital Then increment TimeSpent a further time.
-
+[[Back to work-&gt;Job Option One]] </tw-passagedata><tw-passagedata pid="23" name="Find Charlie" tags="" position="900,1198" size="100,100">
 Charlie is found in the car park. In clothing not suitable for incelement weather.
 
-Increase CharlieRiskAwareness a lot. Set boolean CharlieEscaped to true.
-
+&lt;&lt;set $CharlieEscaped is true&gt;&gt;
 [[Back to work-&gt;Job Option One]] </tw-passagedata><tw-passagedata pid="24" name="Final Score" tags="Endpoint" position="1400,900" size="100,100">Scoring stuff will go in here.
 
 Well done.
@@ -634,13 +616,13 @@ End.</tw-passagedata><tw-passagedata pid="25" name="StoryInit" tags="Meta startu
 &lt;&lt;set $GlennAtHospital to false&gt;&gt;
 &lt;&lt;set $GlennInfoSeen to false&gt;&gt;</tw-passagedata><tw-passagedata pid="26" name="PassageHeader" tags="Header Meta" position="100,300" size="100,100">CYONA: TESTING
 -----</tw-passagedata><tw-passagedata pid="27" name="PassageFooter" tags="Meta Footer" position="250,300" size="100,100">-----
-\&lt;&lt;click &quot;Restart&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UI.restart()&lt;&lt;/script&gt;&gt;&lt;&lt;/click&gt;&gt;</tw-passagedata><tw-passagedata pid="28" name="Assess Charlie Missing" tags="" position="1050,1050" size="100,100">By eck!.
+\&lt;&lt;click &quot;Restart&quot;&gt;&gt;&lt;&lt;script&gt;&gt;UI.restart()&lt;&lt;/script&gt;&gt;&lt;&lt;/click&gt;&gt;</tw-passagedata><tw-passagedata pid="28" name="Assess Charlie Missing" tags="" position="1050,1046" size="100,100">By eck!.
 
 You go to check on Charlie. Nowhere to be found.
 
-[[Search For Charlie|Charlie Search][$CharlieRiskAlert += 1, $TimeSpent += 1]]</tw-passagedata><tw-passagedata pid="29" name="Charlie Search" tags="" position="1050,1200" size="100,100">Charlie found. But not happy.
+You have to implement the missing person policy.
 
-[[Back To Work|Job Option One][$TimeSpent += 1]] </tw-passagedata><tw-passagedata pid="30" name="StoryAuthor" tags="" position="525,300" size="100,100">Douglas McIntosh</tw-passagedata><tw-passagedata pid="31" name="StoryBanner" tags="" position="650,300" size="100,100">An example scenario for the purposes of demonstration.</tw-passagedata><tw-passagedata pid="32" name="StoryCaption" tags="" position="775,300" size="100,100">This is where the Story Caption goes.</tw-passagedata></tw-storydata></div>
+[[Search For Charlie|Job Option One][$CharlieRiskAlert += 1, $TimeSpent += 2]]</tw-passagedata><tw-passagedata pid="29" name="StoryAuthor" tags="" position="525,300" size="100,100">Douglas McIntosh</tw-passagedata><tw-passagedata pid="30" name="StoryBanner" tags="" position="650,300" size="100,100">An example scenario for the purposes of demonstration.</tw-passagedata><tw-passagedata pid="31" name="StoryCaption" tags="" position="775,300" size="100,100">This is where the Story Caption goes.</tw-passagedata></tw-storydata></div>
 	<script id="script-sugarcube" type="text/javascript">
 	/*! SugarCube JS */
 	if(document.documentElement.getAttribute("data-init")==="loading"){!function(window,document,jQuery,undefined){"use strict";function _classCallCheck(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,r=Array(e.length);t<e.length;t++)r[t]=e[t];return r}return Array.from(e)}var _createClass=function(){function e(e,t){for(var r=0;r<t.length;r++){var n=t[r];n.enumerable=n.enumerable||!1,n.configurable=!0,"value"in n&&(n.writable=!0),Object.defineProperty(e,n.key,n)}}return function(t,r,n){return r&&e(t.prototype,r),n&&e(t,n),t}}(),_slicedToArray=function(){function e(e,t){var r=[],n=!0,a=!1,i=undefined;try{for(var o,s=e[Symbol.iterator]();!(n=(o=s.next()).done)&&(r.push(o.value),!t||r.length!==t);n=!0);}catch(e){a=!0,i=e}finally{try{!n&&s.return&&s.return()}finally{if(a)throw i}}return r}return function(t,r){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,r);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},errorPrologRegExp=/^(?:(?:uncaught\s+(?:exception:\s+)?)?\w*(?:error|exception|_err):\s+)+/i,Alert=function(){function e(e,t,r,n){var a="fatal"===e,i="Apologies! "+(a?"A fatal":"An")+" error has occurred.";i+=a?" Aborting.":" You may be able to continue, but some parts may not work properly.",null==t&&null==r||(i+="\n\nError",null!=t&&(i+=" ["+t+"]"),i+=null!=r?": "+r.replace(errorPrologRegExp,"")+".":": unknown error."),"object"===(void 0===n?"undefined":_typeof(n))&&n.stack&&(i+="\n\nStack Trace:\n"+n.stack),window.alert(i)}function t(t,r,n){e(null,t,r,n)}function r(t,r,n){e("fatal",t,r,n)}return function(e){window.onerror=function(n,a,i,o,s){"complete"===document.readyState?t(null,n,s):(r(null,n,s),window.onerror=e,"function"==typeof window.onerror&&window.onerror.apply(this,arguments))}}(window.onerror),Object.freeze(Object.defineProperties({},{error:{value:t},fatal:{value:r}}))}(),Patterns=function(){var e=function(){var e=new Map([[" ","\\u0020"],["\f","\\f"],["\n","\\n"],["\r","\\r"],["\t","\\t"],["\v","\\v"],[" ","\\u00a0"],[" ","\\u1680"],["᠎","\\u180e"],[" ","\\u2000"],[" ","\\u2001"],[" ","\\u2002"],[" ","\\u2003"],[" ","\\u2004"],[" ","\\u2005"],[" ","\\u2006"],[" ","\\u2007"],[" ","\\u2008"],[" ","\\u2009"],[" ","\\u200a"],["\u2028","\\u2028"],["\u2029","\\u2029"],[" ","\\u202f"],[" ","\\u205f"],["　","\\u3000"],["\ufeff","\\ufeff"]]),t=/^\s$/,r="";return e.forEach(function(e,n){t.test(n)||(r+=e)}),r?"[\\s"+r+"]":"\\s"}(),t="\\s"===e?"\\S":e.replace(/^\[/,"[^"),r="[0-9A-Z_a-z\\-\\u00c0-\\u00d6\\u00d8-\\u00f6\\u00f8-\\u00ff\\u0150\\u0170\\u0151\\u0171]",n=r.replace("\\-",""),a=function(){return"("+r+"+)\\(([^\\)\\|\\n]+)\\):|("+r+"+):([^;\\|\\n]+);|((?:\\."+r+"+)+);|((?:#"+r+"+)+);"}();return Object.freeze({space:e,spaceNoTerminator:"[\\u0020\\f\\t\\v\\u00a0\\u1680\\u180e\\u2000-\\u200a\\u202f\\u205f\\u3000\\ufeff]",lineTerminator:"[\\n\\r\\u2028\\u2029]",notSpace:t,anyLetter:r,anyLetterStrict:n,identifierFirstChar:"[$A-Z_a-z]",identifier:"[$A-Z_a-z][$0-9A-Z_a-z]*",variableSigil:"[$_]",variable:"[$_][$A-Z_a-z][$0-9A-Z_a-z]*",macroName:"[A-Za-z][\\w-]*|[=-]",cssImage:"\\[[<>]?[Ii][Mm][Gg]\\[(?:\\s|\\S)*?\\]\\]+",inlineCss:a,url:"(?:file|https?|mailto|ftp|javascript|irc|news|data):[^\\s'\"]+"})}();!function(){!function(e){if(e&&e.prototype&&null==e.prototype.firstElementChild){var t=Node.ELEMENT_NODE;Object.defineProperty(e.prototype,"firstElementChild",{get:function(){for(var e=this.childNodes,r=0;r<e.length;++r){var n=e[r];if(n.nodeType===t)return n}return null}})}}(window.Node||window.Element)}(),function(){function e(e,t){var r=Number.parseInt(e,10)||0;if(r<1)return"";var n=void 0===t?"":String(t);for(""===n&&(n=" ");n.length<r;){var a=n.length,i=r-a;n+=a>i?n.slice(0,i):n}return n.length>r&&(n=n.slice(0,r)),n}var t=function(){function e(e,n){var a=String(e);if(!a)return a;switch(n){case"start":return t.test(a)?a.replace(t,""):a;case"end":return r.test(a)?a.replace(r,""):a;default:throw new Error('_trimString called with incorrect where parameter value: "'+n+'"')}}var t=new RegExp("^"+Patterns.space+Patterns.space+"*"),r=new RegExp(""+Patterns.space+Patterns.space+"*$");return e}();Array.prototype.includes||Object.defineProperty(Array.prototype,"includes",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includes called on null or undefined");if(0===arguments.length)return!1;var e=this.length>>>0;if(0===e)return!1;var t=arguments[0],r=Number(arguments[1])||0;for(r<0&&(r=Math.max(0,e+r));r<e;++r){var n=this[r];if(n===t||n!==n&&t!==t)return!0}return!1}}),String.prototype.padStart||Object.defineProperty(String.prototype,"padStart",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padStart called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:e(i-a,r)+n}}),String.prototype.padEnd||Object.defineProperty(String.prototype,"padEnd",{configurable:!0,writable:!0,value:function(t,r){if(null==this)throw new TypeError("String.prototype.padEnd called on null or undefined");var n=String(this),a=n.length,i=Number.parseInt(t,10);return i<=a?n:n+e(i-a,r)}}),String.prototype.trimStart||Object.defineProperty(String.prototype,"trimStart",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimStart called on null or undefined");return t(this,"start")}}),String.prototype.trimLeft||Object.defineProperty(String.prototype,"trimLeft",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimLeft called on null or undefined");return t(this,"start")}}),String.prototype.trimEnd||Object.defineProperty(String.prototype,"trimEnd",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimEnd called on null or undefined");return t(this,"end")}}),String.prototype.trimRight||Object.defineProperty(String.prototype,"trimRight",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.trimRight called on null or undefined");return t(this,"end")}})}(),function(){function _random(){var e=void 0,t=void 0;switch(arguments.length){case 0:throw new Error("_random called with insufficient parameters");case 1:e=0,t=arguments[0];break;default:e=arguments[0],t=arguments[1]}if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.floor(_nativeMathRandom()*(t-e+1))+e}function _randomIndex(e,t){var r=void 0,n=void 0;switch(t.length){case 1:r=0,n=e-1;break;case 2:r=0,n=Math.trunc(t[1]);break;default:r=Math.trunc(t[1]),n=Math.trunc(t[2])}return Number.isNaN(r)?r=0:!Number.isFinite(r)||r>=e?r=e-1:r<0&&(r=e+r)<0&&(r=0),Number.isNaN(n)?n=0:!Number.isFinite(n)||n>=e?n=e-1:n<0&&(n=e+n)<0&&(n=e-1),_random(r,n)}function _getCodePointStartAndEnd(e,t){var r=e.charCodeAt(t);if(Number.isNaN(r))return{char:"",start:-1,end:-1};if(r<55296||r>57343)return{char:e.charAt(t),start:t,end:t};if(r>=55296&&r<=56319){var n=t+1;if(n>=e.length)throw new Error("high surrogate without trailing low surrogate");var a=e.charCodeAt(n);if(a<56320||a>57343)throw new Error("high surrogate without trailing low surrogate");return{char:e.charAt(t)+e.charAt(n),start:t,end:n}}if(0===t)throw new Error("low surrogate without leading high surrogate");var i=t-1,o=e.charCodeAt(i);if(o<55296||o>56319)throw new Error("low surrogate without leading high surrogate");return{char:e.charAt(i)+e.charAt(t),start:i,end:t}}var _nativeMathRandom=Math.random;Object.defineProperty(Array,"random",{configurable:!0,writable:!0,value:function(e){if("object"!==(void 0===e?"undefined":_typeof(e))||null===e||!Object.prototype.hasOwnProperty.call(e,"length"))throw new TypeError("Array.random array parameter must be an array or array-lke object");var t=e.length>>>0;if(0!==t){return e[0===arguments.length?_random(0,t-1):_randomIndex(t,Array.prototype.slice.call(arguments,1))]}}}),Object.defineProperty(Array.prototype,"concatUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.concatUnique called on null or undefined");var e=Array.from(this);if(0===arguments.length)return e;var t=Array.prototype.reduce.call(arguments,function(e,t){return e.concat(t)},[]),r=t.length;if(0===r)return e;for(var n=Array.prototype.indexOf,a=Array.prototype.push,i=0;i<r;++i){var o=t[i];-1===n.call(e,o)&&a.call(e,o)}return e}}),Object.defineProperty(Array.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.count called on null or undefined");for(var e=Array.prototype.indexOf,t=arguments[0],r=Number(arguments[1])||0,n=0;-1!==(r=e.call(this,t,r));)++n,++r;return n}}),Object.defineProperty(Array.prototype,"delete",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.delete called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.concat.apply([],arguments),r=t.length,n=[],a=0;a<e;++a)for(var i=this[a],o=0;o<r;++o){var s=t[o];if(i===s||i!==i&&s!==s){n.push(a);break}}for(var u=[],l=0,c=n.length;l<c;++l)u[l]=this[n[l]];for(var d=Array.prototype.splice,f=n.length-1;f>=0;--f)d.call(this,n[f],1);return u}}),Object.defineProperty(Array.prototype,"deleteAt",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.deleteAt called on null or undefined");if(0===arguments.length)return[];var e=this.length>>>0;if(0===e)return[];for(var t=Array.prototype.splice,r=[].concat(_toConsumableArray(new Set(Array.prototype.concat.apply([],arguments).map(function(t){return t<0?Math.max(0,e+t):t})).values())),n=[].concat(_toConsumableArray(r)).sort(function(e,t){return t-e}),a=[],i=0,o=r.length;i<o;++i)a[i]=this[r[i]];for(var s=0,u=n.length;s<u;++s)t.call(this,n[s],1);return a}}),Object.defineProperty(Array.prototype,"deleteWith",{configurable:!0,writable:!0,value:function(e,t){if(null==this)throw new TypeError("Array.prototype.deleteWith called on null or undefined");if("function"!=typeof e)throw new Error("Array.prototype.deleteWith predicate parameter must be a function");var r=this.length>>>0;if(0===r)return[];for(var n=Array.prototype.splice,a=[],i=[],o=0;o<r;++o)e.call(t,this[o],o,this)&&(i.push(this[o]),a.push(o));for(var s=a.length-1;s>=0;--s)n.call(this,a[s],1);return i}}),Object.defineProperty(Array.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.first called on null or undefined");if(0!=this.length>>>0)return this[0]}}),Object.defineProperty(Array.prototype,"flatten",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.flatten called on null or undefined");return Array.prototype.reduce.call(this,function(e,t){return e.concat(Array.isArray(t)?t.flatten():t)},[])}}),Object.defineProperty(Array.prototype,"includesAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAll called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAll.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(!Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!1;return!0}}),Object.defineProperty(Array.prototype,"includesAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.includesAny called on null or undefined");if(1===arguments.length)return Array.isArray(arguments[0])?Array.prototype.includesAny.apply(this,arguments[0]):Array.prototype.includes.apply(this,arguments);for(var e=0,t=arguments.length;e<t;++e)if(Array.prototype.some.call(this,function(e){return e===this.val||e!==e&&this.val!==this.val},{val:arguments[e]}))return!0;return!1}}),Object.defineProperty(Array.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.last called on null or undefined");var e=this.length>>>0;if(0!==e)return this[e-1]}}),Object.defineProperty(Array.prototype,"pluck",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pluck called on null or undefined");var e=this.length>>>0;if(0!==e){var t=0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)));return Array.prototype.splice.call(this,t,1)[0]}}}),Object.defineProperty(Array.prototype,"pluckMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.pluckMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.pluckMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=Array.prototype.splice,a=[],i=t-1;do{a.push(n.call(this,_random(0,i--),1)[0])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"pushUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.pushUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.push,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Array.prototype,"random",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.random called on null or undefined");var e=this.length>>>0;if(0!==e){return this[0===arguments.length?_random(0,e-1):_randomIndex(e,[].concat(Array.prototype.slice.call(arguments)))]}}}),Object.defineProperty(Array.prototype,"randomMany",{configurable:!0,writable:!0,value:function(e){if(null==this)throw new TypeError("Array.prototype.randomMany called on null or undefined");var t=this.length>>>0;if(0===t)return[];var r=Math.trunc(e);if(!Number.isInteger(r))throw new Error("Array.prototype.randomMany want parameter must be an integer");if(r<1)return[];r>t&&(r=t);var n=new Map,a=[],i=t-1;do{var o=void 0;do{o=_random(0,i)}while(n.has(o));n.set(o,!0),a.push(this[o])}while(a.length<r);return a}}),Object.defineProperty(Array.prototype,"shuffle",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.shuffle called on null or undefined");var e=this.length>>>0;if(0===e)return this;for(var t=e-1;t>0;--t){var r=Math.floor(_nativeMathRandom()*(t+1));if(t!==r){var n=this[t];this[t]=this[r],this[r]=n}}return this}}),Object.defineProperty(Array.prototype,"unshiftUnique",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.unshiftUnique called on null or undefined");var e=arguments.length;if(0===e)return this.length>>>0;for(var t=Array.prototype.indexOf,r=Array.prototype.unshift,n=0;n<e;++n){var a=arguments[n];-1===t.call(this,a)&&r.call(this,a)}return this.length>>>0}}),Object.defineProperty(Function.prototype,"partial",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Function.prototype.partial called on null or undefined");var e=Array.prototype.slice,t=this,r=e.call(arguments,0);return function(){for(var n=[],a=0,i=0;i<r.length;++i)n.push(r[i]===undefined?arguments[a++]:r[i]);return t.apply(this,n.concat(e.call(arguments,a)))}}}),Object.defineProperty(Math,"clamp",{configurable:!0,writable:!0,value:function(e,t,r){var n=Number(e);return Number.isNaN(n)?NaN:n.clamp(t,r)}}),Object.defineProperty(Math,"easeInOut",{configurable:!0,writable:!0,value:function(e){return 1-(Math.cos(Number(e)*Math.PI)+1)/2}}),Object.defineProperty(Number.prototype,"clamp",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Number.prototype.clamp called on null or undefined");if(2!==arguments.length)throw new Error("Number.prototype.clamp called with an incorrect number of parameters");var e=Number(arguments[0]),t=Number(arguments[1]);if(e>t){var r=[t,e];e=r[0],t=r[1]}return Math.min(Math.max(this,e),t)}}),RegExp.escape||function(){var e=/[\\^$*+?.()|[\]{}]/g,t=new RegExp(e.source);Object.defineProperty(RegExp,"escape",{configurable:!0,writable:!0,value:function(r){var n=String(r);return n&&t.test(n)?n.replace(e,"\\$&"):n}})}(),function(){var e=/{(\d+)(?:,([+-]?\d+))?}/g,t=new RegExp(e.source);Object.defineProperty(String,"format",{configurable:!0,writable:!0,value:function(r){function n(e,t,r){if(!t)return e;var n=Math.abs(t)-e.length;if(n<1)return e;var a=String(r).repeat(n);return t<0?e+a:a+e}if(arguments.length<2)return 0===arguments.length?"":r;var a=2===arguments.length&&Array.isArray(arguments[1])?[].concat(_toConsumableArray(arguments[1])):Array.prototype.slice.call(arguments,1);return 0===a.length?r:t.test(r)?(e.lastIndex=0,r.replace(e,function(e,t,r){var i=a[t];if(null==i)return"";for(;"function"==typeof i;)i=i();switch(void 0===i?"undefined":_typeof(i)){case"string":break;case"object":i=JSON.stringify(i);break;default:i=String(i)}return n(i,r?Number.parseInt(r,10):0," ")})):r}})}(),Object.defineProperty(String.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.contains called on null or undefined");return-1!==String.prototype.indexOf.apply(this,arguments)}}),Object.defineProperty(String.prototype,"count",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.count called on null or undefined");var e=String(arguments[0]||"");if(""===e)return 0;for(var t=String.prototype.indexOf,r=e.length,n=Number(arguments[1])||0,a=0;-1!==(n=t.call(this,e,n));)++a,n+=r;return a}}),Object.defineProperty(String.prototype,"first",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.first called on null or undefined");return _getCodePointStartAndEnd(String(this),0).char}}),Object.defineProperty(String.prototype,"last",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.last called on null or undefined");var e=String(this);return _getCodePointStartAndEnd(e,e.length-1).char}}),Object.defineProperty(String.prototype,"splice",{configurable:!0,writable:!0,value:function(e,t,r){if(null==this)throw new TypeError("String.prototype.splice called on null or undefined");var n=this.length>>>0;if(0===n)return"";var a=Number(e);Number.isSafeInteger(a)?a<0&&(a+=n)<0&&(a=0):a=0,a>n&&(a=n);var i=Number(t);(!Number.isSafeInteger(i)||i<0)&&(i=0);var o=this.slice(0,a);return void 0!==r&&(o+=r),a+i<n&&(o+=this.slice(a+i)),o}}),Object.defineProperty(String.prototype,"splitOrEmpty",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.splitOrEmpty called on null or undefined");return""===String(this)?[]:String.prototype.split.apply(this,arguments)}}),Object.defineProperty(String.prototype,"toLocaleUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toLocaleUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toLocaleUpperCase()+e.slice(n+1)}}),Object.defineProperty(String.prototype,"toUpperFirst",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.toUpperFirst called on null or undefined");var e=String(this),t=_getCodePointStartAndEnd(e,0),r=t.char,n=t.end;return-1===n?"":r.toUpperCase()+e.slice(n+1)}}),Object.defineProperty(Date.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:date)",this.toISOString()]}}),Object.defineProperty(Function.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)","("+this.toString()+")"]}}),Object.defineProperty(Map.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:map)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(RegExp.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:eval)",this.toString()]}}),Object.defineProperty(Set.prototype,"toJSON",{configurable:!0,writable:!0,value:function(){return["(revive:set)",[].concat(_toConsumableArray(this))]}}),Object.defineProperty(JSON,"reviveWrapper",{configurable:!0,writable:!0,value:function(e,t){if("string"!=typeof e)throw new TypeError("JSON.reviveWrapper code parameter must be a string");return["(revive:eval)",[e,t]]}}),Object.defineProperty(JSON,"_real_parse",{value:JSON.parse}),Object.defineProperty(JSON,"parse",{configurable:!0,writable:!0,value:function value(text,reviver){return JSON._real_parse(text,function(key,val){var value=val;if(Array.isArray(value)&&2===value.length)switch(value[0]){case"(revive:set)":value=new Set(value[1]);break;case"(revive:map)":value=new Map(value[1]);break;case"(revive:date)":value=new Date(value[1]);break;case"(revive:eval)":try{if(Array.isArray(value[1])){var $ReviveData$=value[1][1];value=eval(value[1][0])}else value=eval(value[1])}catch(e){}}else if("string"==typeof value&&"@@revive@@"===value.slice(0,10))try{value=eval(value.slice(10))}catch(e){}if("function"==typeof reviver)try{value=reviver(key,value)}catch(e){}return value})}}),Object.defineProperty(Array.prototype,"contains",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.contains called on null or undefined");return Array.prototype.includes.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAll",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAll called on null or undefined");return Array.prototype.includesAll.apply(this,arguments)}}),Object.defineProperty(Array.prototype,"containsAny",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("Array.prototype.containsAny called on null or undefined");return Array.prototype.includesAny.apply(this,arguments)}}),Object.defineProperty(String.prototype,"readBracketedList",{configurable:!0,writable:!0,value:function(){if(null==this)throw new TypeError("String.prototype.readBracketedList called on null or undefined");for(var e=new RegExp("(?:\\[\\[((?:\\s|\\S)*?)\\]\\])|([^\"'\\s]\\S*)","gm"),t=[],r=void 0;null!==(r=e.exec(this));)r[1]?t.push(r[1]):r[2]&&t.push(r[2]);return t}})}();var Browser=function(){var e=navigator.userAgent.toLowerCase(),t=e.includes("windows phone"),r=Object.freeze({Android:!t&&e.includes("android"),BlackBerry:/blackberry|bb10/.test(e),iOS:!t&&/ip(?:hone|ad|od)/.test(e),Windows:t||e.includes("iemobile"),any:function(){return r.Android||r.BlackBerry||r.iOS||r.Windows}}),n=!r.Windows&&!/khtml|trident|edge/.test(e)&&e.includes("gecko"),a=!e.includes("opera")&&/msie|trident/.test(e),i=a?function(){var t=/(?:msie\s+|rv:)(\d+\.\d)/.exec(e);return t?Number(t[1]):0}():null,o=e.includes("opera")||e.includes(" opr/"),s=o?function(){var t=new RegExp((/khtml|chrome/.test(e)?"opr":"version")+"\\/(\\d+\\.\\d+)"),r=t.exec(e);return r?Number(r[1]):0}():null,u=e.includes("vivaldi");return Object.freeze({userAgent:e,isMobile:r,isGecko:n,isIE:a,ieVersion:i,isOpera:o,operaVersion:s,isVivaldi:u})}(),Has=function(){var e=function(){try{return"function"==typeof document.createElement("audio").canPlayType}catch(e){}return!1}(),t=e&&function(){try{var e=document.createElement("audio").play();return e.catch(function(){}),e instanceof Promise}catch(e){}return!1}(),r=function(){try{return"Blob"in window&&"File"in window&&"FileList"in window&&"FileReader"in window&&!Browser.isMobile.any()&&(!Browser.isOpera||Browser.operaVersion>=15)}catch(e){}return!1}(),n=function(){try{return"geolocation"in navigator&&"function"==typeof navigator.geolocation.getCurrentPosition&&"function"==typeof navigator.geolocation.watchPosition}catch(e){}return!1}(),a=function(){try{return"MutationObserver"in window&&"function"==typeof window.MutationObserver}catch(e){}return!1}(),i=function(){try{return"performance"in window&&"function"==typeof window.performance.now}catch(e){}return!1}();return Object.freeze({audio:e,audioPromise:t,fileAPI:r,geolocation:n,mutationObserver:a,performance:i})}(),Visibility=function(){function e(){return Boolean(r&&document[r.hiddenProperty])}function t(){return r&&document[r.stateProperty]||"visible"}var r=function(){try{return Object.freeze([{hiddenProperty:"hidden",stateProperty:"visibilityState",changeEvent:"visibilitychange"},{hiddenProperty:"webkitHidden",stateProperty:"webkitVisibilityState",changeEvent:"webkitvisibilitychange"},{hiddenProperty:"mozHidden",stateProperty:"mozVisibilityState",changeEvent:"mozvisibilitychange"},{hiddenProperty:"msHidden",stateProperty:"msVisibilityState",changeEvent:"msvisibilitychange"}].find(function(e){return e.hiddenProperty in document}))}catch(e){}return null}();return Object.freeze(Object.defineProperties({},{isHidden:{value:e},state:{value:t},hiddenProperty:{value:r.hiddenProperty},stateProperty:{value:r.stateProperty},changeEvent:{value:r.changeEvent}}))}(),_ref3=function(){function e(t){if("object"!==(void 0===t?"undefined":_typeof(t))||null===t)return t;if(t instanceof String)return String(t);if(t instanceof Number)return Number(t);if(t instanceof Boolean)return Boolean(t);if("function"==typeof t.clone)return t.clone(!0);if(t.nodeType&&"function"==typeof t.cloneNode)return t.cloneNode(!0);var r=void 0;return t instanceof Array?r=new Array(t.length):t instanceof Date?r=new Date(t.getTime()):t instanceof Map?(r=new Map,t.forEach(function(t,n){return r.set(n,e(t))})):t instanceof RegExp?r=new RegExp(t):t instanceof Set?(r=new Set,t.forEach(function(t){return r.add(e(t))})):r=Object.create(Object.getPrototypeOf(t)),Object.keys(t).forEach(function(n){return r[n]=e(t[n])}),r}function t(e){for(var t=document.createDocumentFragment(),r=document.createElement("p"),n=void 0;null!==(n=e.firstChild);){if(n.nodeType===Node.ELEMENT_NODE){switch(n.nodeName.toUpperCase()){case"BR":if(null!==n.nextSibling&&n.nextSibling.nodeType===Node.ELEMENT_NODE&&"BR"===n.nextSibling.nodeName.toUpperCase()){e.removeChild(n.nextSibling),e.removeChild(n),t.appendChild(r),r=document.createElement("p");continue}if(!r.hasChildNodes()){e.removeChild(n);continue}break;case"ADDRESS":case"ARTICLE":case"ASIDE":case"BLOCKQUOTE":case"CENTER":case"DIV":case"DL":case"FIGURE":case"FOOTER":case"FORM":case"H1":case"H2":case"H3":case"H4":case"H5":case"H6":case"HEADER":case"HR":case"MAIN":case"NAV":case"OL":case"P":case"PRE":case"SECTION":case"TABLE":case"UL":r.hasChildNodes()&&(t.appendChild(r),r=document.createElement("p")),t.appendChild(n);continue}}r.appendChild(n)}r.hasChildNodes()&&t.appendChild(r),e.appendChild(t)}function r(){try{return document.activeElement||null}catch(e){return null}}function n(e,t,r){var n="object"===(void 0===e?"undefined":_typeof(e))?e:document.getElementById(e);if(null==n)return null;var a=Array.isArray(t)?t:[t];jQuery(n).empty();for(var i=0,o=a.length;i<o;++i)if(Story.has(a[i]))return new Wikifier(n,Story.get(a[i]).processText().trim()),n;if(null!=r){var s=String(r).trim();""!==s&&new Wikifier(n,s)}return n}function a(e,t,r){var n=jQuery(document.createElement("div")),a=jQuery(document.createElement("button")),i=jQuery(document.createElement("pre")),o=L10n.get("errorTitle")+": "+(t||"unknown error");return a.addClass("error-toggle").ariaClick({label:L10n.get("errorToggle")},function(){a.hasClass("enabled")?(a.removeClass("enabled"),i.attr({"aria-hidden":!0,hidden:"hidden"})):(a.addClass("enabled"),i.removeAttr("aria-hidden hidden"))}).appendTo(n),jQuery(document.createElement("span")).addClass("error").text(o).appendTo(n),jQuery(document.createElement("code")).text(r).appendTo(i),i.addClass("error-source").attr({"aria-hidden":!0,hidden:"hidden"}).appendTo(n),n.addClass("error-view").appendTo(e),console.warn(o+"\n\t"+r.replace(/\n/g,"\n\t")),!1}function i(e,t){var r=i;switch(void 0===e?"undefined":_typeof(e)){case"number":if(Number.isNaN(e))return t;break;case"object":if(null===e)return t;if(Array.isArray(e))return e.map(function(e){return r(e,t)}).join(", ");if(e instanceof Set)return[].concat(_toConsumableArray(e)).map(function(e){return r(e,t)}).join(", ");if(e instanceof Map){return"{ "+[].concat(_toConsumableArray(e)).map(function(e){var n=_slicedToArray(e,2),a=n[0],i=n[1];return r(a,t)+" → "+r(i,t)}).join(", ")+" }"}return e instanceof Date?e.toLocaleString():"function"==typeof e.toString?e.toString():Object.prototype.toString.call(e);case"function":case"undefined":return t}return String(e)}return Object.freeze(Object.defineProperties({},{clone:{value:e},convertBreaks:{value:t},safeActiveElement:{value:r},setPageElement:{value:n},throwError:{value:a},toStringOrDefault:{value:i}}))}(),clone=_ref3.clone,convertBreaks=_ref3.convertBreaks,safeActiveElement=_ref3.safeActiveElement,setPageElement=_ref3.setPageElement,throwError=_ref3.throwError,toStringOrDefault=_ref3.toStringOrDefault;!function(){function e(e){13!==e.which&&32!==e.which||(e.preventDefault(),jQuery(safeActiveElement()||this).trigger("click"))}function t(e){return function(){var t=jQuery(this);t.ariaIsDisabled()||(t.is("[aria-pressed]")&&t.attr("aria-pressed","true"===t.attr("aria-pressed")?"false":"true"),e.apply(this,arguments))}}function r(e){return t(function(){jQuery(this).off(".aria-clickable").removeAttr("tabindex aria-controls aria-pressed").not("a,button").removeAttr("role").end().filter("button").prop("disabled",!0),e.apply(this,arguments)})}jQuery.fn.extend({ariaClick:function(n,a){if(0===this.length||0===arguments.length)return this;var i=n,o=a;return null==o&&(o=i,i=undefined),i=jQuery.extend({namespace:undefined,one:!1,selector:undefined,data:undefined,controls:undefined,pressed:undefined,label:undefined},i),"string"!=typeof i.namespace?i.namespace="":"."!==i.namespace[0]&&(i.namespace="."+i.namespace),"boolean"==typeof i.pressed&&(i.pressed=i.pressed?"true":"false"),this.filter("button").prop("type","button"),this.not("a,button").attr("role","button"),this.attr("tabindex",0),null!=i.controls&&this.attr("aria-controls",i.controls),null!=i.pressed&&this.attr("aria-pressed",i.pressed),null!=i.label&&this.attr({"aria-label":i.label,title:i.label}),this.not("button").on("keypress.aria-clickable"+i.namespace,i.selector,e),this.on("click.aria-clickable"+i.namespace,i.selector,i.data,i.one?r(o):t(o)),this},ariaDisabled:function(e){if(0===this.length||0===arguments.length)return this;var t=this.not("button,fieldset,input,menuitem,optgroup,option,select,textarea"),r=this.filter("button,fieldset,input,menuitem,optgroup,option,select,textarea");return e?(t.each(function(){this.setAttribute("disabled",""),this.setAttribute("aria-disabled","")}),r.each(function(){this.disabled=!0,this.setAttribute("aria-disabled","")})):(t.each(function(){this.removeAttribute("disabled"),this.removeAttribute("aria-disabled")}),r.each(function(){this.disabled=!1,this.removeAttribute("aria-disabled")})),this},ariaIsDisabled:function(){return this.is("[disabled]")}})}(),function(){jQuery.extend({wikiWithOptions:function(e){for(var t=arguments.length,r=Array(t>1?t-1:0),n=1;n<t;n++)r[n-1]=arguments[n];if(0!==r.length){var a=document.createDocumentFragment();r.forEach(function(t){return new Wikifier(a,t,e)});var i=[].concat(_toConsumableArray(a.querySelectorAll(".error"))).map(function(e){return e.textContent.replace(errorPrologRegExp,"")});if(i.length>0)throw new Error(i.join("; "))}},wiki:function(){for(var e=arguments.length,t=Array(e),r=0;r<e;r++)t[r]=arguments[r];this.wikiWithOptions.apply(this,[undefined].concat(t))}}),jQuery.fn.extend({wikiWithOptions:function(e){for(var t=arguments.length,r=Array(t>1?t-1:0),n=1;n<t;n++)r[n-1]=arguments[n];if(0===this.length||0===r.length)return this

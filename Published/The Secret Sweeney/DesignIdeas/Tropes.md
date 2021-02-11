@@ -1,0 +1,34 @@
+# Tropes in the Sweeney
+
+## Main Characters
+
+**The Guv'** - or the Guv'nor or some such. Every special police squad has someone that gives the orders. He, normally a he, passes on the orders an dprotects the Squad from the management.
+
+**The Hard Man** - The alpha cop, kicking down doors, breaking rules intimidating witnesses.
+
+**Number Two** - Every alpha cop needs another alpha to bounce off, to bond with and to inspire greatness.
+
+**The Driver** - The squad should select a classic set of wheels. It needs an expert hand to get the best out of it.
+
+**Pig In A Blanket** - Undercover cop. Able to blend in with the scum of the street.
+
+
+## Other Characters
+
+**The Placer** - Criminal higher up that runs a team putting the wrong people in the right place at the right time.
+
+**The Blonde** - Not a dumb blonde. The pretty face of a criminal enterprise.
+
+**The Pigeon** - A grass.
+
+**The Shuggy** - The Scottish version of Huggy Bear.
+
+# Dark Dundee Characters
+
+## Potential Player Characters
+
+**The Weird Scientist** - The scientist creates things that can only ever work in the dark areas of the world. They are linked to a laboratory where they create their devices. Attempts to backwards engineer any device will result in a non-functioning item. 
+
+**Creature of the Night** - There are many creatures of the night. They walk by day but they live by night.
+
+

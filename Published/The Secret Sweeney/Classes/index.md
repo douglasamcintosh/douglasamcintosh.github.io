@@ -1,6 +1,22 @@
 # Character Classes
 
+## Basic Statistics
+
+Should probably define what the basic statistics are.
+
+[Basic stats](statistics.html)
+
+## Universal Moves
+
+Moves that should be common to all characters.
+
+[Universal Moves](universal.html)
+
 ## Cops
+
+There is probably a good argument that all the cop types should just be filed under cop and then allow players to select moves that fit.
+
+Background moves can be used to allow more variation. For example a military or espionage background.
 
 ### Alpha Cop
 
@@ -9,6 +25,14 @@ A cowboy that doesn't play by the rules. Or maybe he does play by the rules if h
 ### Analyst Cop
 
 Someone that uses a more understated approach. Piecing the evidence together to work towards a conviction.
+
+### Weird Cop
+
+Intuition, Tarot and hunches; these are what solve cases.
+
+### The Driver
+
+Someone needs to be good at the car stuff. Or bikes. Or stolen tanks from the nearby army base. If it can be driven, they can drive it.
 
 ## Dark Dundee Characters
 

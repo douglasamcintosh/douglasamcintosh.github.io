@@ -1,0 +1,135 @@
+/* Layout-provided Styles */
+h1.title {
+font-family: sans-serif;
+font-weight: bold;
+font-size: x-large;
+margin-bottom: 1ex;
+text-align: center;
+
+}
+h1.subtitle {
+font-family: sans-serif;
+font-weight: bold;
+font-size: large;
+margin-bottom: 1ex;
+text-align: center;
+
+}
+div.author {
+font-size: x-large;
+margin-top: 1.3ex;
+margin-bottom: 0.7ex;
+text-align: center;
+
+}
+div.date {
+font-size: x-large;
+margin-top: 0.9ex;
+margin-bottom: 0.5ex;
+text-align: center;
+
+}
+div.dedication {
+font-size: x-large;
+margin-top: 1.3ex;
+margin-bottom: 0.7ex;
+text-align: center;
+
+}
+div.standard {
+	text-indent: 2em;
+	margin-bottom: 2ex;
+}
+h1.part {
+font-family: sans-serif;
+font-weight: bold;
+font-size: xx-large;
+margin-top: 4ex;
+margin-bottom: 4ex;
+text-align: center;
+
+}
+h1.chapter {
+font-family: sans-serif;
+font-weight: bold;
+font-size: x-large;
+margin-top: 2ex;
+margin-bottom: 0.8ex;
+text-align: left;
+
+}
+div.plain_layout {
+text-align: left;
+
+}
+h2.section_ {
+font-family: sans-serif;
+font-weight: bold;
+font-size: x-large;
+margin-top: 1.3ex;
+margin-bottom: 0.7ex;
+text-align: left;
+
+}
+h2.section {
+font-family: sans-serif;
+font-weight: bold;
+font-size: x-large;
+margin-top: 1.3ex;
+margin-bottom: 0.7ex;
+text-align: left;
+
+}
+h3.subsection_ {
+font-family: sans-serif;
+font-weight: bold;
+font-size: large;
+margin-top: 0.9ex;
+margin-bottom: 0.5ex;
+text-align: left;
+
+}
+h3.subsection {
+font-family: sans-serif;
+font-weight: bold;
+font-size: large;
+margin-top: 0.9ex;
+margin-bottom: 0.5ex;
+text-align: left;
+
+}
+div.toc {
+  margin: 2em 0em;
+  border-style: solid;
+  border-width: 2px 0px;
+  padding: 1em 0em;
+}
+h2.tochead { font-size: x-large; font-weight: bold; }
+div.lyxtoc-0 {
+  margin: 2em 0em 0em 0em;
+  font-size: xx-large;
+  font-weight: bold;
+}
+div.lyxtoc-1 {
+  margin: 1em 0em 0em 0em;
+  font-size: x-large;
+  font-weight: bold;
+}
+div.lyxtoc-2 {
+  margin: 0em 0.1em 0em 1em;
+  font-size: large;
+  font-weight: normal;
+}
+div.lyxtoc-3 { margin: 0em 0.1em 0em 0.5em; font-size: medium; }
+div.lyxtoc-4 { margin: 0em 0.1em 0em 0.5em; }
+div.lyxtoc-5 { margin: 0em 0.1em 0em 0.5em; }
+div.lyxtoc-6 { margin: 0em 0.1em 0em 0.5em; }
+a.tocentry {
+  text-decoration: none;
+  color: black;
+}
+a.tocentry:visited { color: black; }
+div.flex_todo_note__inline_ {
+font-family: monospace;
+}
+

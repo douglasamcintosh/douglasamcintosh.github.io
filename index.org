@@ -1,0 +1,26 @@
+#+TITLE: Douglas' Web Site
+#+EXPORT_FILENAME_EXPORT: index.html
+
+* Douglas's Web Site
+
+[[./images/head.jpg]]
+	
+** Interactive Fiction
+
+Choose either of the following links.
+
+*** Choose Your Own Nursing Adventure 2 (Ink)
+
+[[./Published/Bandersnatch/index.html][Choose Your Own Nursing Adventure - Final Version]]
+
+
+*** An early version of the prototype.
+
+[[./Published/CYONA/Choose Your Own Nursing Adventure.html][Choose Your Own Nursing Adventure]]
+
+The near final version completed in Choicescript.
+
+[[./Published/CYONA2/index.html][Choose Your Own Nursing Adventure (Choicescript)]]
+
+
+This site best viewed in a web browser.

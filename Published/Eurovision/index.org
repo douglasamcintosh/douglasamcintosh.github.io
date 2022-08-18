@@ -1,0 +1,17 @@
+#+TITLE: Eurovision Shenanigans
+#+EXPORT_FILENAME_EXPORT: index.html
+
+[[./logo.png]]
+
+
+* Eurovision Excitement
+
+** Useful Links
+
+[[https://eurovision.tv/][Eurovision Website]]
+
+[[https://eurovision.tv/tickets][How to get tickets.]]
+
+[[https://www.bbc.co.uk/news/entertainment-arts-62496803][Eurovision UK Shortlist]]
+
+This link has details about the most likely venues.

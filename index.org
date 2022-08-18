@@ -20,7 +20,12 @@ Choose either of the following links.
 
 The near final version completed in Choicescript.
 
-[[./Published/CYONA2/index.html][Choose Your Own Nursing Adventure (Choicescript)]]
+[[./Published/CYONA2/index.html][Choose Your Own Nursing Adventure (script)]]
 
+** Eurovision Shenanigans
+
+Some links to information about Eurovision 2023.
+
+[[./Published/Eurovision/index.html][Eurovision Shenanigans]]
 
 This site best viewed in a web browser.

@@ -6,6 +6,12 @@
 
 * Eurovision Excitement
 
+The shows tends to take place in May. The final is always on a Saturday.
+
+** Latest News
+
+[[https://www.bbc.co.uk/news/entertainment-arts-63037204][Eurovision 2023: Glasgow or Liverpool will host song contest]]
+
 ** Useful Links
 
 [[https://eurovision.tv/][Eurovision Website]]
@@ -15,3 +21,7 @@
 [[https://www.bbc.co.uk/news/entertainment-arts-62496803][Eurovision UK Shortlist]]
 
 This link has details about the most likely venues.
+
+[[https://www.booking.com/city/gb/glasgow.en-gb.html][Booking.com Glasgow]]
+
+[[https://www.booking.com/city/gb/liverpool.en-gb.html][Booking.com Liverpool]]

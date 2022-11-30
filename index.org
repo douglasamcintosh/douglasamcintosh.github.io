@@ -29,3 +29,10 @@ Some links to information about Eurovision 2023.
 [[./Published/Eurovision/index.html][Eurovision Shenanigans]]
 
 This site best viewed in a web browser.
+
+
+* Metadata Link Thing
+
+@@html:<a rel="me" href="https://mastodon.online/@douglasmcshugless">Mastodon</a>@@
+
+

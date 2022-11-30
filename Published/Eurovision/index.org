@@ -25,3 +25,4 @@ This link has details about the most likely venues.
 [[https://www.booking.com/city/gb/glasgow.en-gb.html][Booking.com Glasgow]]
 
 [[https://www.booking.com/city/gb/liverpool.en-gb.html][Booking.com Liverpool]]
+

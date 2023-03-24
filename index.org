@@ -22,6 +22,15 @@ The near final version completed in Choicescript.
 
 [[./Published/CYONA2/index.html][Choose Your Own Nursing Adventure (script)]]
 
+
+** A Date With Mags
+
+An electronic copy of a physical CYOA used for testing.
+
+[[./Published/magsdate/magsdate.html][A Date With Mags (Web Version)]]
+
+
+
 ** Eurovision Shenanigans
 
 Some links to information about Eurovision 2023.

@@ -3,8 +3,8 @@
 #+DATE: \today
 #+OPTIONS: ^:{}
 
-#+HTML_HEAD: <link rel="stylesheet" href="/home/douglas/OneDrive/Emacs/Tufte/tufte.css" type="text/css" />
-#+HTML_HEAD: <link rel="stylesheet" href="/home/douglas/OneDrive/Emacs/Tufte/ox-tufte.css" type="text/css" />
+#+HTML_HEAD: <link rel="stylesheet" href="tufte.css" type="text/css" />
+#+HTML_HEAD: <link rel="stylesheet" href="ox-tufte.css" type="text/css" />
 
 #+bibliography: "/home/douglas/OneDrive/Emacs/Bibliographies/My Library.json"
 #+cite_export: csl  ~/OneDrive/Emacs/CSL/apa.csl

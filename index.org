@@ -29,13 +29,14 @@ An electronic copy of a physical CYOA used for testing.
 
 [[./Published/magsdate/magsdate.html][A Date With Mags (Web Version)]]
 
+** Care Plan Presentation
 
+Please do not share. This is for my own use and will never be finished.
 
-** Eurovision Shenanigans
+It was adapted from slides I made.
 
-Some links to information about Eurovision 2023.
+[[./Published/careplans/CarePlanTufte.html][Care Plan Presentation]]
 
-[[./Published/Eurovision/index.html][Eurovision Shenanigans]]
 
 This site best viewed in a web browser.
 

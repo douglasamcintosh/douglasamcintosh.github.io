@@ -1,0 +1,453 @@
+#+TITLE: Care Plan Presentation
+#+AUTHOR: Douglas McIntosh
+#+DATE: \today
+#+OPTIONS: ^:{}
+
+#+HTML_HEAD: <link rel="stylesheet" href="/home/douglas/OneDrive/Emacs/Tufte/tufte.css" type="text/css" />
+#+HTML_HEAD: <link rel="stylesheet" href="/home/douglas/OneDrive/Emacs/Tufte/ox-tufte.css" type="text/css" />
+
+#+bibliography: "/home/douglas/OneDrive/Emacs/Bibliographies/My Library.json"
+#+cite_export: csl  ~/OneDrive/Emacs/CSL/apa.csl
+
+
+* Bluffers Guide To Care Planning
+
+This is not complete. 
+
+** What Is A Care Plan?
+
+#+begin_marginnote
+
+[cite:@mwcPersonCentredCareplans2019]
+
+[[https://www.mwcscot.org.uk/news/person-centred-care-plans-new-guide-mental-health-and-learning-disability-services][Mental Welfare Commission: Person Centred Care Plans - Good Practice Guide]]
+
+Are Care Plans even useful? [cite:@brooksItTimeAbandon2018a]
+
+#+end_marginnote
+
+
+#+begin_quote
+  
+A care plan describes the *care, treatment and interventions* that a person should receive, to ensure that they get the *right care at the right time*.
+
+It is a *written record of needs* (either electronic or paper-based), actions and responsibilities, *which can be used and understood by individuals receiving care, their relatives/carers and others as appropriate*.
+
+The care plan is based on a ‘template’ which defines the areas the care plan covers. Some templates are very simple and focus on the essentials of care, e.g. mobility and nutrition, while others can be very detailed. 
+
+#+end_quote
+
+
+
+***  What Is A Care Plan Discussion
+
+As the MWC are the people that come round and assess care plans it is probably worth looking at some recent comments they have made regarding these.
+
+The Mental Welfare Commission do not seem to care about the format of the care plan. As long as the key principles of patient involvement, recovery focused, accessibility etc. are upheld they will be happy.
+
+There is an acceptance that care plans can only be based on the information available at the time they are completed.
+
+#+begin_marginnote
+*Douglas Says:*
+Also ensure you have mentioned attempting to involve significant others in the care planning process.
+
+If something that /should/ be done /can not/ be done explain the reason briefly and ensure that it is reviewed later.
+
+"Unable to gain views of Patient A' wife at this time due to  ... Will discuss with Patient A when presentation allows and review within 48 hours."
+#+end_marginnote
+
+#+begin_quote
+
+Some care plans, for example at an early stage of admission to hospital, may be limited in the information that is available particularly following an admission at a time of crisis. An admission care plan should be in place in place to cover the initial identified needs and allow time to undertake a more detailed assessment.
+
+An initial admission care plan may cover the first 72 hours of an admission and after this time it should be discontinued and a more detailed care plans put in place. [cite:@mwcPersonCentredCareplans2019]
+
+#+end_quote
+
+
+
+*  Underlying Principles
+
+** Recovery Focused
+
+#+begin_marginnote
+[cite:@scottishrecoverynetworkScottishRecoveryNetwork2024]
+
+[[https://scottishrecovery.net/][Scottish Recovery Network]] 
+#+end_marginnote
+
+
+#+begin_quote
+“Recovery is being able to live a *meaningful and satisfying life*, as *defined by each person*, in the *presence or absence of symptoms*. It is about having *control over and input into your own life*.
+
+Each individual’s recovery, like his or her experience of the mental health problems or illness, is a unique and deeply personal process.”
+#+end_quote
+
+*** Recovery Focused Discussion
+
+#+begin_marginnote
+[cite:@lambertNursingCarePlans2019]
+
+Nursing Care Plans in Mental Health
+#+end_marginnote
+
+#+begin_quote
+  Recovery  is an elastic concept. On a personal level it entails the individual living the best life they can and from a clinical perspective it can be construed as the reduction or end
+#+end_quote
+
+
+There are reams of information regarding recovery out there. Go look at the Scottish Recovery Network and then  discover that the two quotes above pretty much cover it.
+
+** Person Centred
+
+#+begin_marginnote
+[cite:@mwcPersonCentredCareplans2019]
+
+[[https://www.mwcscot.org.uk/news/person-centred-care-plans-new-guide-mental-health-and-learning-disability-services][Mental Welfare Commission: Person Centred Care Plans - Good Practice Guide]]
+#+end_marginnote
+
+#+begin_quote
+Treatment is not just about the nursing care and medical treatment which is proposed.
+
+An individual’s physical health, social and recreational, spiritual and financial needs may all have a bearing on their recovery. This is not to say that the care plan should cover all aspects of an individual’s life, /but there should be evidence that a broad approach has been taken in the creation of the care plan/.
+
+The focus should be on the person and not just on their condition 
+#+end_quote
+
+
+*** Person Centred Discussion
+
+[[mn:][Read the pamphlet by the MWC.]]
+
+In short if you get these two parts correct, what do they want from the mental health services and how does it apply to their individual circumstances, you have done most of the hard work. The rest of it is just codifying and organising.
+
+* Care Plan Construction
+
+** The Nursing Process
+
+#+begin_marginnote
+*Douglas says:* These four stages constantly blur into one another. When doing your assessment you're always planning what to do next. When carrying out interventions you're always reviewing the outcome and so on.
+#+end_marginnote
+
+There are many version of this. I shall be using the simple version
+
+ - [[Assessment][Assessment]]
+ - [[Planning][Planning]]
+ - [[Implementation][Implementation]]
+ - [[Evaluation][Evaluation]]
+
+** Assessment
+
+#+begin_marginnote
+*Risk:* This guide does not cover risk assessment specifically. My general approach is to ensure that a care plan is completed for each notable current risk and it is treated like most other care plans. Depending on the nature of the risk patient involvement may be optional, this should be documented.
+
+A consensus approach to positive risk management can be beneficial to make the best use of team experience and to encourage engagement.
+
+An article on how Risk Assessments can be treated differently to other forms of assessment [cite:@coffeyOrdinaryRisksAccepted2017]
+#+end_marginnote
+
+The first stage in the planning of nursing care, it starts the process of gathering information to make decisions about /suitable/ interventions.
+
+
+Assessment needs to consider the whole person and include psychological factors, spiritual factors, biological and social factors in order to be holistic.
+
+Risk assessment is an extremely important part of any assessment process and should form part of a holistic assessment. 
+
+The assessment and management of risk can seem overwhelming and is often seen as the top priority to the detriment of other important aspects of care
+
+***  Assessment Discussion
+
+#+begin_marginnote
+*Douglas says:* My normal approach is to complete a rough draft of my intended plan and bring a printed copy of this to the discussion with the patient and fold their suggestions into the revision. This allows for clarity of intentions and patient engagement.
+#+end_marginnote
+
+ The nurse’s communication skills are key; listening to and checking what they have been told and seeking information from others such as friends, carers and other professionals.
+
+Everyone has a right to agree how much they want family and friends to be involved in their care and support ({{{marginnote(When do we have an /ethical duty/ to implement restrictions on others input?, , When do we have an /obligation/ to do so?)}}}unless there is a legitimate reason to restrict this, in which case any restriction should be the least possible).
+
+This will affect how much information, if any, staff can give to carers but it is still important to listen to what carers can contribute to understanding the person and their situation.
+
+*In Practice*
+
+When writing a care plan this should cover your background (reasons for admission, why does the need exist, supporting evidence etc) and the current situation. If we were writing an SBAR it would be a combination of S & B.
+
+
+** Planning
+
+#+begin_epigraph
+#+name: quote-1plans-quote
+#+caption: David Wong, John Dies At The End
+#+begin_quote
+“When a man plans, a woman laughs.”
+#+end_quote
+#+end_epigraph
+
+#+begin_marginnote
+
+*Assessment:* /Why/ does this Care Plan need to exist?
+
+*Planning:* /What/ are we aiming for? What need are we helping with?
+
+*Implementation:* /How/ are we going to get there? /Who/ is going to do /what/?
+
+*Evaluation:* /When/ will we get there? Are we getting there? I need to pee.
+
+#+end_marginnote
+
+Once needs have been identified there must be a clear plan about how they can be met.
+
+Each identified need should have a clear, measurable goal for the expected outcome. The goal needs to be realistic and there may need to be a range of short and long term goals so that there are realistic targets to work towards. This will be covered in [[Setting Goals][setting goals]].
+
+*** Planning Discussion
+
+The expectation should be that the care plan is shared with the individual unless there are compelling reasons not to do this and if it is not shared then the reasons for this need to be clearly documented .Sometimes the person may be asked to sign a copy of their care plan to indicate that this has been shared and discussed with them.
+
+This is not always possible and there needs to be clear record made in the care file as to why the care plan was not shared and also if there was disagreement about the content .
+
+Sometimes people will choose not to participate with the care plan but staff should still ensure that they are kept informed about their care and given the opportunity to participate at a future time and to the extent that they are comfortable with.
+
+*In Practice*
+
+When writing an actual care plan this part relates to the specific  goals being worked towards. If written well it will be clear what outcome is hoped for and whether it has been achieved or not.
+
+** Implementation
+
+ 1. The implementation phase is the follow through on the decided plan of action.
+ 2. The individualised plan should be specific about who will be involved and when and focus on achievable outcomes.
+ 3. Implementation can take place over the course of hours, days, weeks or even years
+
+***  Implementation Discussion
+
+#+begin_marginnote
+*Douglas says:* The implementation is /not/ just about what staff / services will do. It also covers the patient's commitment.
+
+"Patient B to approach staff if feeling emotionally distressed" etc. 
+#+end_marginnote
+
+The expectation should be that the care plan is shared with the individual unless there are compelling reasons not to do this and if it is not shared then the reasons for this need to be clearly documented .Sometimes the person may be asked to sign a copy of their care plan to indicate that this has been shared and discussed with them. This is not always possible though and there needs to be clear record made in the care file as to why the care plan was not shared and also if there was disagreement about the content
+
+*In Practice*
+
+This section is where you write /how/ you are going to work towards your agreed objectives. It should always specify /who/ is doing /what/ , and if needed /why/, /when/ and /how often/.
+
+Covered further in [[Writing Interventions][writing interventions]].
+
+
+
+** Evaluation
+
+The care plan should make clear when it will be reviewed and who will be involved in that, looking to see if there has been meaningful progress towards meeting agreed goals.
+
+***  Evaluation Discussion
+
+Nothing to say here.
+
+Review regularly. Making progress? If not why not? Do you just need more time or does something need to change?
+
+*  Setting Goals
+
+** How Should Goals Be Written?
+
+The acronym SMART refers to the guidelines that nurses should use when setting goals in the work environment, academically, or even with personal goals.
+
+The following represents each letter – 
+
+ - S – Specific
+ - M – Measurable  {{{marginnote( *F* - only here for comedy.)}}}
+ - A – Attainable  {{{marginnote( *A -* can also be Agreed.)}}}
+ - R – Relevant {{{marginnote( *R* - can also be Resourced.)}}}
+ - T – Timely. {{{marginnote( *T* - I prefer timebound, but whatevs)}}}
+
+
+** Specific
+
+Your goals for the patient must be well-defined and unambiguous.
+
+This is covered later in [[Writing Goals][writing goals]]. 
+
+
+** Measurable
+
+You need to set certain metrics to measure the patient’s progress toward these goals.
+
+***  Measurable Discussion
+
+#+begin_quote
+"we were unable to locate robust reviews which targeted nursing intervention and individuals’ progress"  {{{marginnote(MWC - Lomond Ward Visit)}}}
+#+end_quote
+
+Don't let the Mental Welfare Commission write this about your care plan reviews.  You run the risk of senior management, who have not written a care plan in decade, writing a helpful guide[[mn:1][not actually helpful]] to make your life even harder.
+
+** Attainable or Achievable  or Agreed
+
+Their goal should be possible to achieve, so don't set impossible goals.
+
+If we consider *A* to be Agreed then it implicitly covers the goal being achievable.
+
+If the patient's goal is unlikely to be achieved in the setting you are working in you can still set steps towards the final goal and work on what you can.
+
+The patient may state they want to be entirely free from all symptoms of their chronic serious condition. They may insist that they want this to be a goal. Think about the steps you would take to achieve this and how you would gain the patient's buy in.
+
+**  Relevant (or Resourced or Realistic) 
+
+- Realistic :: Their goals must be within reach and relevant to the overall care plan. Which is the same as *A* pretty much
+  
+#+begin_marginnote
+*Douglas says:* I've heard suggestions that we should not offer interventions that will be difficult to implement, e.g. Decider Skills, due to time constraints for skill mix.
+
+I would question if this is in line with the Code.
+#+end_marginnote
+- Resourced :: This one is useful. Do we have the resources to meet the goal. If part of the discharge plan is to have escorted time off the ward and staff availability does not allow this then there is something that can be flagged up to senior staff. If we are asking the patient to engage in Decider Skills then we have to provide the time and staff for this to be carried out.
+  
+
+- Relevant :: If the goals are discussed and agreed with the patient then this should largely be covered. The goals should also be relevant to the settings. The goals for an acute admissions ward will be different to the goals for a primary care mental health triage nurse.
+
+  
+**  Timely
+
+- Time-bound :: The patient’s goals should have a clear starting time and end date (which can be flexible). Largely this should be covered by the regular care plan review.
+
+*  Writing Goals
+
+All goals should be clearly flagged / foreshadowed in the Background / Assessment.
+
+** Bad Goal
+
+#+begin_quote
+ 1. For patient to achieve optimum mental functioning.[[mn:][I've seen this used. A lot]]
+
+ 2. Patient to be taught Decider Skills.
+
+ 3. Patient to be compliant with medication.[[mn:][I use this one, it's still poor though]]
+#+end_quote
+
+1. What does this even mean? If a bank nurse can't pick up the plan and work out what the goal means for the person it's useless.
+2. This is a service led goal focusing on what we can do. It's not working towards a solution to an expressed need.
+3. Again more of a process goal. At least it can be measured. Chances are it's better being reworded to be part of an intervention.
+
+Also patients traditionally have names.
+
+** Better Goal
+
+[[mn:][Still not brilliant but a little more useful]]
+
+#+begin_quote
+ 1. For Alice's mental state to improve to a level where he feels confident to be able to return home.
+ 2. For Bob to develop skills to help him manage his severe anxiety.
+ 3. Clive's mental state to improve to a level where he is not longer distressed by negative voices.
+#+end_quote
+
+ 1. In the assessment it should state something that puts this in context.  /'Alice has concerns about feeling safe at home. She is fearful that the neighbours intend her harm ...'/ It could do with more information about exactly what areas of Alice's mental state need to improve. Or you could use Alice's description of her at her best.
+ 2. This isn't much better but at least we know roughly why we're looking at Decider Skills. It's still not measurable and it is not focused enough to be relevant. Hopefully there is a really good breakdown of how Bob is affected by his anxiety in the background / assessment.
+ 3. This would be measured by observation (/"Clive is no longer walking round listening to thrash metal on is headphones"/) and direct questioning (/"During one to one Clive reported that his negative voices were significantly reduced but Britney Spears was still telling him he was a handsome boy"/)
+    
+
+** Besterest Goal 
+[[mn:][*Douglas asks:* Should we ever use technical nursing jargon in care plans?]]
+
+
+Think of an example you have come across. Write it down as a goal. Find someone outside of nursing to read it and tell you what they think it means in practice.
+
+If your answers just lead to more questions you probably need to be clearer about your goals.
+
+* Writing Interventions
+
+** Interventions
+
+All interventions written should be directly linked to a goal being worked towards.
+
+They should ideally be written in a similar manner to the goals.
+
+ - **Who** is doing the intervention?
+
+   Is it a specific member of staff, /named nurse/, or a general group of staff, /all staff/?
+
+   For one to one interactions with a patient with a trauma history you may want to be very specific about who discusses which topics. For general observations and interactions you may be more general.
+
+ - **What** they are doing?
+
+   What specifically is the person / group doing? Are there time limits? Any special guidance? 
+
+ - **When** or how often they are doing it?
+
+  [[mn:][*Douglas says:* I'm of the opinion every patient on an acute ward should be offered 20-30 minutes one to one time with their allocated nurse each day, in addition to the time we spend doing things behind the scenes.]] How often are you offering significant one to one time? Once per shift, once per day? If we are not able to offer the service we think a patient therapeutically needs, and should expect to receive when with us, there we are not well resourced. 
+
+ - **Why** they are doing it? [[mn:][Unless blindingly obvious]]
+
+   Specific interventions may benefit from extra clarity. Even if this is a brief summary of something raised in the background assessment.
+ 
+
+** Bad Interventions
+
+[[mn:][*Douglas says:* These are awful. I feel sad just writing them.]]
+#+begin_quote
+  *A.* For Alice to take her medications.
+
+ *B.* Monitor and Assess mental state
+
+ *C.*  Complete safety plan with Clive.
+#+end_quote
+
+ *A*. At least we know /who/ is doing /what/? But nothing else of use.
+ 
+ *B.* Who is doing this. What specifically are we assessing for. Any patient turning up at the ward will have enough information for us to know what we should be assessing for initially.
+ 
+ *C.* Who is doing this?
+
+**  Less Bad Interventions
+
+#+begin_quote
+ *A.* For Alice to comply with her agreed medication regime. Named nurse to explore with Bob any issues or concerns about medication. Staff to monitor for potential side effects. Review response to medication with Alice a regular MDT meetings.
+
+ *B.*  Bob's mental state to be monitored by staff. With particular emphasis on signs of low mood, poor sleep, changes in diet, lethargy and behaviour changes etc. Also to monitor symptoms by offering Bob daily 1:1 sessions with his named nurse to discuss progress.
+
+ *C.* Allocated nurse to work with Clive to create a safety plan. Focusing on risks at home relating to self harm. Clive has previously done some Decider Skills training to make use of his pre-existing skills as much as possible. Clive to be encouraged to share his safety plan with his supportive family.
+#+end_quote
+
+** Besterest Interventions
+
+[[mn:][*Douglas says:* I have standard interventions I put into all care plans. For example supporting patient at MDT, medication monitoring, offering one to one time etc. I almost always have a goal an intervention relating specifically to discharge planning. If you have many interventions you could use goals as sub headings to make the plan easier to parse]]
+
+Again think about a situation you have come across professionally. Write down the interventions you would think would be beneficial. Share them with a non-expert. Do they make sense? Are the interventions small enough to be understood. Do they make sense in relation to one another? Are they clearly applicable to specific goals?
+
+* Aftermath
+
+** Caring is Sharing or Vice Versa
+
+Share the plan with
+
+	- Colleagues
+	- The Patient
+	- Significant Others (with consent)
+	- Followup Teams etc
+
+For complex client where a very consistent team approach is essential involve as many people as possible during the creation of the care plan. A complex plan will take some time to write so this should be possible. Steal useful insights and experience and claim them as your own!
+
+** Review, Evaluate and Rewrite
+
+Set a regular review date. 
+
+Update the plan as required. Care plans are live documents and can always be changed. Ensure meaningful changes are shared with the patient.
+
+Finish the plan if no longer needed.
+
+* Further Reading
+
+Assessment and Care Planning In Mental Health Nursing [cite:@wrycraftAssessmentCarePlanning2015]
+
+General concepts of goals and goal-setting in healthcare: A narrative review [cite:@ogbeiwiGeneralConceptsGoals2021]
+
+Why Written Objectives Need To Be Really SMART [cite:@ogbeiwiWhyWrittenObjectives2017]
+
+How to support nursing students to develop community care planning skills [cite:@reynoldsHowSupportNursing2024]
+
+Traditions of research in community mental health care planning and care coordination: A systematic meta-narrative review of the literature [cite:@jonesTraditionsResearchCommunity2018]
+
+Nursing care plans in mental health [cite:@lambertNursingCarePlans2019]
+
+Is it time to abandon care planning in mental health services? [cite:@brooksItTimeAbandon2018a]
+
+* Bibliography
+
+#+print_bibliography:
+

@@ -1,0 +1,36 @@
+#+TITLE: Kingdom Pokémon Kirkcaldy
+#+AUTHOR: Douglas McIntosh
+#+DATE:\today
+
+#+NAME: header
+[[./header.png]]
+
+* Introduction
+
+Welcome to the technically advanced web page for the Kirkcaldy Pokémon Club.
+
+Running at [[https://www.thehivefife.org.uk/][The Hive]] in Kirkcaldy every Saturday from 1100 to 1400. People can play after this but can not guarantee that Pokémon Club staff will be there at 1400.
+
+** News and Announcements
+
+Please follow the WhatsApp Community and Discord chat [[https://discord.gg/P8n6RZ2M][invite]] for the latest updates.
+
+*** Switcheroo Tournament
+
+[[./switch24.jpg]]
+
+Rules: (not yet finalised)
+
++ Expanded deck selection. Play with what you've got.
+
++ Proxy cards allowed. Must be sleeved and backed with an actual Pokémon card.
+
++ Decks must be viable for play. Final decision by judges.
+
++ Participants will make, one or more decks, to place into the deck pool. They will be assigned a random deck (not theirs) for each battle.
+
++ Judges (Daniel & Ryan probably) can not participate. They can contribute decks.
+
++ Prizes, to be decided, for winner, deck with most wins and most fun deck.
+
+[[./squarelogo.png]] [[./kgslogo.png]]

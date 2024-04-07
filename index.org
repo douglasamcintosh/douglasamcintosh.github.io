@@ -37,6 +37,11 @@ It was adapted from slides I made.
 
 [[./Published/careplans/CarePlanTufte.html][Care Plan Presentation]]
 
+** Kingdom Pokemon
+
+Page covering tournament rules and general club business. Really just a holding page for stuff that will otherwise be shared via the usual channels.
+
+[[./Published/Kingdom/index.html][Kingdom Pokemon]]
 
 This site best viewed in a web browser.
 

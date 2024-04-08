@@ -1,6 +1,9 @@
 #+TITLE: Kingdom Pokémon Kirkcaldy
 #+AUTHOR: Douglas McIntosh
 #+DATE:\today
+#+PANDOC-OPTIONS: css:org-default.css
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="org-default.css" />
+
 
 #+NAME: header
 [[./header.png]]
@@ -16,6 +19,8 @@ Running at [[https://www.thehivefife.org.uk/][The Hive]] in Kirkcaldy every Satu
 Please follow the WhatsApp Community and Discord chat [[https://discord.gg/P8n6RZ2M][invite]] for the latest updates.
 
 *** Switcheroo Tournament
+
+[[./spring2024switch.html][Spring 2023 Switcheroo Tournament]]
 
 [[./switch24.jpg]]
 

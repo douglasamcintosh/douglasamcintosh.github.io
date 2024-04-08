@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2024-04-08 Mon 18:00 -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Spring 2024 Switcheroo Tournament</title>
+<meta name="author" content="Douglas McIntosh" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" href="./tufte.css" type="text/css" />
+<link rel="stylesheet" href="./ox-tufte.css" type="text/css" />
+</head>
+<body>
+<article id="content" class="content">
+<header>
+<h1 class="title">Spring 2024 Switcheroo Tournament</h1>
+</header><nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgfa898cb">1. Spring 2024 Switcheroo Tournament</a>
+<ul>
+<li><a href="#org7f6f53b">1.1. General Rules</a></li>
+<li><a href="#orgb948b55">1.2. Swticherules! <label for='mn-auto.9790334' class='margin-toggle'>&#8853;</label><input type='checkbox' id='mn-auto.9790334' class='margin-toggle'><span class='marginnote'> See what I did there? </span></a></li>
+<li><a href="#org9beed48">1.3. Competition</a></li>
+<li><a href="#org2dc1f56">1.4. Prizes</a></li>
+<li><a href="#orgde0f8b8">1.5. Dates</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</nav>
+
+<figure id="org0ce0959">
+<img src="./header.png" alt="header.png">
+
+</figure>
+
+<section id="outline-container-orgfa898cb" class="outline-2">
+<h2 id="orgfa898cb"><span class="section-number-2">1.</span> Spring 2024 Switcheroo Tournament</h2>
+<div class="outline-text-2" id="text-1">
+
+<figure id="org9639605">
+<img src="./switch24.jpg" alt="switch24.jpg">
+
+</figure>
+</div>
+
+<div id="outline-container-org7f6f53b" class="outline-3">
+<h3 id="org7f6f53b"><span class="section-number-3">1.1.</span> General Rules</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Expanded deck selection. Play with what you've got.</li>
+
+<li>Proxy cards allowed. <label for='mn-auto.9790334' class='margin-toggle'>&#8853;</label><input type='checkbox' id='mn-auto.9790334' class='margin-toggle'><span class='marginnote'> Proxy cards must be backed with an actual Pokémon card </span></li>
+
+<li>Decks must be viable for play. Final decision by judges.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb948b55" class="outline-3">
+<h3 id="orgb948b55"><span class="section-number-3">1.2.</span> Swticherules! <label for='mn-auto.9790334' class='margin-toggle'>&#8853;</label><input type='checkbox' id='mn-auto.9790334' class='margin-toggle'><span class='marginnote'> See what I did there? </span></h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Participants will make, one or more decks, to place into the deck pool.</li>
+
+<li>Decks once entered are final.</li>
+
+<li>They will be assigned a random deck (not theirs) for each battle.</li>
+
+<li>Judges (Daniel &amp; Ryan probably) can not participate. They can contribute decks.</li>
+
+<li>Prizes, to be decided, for winner, deck with most wins and most fun deck.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9beed48" class="outline-3">
+<h3 id="org9beed48"><span class="section-number-3">1.3.</span> Competition</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Current idea is to have as much of a round robin tournament on 18 June as we can.
+</p>
+
+<p>
+The top two or four players will battle it out for the top spot on the 25. <label for='mn-auto.9790334' class='margin-toggle'>&#8853;</label><input type='checkbox' id='mn-auto.9790334' class='margin-toggle'><span class='marginnote'> If 2 players it will be best of three otherwise a knockout </span>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2dc1f56" class="outline-3">
+<h3 id="org2dc1f56"><span class="section-number-3">1.4.</span> Prizes</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>Prizes, to be decided, for winner, deck with most wins and most fun deck.</li>
+</ul>
+</div>
+</div>
+
+
+<div id="outline-container-orgde0f8b8" class="outline-3">
+<h3 id="orgde0f8b8"><span class="section-number-3">1.5.</span> Dates</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul class="org-ul">
+<li>Saturday 18 June - Round-robin Switcheroo.</li>
+
+<li>Saturday 25 June - BATTLE!</li>
+</ul>
+
+
+
+<p>
+<img src="./squarelogo.png" alt="squarelogo.png"> <img src="./kgslogo.png" alt="kgslogo.png">
+</p>
+</div>
+</div>
+</section>
+</article>
+<footer id="postamble" class="status">
+<p class="date">Date: \today</p>
+<p class="author">Author: Douglas McIntosh</p>
+<p class="date">Created: 2024-04-08 Mon 18:00</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</footer>
+</body>
+</html>

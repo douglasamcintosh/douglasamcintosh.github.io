@@ -1,0 +1,57 @@
+#+TITLE: Spring 2024 Switcheroo Tournament
+#+AUTHOR: Douglas McIntosh
+#+DATE: \today
+#+OPTIONS: ^:{}
+
+#+HTML_HEAD: <link rel="stylesheet" href="./tufte.css" type="text/css" />
+#+HTML_HEAD: <link rel="stylesheet" href="./ox-tufte.css" type="text/css" />
+
+[[./header.png]]
+
+* Spring 2024 Switcheroo Tournament
+
+[[./switch24.jpg]]
+
+** General Rules
+
++ Expanded deck selection. Play with what you've got.
+
++ Proxy cards allowed. call_marginnote("Proxy cards must be backed with an actual Pokémon card")
+
++ Decks must be viable for play. Final decision by judges.
+
+** Swticherules! call_marginnote("See what I did there?")
+
++ Participants will make, one or more decks, to place into the deck pool.
+
++ Decks once entered are final.
+
++ They will be assigned a random deck (not theirs) for each battle.
+
++ Judges (Daniel & Ryan probably) can not participate. They can contribute decks.
+
++ Prizes, to be decided, for winner, deck with most wins and most fun deck.
+
+** Competition
+
+Current idea is to have as much of a round robin tournament on 18 June as we can.
+
+The top two or four players will battle it out for the top spot on the 25. call_marginnote("If 2 players it will be best of three otherwise a knockout")
+
+** Prizes
+
++ Prizes, to be decided, for winner, deck with most wins and most fun deck.
+
+
+** Dates
+
++ Saturday 18 June - Round-robin Switcheroo.
+
++ Saturday 25 June - BATTLE!
+
+
+
+[[./squarelogo.png]] [[./kgslogo.png]]
+
+
+

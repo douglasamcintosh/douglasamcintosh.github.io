@@ -16,11 +16,11 @@
 
 + Expanded deck selection. Play with what you've got.
 
-+ Proxy cards allowed. call_marginnote("Proxy cards must be backed with an actual Pokémon card")
++ Proxy cards allowed. Proxy cards must be backed with an actual Pokémon card.
 
 + Decks must be viable for play. Final decision by judges.
 
-** Swticherules! call_marginnote("See what I did there?")
+** Swticherules!
 
 + Participants will make, one or more decks, to place into the deck pool.
 
@@ -36,7 +36,7 @@
 
 Current idea is to have as much of a round robin tournament on 18 June as we can.
 
-The top two or four players will battle it out for the top spot on the 25. call_marginnote("If 2 players it will be best of three otherwise a knockout")
+The top two or four players will battle it out for the top spot on the 25. If 2 players it will be best of three otherwise a knockout
 
 ** Prizes
 

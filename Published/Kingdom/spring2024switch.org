@@ -3,8 +3,6 @@
 #+DATE: \today
 #+OPTIONS: ^:{}
 
-#+HTML_HEAD: <link rel="stylesheet" href="./tufte.css" type="text/css" />
-#+HTML_HEAD: <link rel="stylesheet" href="./ox-tufte.css" type="text/css" />
 
 [[./header.png]]
 
@@ -20,23 +18,31 @@
 
 + Decks must be viable for play. Final decision by judges.
 
+  - All decks must consist of Pokémon cards that are viable for gameplay. Each Pokémon included in the deck should be capable of attacking, with exceptions for those that are primarily included for their abilities. This ensures fair and balanced gameplay for all participants.
+
 ** Swticherules!
 
 + Participants will make, one or more decks, to place into the deck pool.
 
++ Decks must be constructed to allow them to be played by those with a basic understanding of the rules
+
+  - Decks must be constructed in a way that allows anyone with a basic understanding of the game to play them effectively. Complex strategies or obscure card interactions should be avoided to ensure a level playing field for all participants. (Daniel and Ryan are being cruel submitting harder decks to see how other play their decks) Judges will suggest deck improvements if required.
+
++ Proxy and Foreign Cards: Proxy cards and foreign language cards are permitted in the tournament. However, players must provide a source of what the card does in English to ensure that all participants can understand the card's effects by reading it. This promotes inclusivity and allows players to use cards from various sources.
+
 + Decks once entered are final.
 
-+ They will be assigned a random deck (not theirs) for each battle.
+  -  Once a deck has been submitted into the tournament, players are not allowed to make any amendments or modifications to their deck. This rule ensures consistency and fairness throughout the tournament, preventing players from gaining an unfair advantage by altering their deck between matches.
+
++ Trainers will be assigned a random deck (not theirs) for each battle.
 
 + Judges (Daniel & Ryan probably) can not participate. They can contribute decks.
 
-+ Prizes, to be decided, for winner, deck with most wins and most fun deck.
-
 ** Competition
 
-Current idea is to have as much of a round robin tournament on 18 June as we can.
+Round robin tournament on *18 June*. Also 11 Jun if required. *All decks must be submitted prior to this*.
 
-The top two or four players will battle it out for the top spot on the 25. If 2 players it will be best of three otherwise a knockout
+The top two or four players will battle it out for the top spot on the 25. If 2 players it will be best of three otherwise a combination of best of three and knockout.
 
 ** Prizes
 
@@ -45,9 +51,9 @@ The top two or four players will battle it out for the top spot on the 25. If 2 
 
 ** Dates
 
-+ Saturday 18 June - Round-robin Switcheroo.
++ *Saturday 18 June* - Round-robin Switcheroo. Possibly also 11 June depending on number of entrants. Top players from the round robin sessions will be put forward for the final battle.
 
-+ Saturday 25 June - BATTLE!
++ *Saturday 25 June* - FINAL BATTLE! A combination of best-of-three and single battle knockout stages.
 
 
 

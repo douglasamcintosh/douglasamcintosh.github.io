@@ -1,6 +1,10 @@
-```{=org}
-#+PANDOC-OPTIONS: css:org-default.css
-```
+---
+title: Kingdopm Pokemon Kirkcaldy
+toc: false
+author: Douglas McIntosh
+date: \today
+css: styling.css
+---
 ![](./header.png "header"){#header}
 
 # Introduction

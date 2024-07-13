@@ -25,6 +25,12 @@ Link:  [[./spring2024switch.html][Spring 2023 Switcheroo Tournament]]
 
 [[./switch24.jpg]]
 
+*** Pokemon Pairs Tournament
+
+[[./summer2024pairs.html][Summer 2024 Pokemon Pairs Tournment]]
+
+[[./Pokemon Pairs 2024.png]]
+
 ** Footer
 
 [[./squarelogo.png]] [[./kgslogo.png]]

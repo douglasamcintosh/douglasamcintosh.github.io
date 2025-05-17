@@ -1,16 +1,13 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Douglas McIntosh" />
   <title>Douglas' Web Site</title>
-  <style type="text/css">
+  <style>
     html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 20px;
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
@@ -29,13 +26,16 @@
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
-        padding: 1em;
+        padding: 12px;
       }
       h1 {
         font-size: 1.8em;
       }
     }
     @media print {
+      html {
+        background-color: white;
+      }
       body {
         background-color: transparent;
         color: black;
@@ -59,6 +59,10 @@
       color: #1a1a1a;
     }
     img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
       max-width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
@@ -85,9 +89,10 @@
       color: #606060;
     }
     code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
       font-size: 85%;
       margin: 0;
+      hyphens: manual;
     }
     pre {
       margin: 1em 0;
@@ -149,18 +154,26 @@
     }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
 </head>
 <body>
-<div id="header">
+<header id="title-block-header">
 <h1 class="title">Douglas' Web Site</h1>
-<h2 class="author">Douglas McIntosh</h2>
-</div>
+<p class="author">Douglas McIntosh</p>
+</header>
 <h1 id="douglass-web-site">Douglas's Web Site</h1>
 <p><img src="./images/head.jpg" /></p>
 <h2 id="interactive-fiction">Interactive Fiction</h2>
@@ -187,10 +200,15 @@ finished.</p>
 <p>It was adapted from slides I made.</p>
 <p><a href="./Published/careplans/CarePlanTufte.html">Care Plan
 Presentation</a></p>
+<h2 id="stanley-feline-fine">Stanley Feline Fine</h2>
+<p>My cat has compelled me to allow him to write a blog. Here it is.</p>
+<p><a href="./Published/Stanley/index.html">Fat Cat Chat Blog</a></p>
 <h2 id="kingdom-pokemon">Kingdom Pokemon</h2>
 <p>Page covering tournament rules and general club business. Really just
 a holding page for stuff that will otherwise be shared via the usual
 channels.</p>
+<p>I am no longer involved with this. These pages are no longer
+updated.</p>
 <p><a href="./Published/Kingdom/index.html">Kingdom Pokemon</a></p>
 <p>This site best viewed in a web browser.</p>
 <h1 id="metadata-link-thing">Metadata Link Thing</h1>

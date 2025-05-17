@@ -37,9 +37,18 @@ It was adapted from slides I made.
 
 [[./Published/careplans/CarePlanTufte.html][Care Plan Presentation]]
 
+
+** Stanley Feline Fine
+
+My cat has compelled me to allow him to write a blog. Here it is.
+
+[[./Published/Stanley/index.html][Fat Cat Chat Blog]]
+
 ** Kingdom Pokemon
 
 Page covering tournament rules and general club business. Really just a holding page for stuff that will otherwise be shared via the usual channels.
+
+I am no longer involved with this. These pages are no longer updated.
 
 [[./Published/Kingdom/index.html][Kingdom Pokemon]]
 

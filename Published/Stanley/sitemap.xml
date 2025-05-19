@@ -6,84 +6,77 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://douglasamcintosh.github.io/Publish.Stanley/</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
+<lastmod>2025-05-19T19:55:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://douglasamcintosh.github.io/Publish.Stanley/2010/My%20Template%20Title.html</loc>
-<lastmod>2010-12-03T10:20:00+00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://douglasamcintosh.github.io/Publish.Stanley/2025/my-first-mechanical-cat.html</loc>
-<lastmod>2025-05-12T10:20:00+01:00</lastmod>
+<loc>https://douglasamcintosh.github.io/Publish.Stanley/2025/Welcome.html</loc>
+<lastmod>2025-05-19T00:00:00+01:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://douglasamcintosh.github.io/Publish.Stanley/archives.html</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
+<lastmod>2025-05-19T19:55:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://douglasamcintosh.github.io/Publish.Stanley/author/stanley-millgram-iii.html</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
+<lastmod>2025-05-19T19:55:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://douglasamcintosh.github.io/Publish.Stanley/authors.html</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
+<lastmod>2025-05-19T19:55:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://douglasamcintosh.github.io/Publish.Stanley/categories.html</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
+<lastmod>2025-05-19T19:55:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://douglasamcintosh.github.io/Publish.Stanley/category/cat.html</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
+<loc>https://douglasamcintosh.github.io/Publish.Stanley/category/posts.html</loc>
+<lastmod>2025-05-19T19:55:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://douglasamcintosh.github.io/Publish.Stanley/category/meta.html</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
+<loc>https://douglasamcintosh.github.io/Publish.Stanley/pages/about.html</loc>
+<lastmod>2025-05-19T00:00:00+01:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://douglasamcintosh.github.io/Publish.Stanley/tag/site.html</loc>
+<lastmod>2025-05-19T19:55:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://douglasamcintosh.github.io/Publish.Stanley/tag/pelican.html</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://douglasamcintosh.github.io/Publish.Stanley/tag/publishing.html</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
+<loc>https://douglasamcintosh.github.io/Publish.Stanley/tag/welcome.html</loc>
+<lastmod>2025-05-19T19:55:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://douglasamcintosh.github.io/Publish.Stanley/tags.html</loc>
-<lastmod>2025-05-17T14:49:59-00:00</lastmod>
+<lastmod>2025-05-19T19:55:37-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

@@ -4,7 +4,7 @@
 <title><![CDATA[Fat Cat Chat]]></title>
 <description><![CDATA[Fat Cat Chat]]></description>
 <link>https://douglasamcintosh.github.io/Published/Stanley/</link>
-<lastBuildDate>Sun, 12 Oct 2025 20:00:50 +0100</lastBuildDate>
+<lastBuildDate>Sun, 12 Oct 2025 20:13:17 +0100</lastBuildDate>
 <item>
   <title><![CDATA[How to Write a Blog Post]]></title>
   <description><![CDATA[
@@ -29,13 +29,13 @@ Done.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org5c329cd">Templates</a></li>
+<li><a href="#org0f4ba78">Templates</a></li>
 </ul>
 </div>
 </nav>
-<div id="outline-container-org5c329cd" class="outline-2">
-<h2 id="org5c329cd">Templates</h2>
-<div class="outline-text-2" id="text-org5c329cd">
+<div id="outline-container-org0f4ba78" class="outline-2">
+<h2 id="org0f4ba78">Templates</h2>
+<div class="outline-text-2" id="text-org0f4ba78">
 <p>
 This will be a post for working out the different features of org static blog.
 </p>
@@ -53,8 +53,8 @@ After the fold.
   <category><![CDATA[test]]></category>
   <category><![CDATA[templates]]></category>
   <category><![CDATA[ignore]]></category>
-  <link>https://douglasamcintosh.github.io/Published/Stanley/2000/templates.html</link>
-  <guid>https://douglasamcintosh.github.io/Published/Stanley/2000/templates.html</guid>
+  <link>https://douglasamcintosh.github.io/Published/Stanley/templates.html</link>
+  <guid>https://douglasamcintosh.github.io/Published/Stanley/templates.html</guid>
   <pubDate>Fri, 03 Jul 2020 08:57:00 +0100</pubDate>
 </item>
 </channel>

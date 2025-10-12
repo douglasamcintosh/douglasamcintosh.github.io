@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title><![CDATA[Fat Cat Chat]]></title>
+<description><![CDATA[Fat Cat Chat]]></description>
+<link>https://douglasamcintosh.github.io/Published/Stanley/</link>
+<lastBuildDate>Sun, 12 Oct 2025 19:52:47 +0100</lastBuildDate>
+<item>
+  <title><![CDATA[How to Write a Blog Post]]></title>
+  <description><![CDATA[
+<p>
+Step one: Install <code>org-static-blog</code>. <br>
+Step Two: Execute <code>M-x org-static-blog-create-new-post</code> and write the content. <br>
+Step Three: Execute <code>M-x org-static-blog-publish</code> and upload to your webhost. <br>
+Done.
+</p>
+<div class="taglist"><a href="https://douglasamcintosh.github.io/Published/Stanley/tags.html">Tags</a>: <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-computers.html">computers</a> <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-emacs.html">emacs</a> <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-blog.html">blog</a> </div>]]></description>
+  <category><![CDATA[computers]]></category>
+  <category><![CDATA[emacs]]></category>
+  <category><![CDATA[blog]]></category>
+  <link>https://douglasamcintosh.github.io/Published/Stanley/testpost.html</link>
+  <guid>https://douglasamcintosh.github.io/Published/Stanley/testpost.html</guid>
+  <pubDate>Sun, 12 Oct 2025 00:00:00 +0100</pubDate>
+</item>
+<item>
+  <title><![CDATA[Template Post]]></title>
+  <description><![CDATA[
+<nav id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org3b5bea5">Templates</a></li>
+</ul>
+</div>
+</nav>
+<div id="outline-container-org3b5bea5" class="outline-2">
+<h2 id="org3b5bea5">Templates</h2>
+<div class="outline-text-2" id="text-org3b5bea5">
+<p>
+This will be a post for working out the different features of org static blog.
+</p>
+
+<p>
+Hopefully
+</p>
+
+
+<hr>
+
+
+<p>
+After the fold.
+</p>
+</div>
+</div>
+<div class="taglist"><a href="https://douglasamcintosh.github.io/Published/Stanley/tags.html">Tags</a>: <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-test.html">test</a> <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-templates.html">templates</a> <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-ignore.html">ignore</a> </div>]]></description>
+  <category><![CDATA[test]]></category>
+  <category><![CDATA[templates]]></category>
+  <category><![CDATA[ignore]]></category>
+  <link>https://douglasamcintosh.github.io/Published/Stanley/2000/templates.html</link>
+  <guid>https://douglasamcintosh.github.io/Published/Stanley/2000/templates.html</guid>
+  <pubDate>Fri, 03 Jul 2020 08:57:00 +0100</pubDate>
+</item>
+</channel>
+</rss>

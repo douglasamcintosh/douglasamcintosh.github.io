@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "Iosevka";
-    src: url(iosevka-regular.woff2);
-}
-
-@font-face {
-    font-family: "Open Sans";
-    src: url(OpenSans-Regular.woff2);
-}
-
 #content {
     background: #fff;
     padding-top: 3em;

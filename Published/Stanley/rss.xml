@@ -1,114 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
 <channel>
-<title><![CDATA[Fat Cat Chat]]></title>
-<description><![CDATA[Fat Cat Chat]]></description>
-<link>https://douglasamcintosh.github.io/Published/Stanley/</link>
-<lastBuildDate>Mon, 13 Oct 2025 22:19:56 +0100</lastBuildDate>
+  <title>Fat Cat Chat</title>
+  <link>https://douglasamcintosh.github.io/Published/Stanley</link>
+  <description>Stanley's blog</description>
+  <language>en</language>
+  <pubDate>Sun, 02 Nov 2025 14:00:07 +0000</pubDate>
+  <copyright>© 2025 Stanley</copyright>
+  <atom:link href="https://douglasamcintosh.github.io/Published/Stanley/rss.xml" rel="self" type="application/rss+xml" />
+
 <item>
-  <title><![CDATA[Meow Test Post]]></title>
+  <title>About Stanley Text</title>
+  <link>https://douglasamcintosh.github.io/Published/Stanley/posts/testpost1.html</link>
+  <guid>https://douglasamcintosh.github.io/Published/Stanley/posts/testpost1.html</guid>
   <description><![CDATA[
-<nav id="table-of-contents" role="doc-toc">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
-<ul>
-<li><a href="#org6e3b3e6">Top Level Heading</a>
-<ul>
-<li><a href="#orgfb5af84">Second Level Heading</a></li>
-<li><a href="#org4bbb911">Images Test</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</nav>
-<div id="outline-container-org6e3b3e6" class="outline-2">
-<h2 id="org6e3b3e6">Top Level Heading</h2>
-<div class="outline-text-2" id="text-org6e3b3e6">
-<p>
-This is the text below a top level heading.
-</p>
-</div>
-<div id="outline-container-orgfb5af84" class="outline-3">
-<h3 id="orgfb5af84">Second Level Heading</h3>
-<div class="outline-text-3" id="text-orgfb5af84">
-<p>
-This is the text below a second level heading.
-</p>
-</div>
-</div>
-<div id="outline-container-org4bbb911" class="outline-3">
-<h3 id="org4bbb911">Images Test</h3>
-<div class="outline-text-3" id="text-org4bbb911">
+        <main>
 
-<figure id="org915e94d">
-<img src="./test/meow.jpg" alt="meow.jpg">
+<h1>About Stanley the Cat</h1>
 
+
+<p>Text about Stanley</p>
+
+    </main>
+  ]]></description>
+  <pubDate>Sun, 02 Nov 2025 00:00:00 UTC</pubDate>
+</item>
+
+<item>
+  <title>About Stanley with Images</title>
+  <link>https://douglasamcintosh.github.io/Published/Stanley/posts/about-stanley-image/index.html</link>
+  <guid>https://douglasamcintosh.github.io/Published/Stanley/posts/about-stanley-image/index.html</guid>
+  <description><![CDATA[
+        <main>
+
+<h1>About Stanley with Images</h1>
+
+<p>Text here.</p>
+
+<h2>Normal Stanley</h2>
+
+<figure>
+  <img src="stanley_250.jpg" alt="Normal Stanley" loading="lazy">
+  <figcaption>Normal Stanley</figcaption>
 </figure>
 
-<p>
-y
-</p>
-</div>
-</div>
-</div>
-<div class="taglist"><a href="https://douglasamcintosh.github.io/Published/Stanley/tags.html">Tags</a>: <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-test.html">test</a> <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-blog.html">blog</a> </div>]]></description>
-  <category><![CDATA[test]]></category>
-  <category><![CDATA[blog]]></category>
-  <link>https://douglasamcintosh.github.io/Published/Stanley/2025-10-meowtest.html</link>
-  <guid>https://douglasamcintosh.github.io/Published/Stanley/2025-10-meowtest.html</guid>
-  <pubDate>Mon, 13 Oct 2025 00:00:00 +0100</pubDate>
-</item>
-<item>
-  <title><![CDATA[How to Write a Blog Post]]></title>
-  <description><![CDATA[
-<p>
-Step one: Install <code>org-static-blog</code>. <br>
-Step Two: Execute <code>M-x org-static-blog-create-new-post</code> and write the content. <br>
-Step Three: Execute <code>M-x org-static-blog-publish</code> and upload to your webhost. <br>
-Done.
-</p>
-<div class="taglist"><a href="https://douglasamcintosh.github.io/Published/Stanley/tags.html">Tags</a>: <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-computers.html">computers</a> <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-emacs.html">emacs</a> <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-blog.html">blog</a> </div>]]></description>
-  <category><![CDATA[computers]]></category>
-  <category><![CDATA[emacs]]></category>
-  <category><![CDATA[blog]]></category>
-  <link>https://douglasamcintosh.github.io/Published/Stanley/testpost.html</link>
-  <guid>https://douglasamcintosh.github.io/Published/Stanley/testpost.html</guid>
-  <pubDate>Sun, 12 Oct 2025 00:00:00 +0100</pubDate>
-</item>
-<item>
-  <title><![CDATA[Template Post]]></title>
-  <description><![CDATA[
-<nav id="table-of-contents" role="doc-toc">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents" role="doc-toc">
-<ul>
-<li><a href="#org0f4ba78">Templates</a></li>
-</ul>
-</div>
-</nav>
-<div id="outline-container-org0f4ba78" class="outline-2">
-<h2 id="org0f4ba78">Templates</h2>
-<div class="outline-text-2" id="text-org0f4ba78">
-<p>
-This will be a post for working out the different features of org static blog.
-</p>
+<p>I suspect I can only do one image.</p>
 
-<p>
-Hopefully
-</p>
-
-<p>
-After the fold.
-</p>
-</div>
-</div>
-<div class="taglist"><a href="https://douglasamcintosh.github.io/Published/Stanley/tags.html">Tags</a>: <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-test.html">test</a> <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-templates.html">templates</a> <a href="https://douglasamcintosh.github.io/Published/Stanley/tag-ignore.html">ignore</a> </div>]]></description>
-  <category><![CDATA[test]]></category>
-  <category><![CDATA[templates]]></category>
-  <category><![CDATA[ignore]]></category>
-  <link>https://douglasamcintosh.github.io/Published/Stanley/templates.html</link>
-  <guid>https://douglasamcintosh.github.io/Published/Stanley/templates.html</guid>
-  <pubDate>Fri, 03 Jul 2020 08:57:00 +0100</pubDate>
+    </main>
+  ]]></description>
+  <pubDate>Sun, 02 Nov 2025 00:00:00 UTC</pubDate>
 </item>
+
 </channel>
 </rss>
+

@@ -1,0 +1,2 @@
+about ./posts/testpost1.html
+page ./posts/testpost1.html

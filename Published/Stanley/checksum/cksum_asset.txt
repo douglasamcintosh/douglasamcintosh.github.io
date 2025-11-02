@@ -1,2 +1,6 @@
 1741061853 31114 ./write/about-stanley-image/stanley_250.jpg
 4274035524 36576 ./write/about-stanley-image/stanley_250_hell.jpg
+4068250815 378400 ./write/20251030-Neph/image.jpg
+2067667913 427934 ./write/20251031LakeMalice/image.jpg
+1741061853 31114 ./write/template-image/image.jpg
+520433636 396678 ./write/20251031Hanabie/image.jpg

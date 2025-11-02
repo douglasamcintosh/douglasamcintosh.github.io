@@ -1,2 +1,7 @@
 about ./posts/testpost1.html
 page ./posts/testpost1.html
+music ./posts/20251030-Neph/index.html
+concert ./posts/20251030-Neph/index.html
+glasgow ./posts/20251030-Neph/index.html
+2025 ./posts/20251030-Neph/index.html
+nephilim ./posts/20251030-Neph/index.html

@@ -1,2 +1,7 @@
+7117516 165 ./write/template.md
 1503811375 241 ./write/about-stanley-image/index.md
+1918874486 1199 ./write/20251030-Neph/index.md
+1877717046 193 ./write/20251031LakeMalice/index.md
+1877717046 193 ./write/template-image/index.md
+1877717046 193 ./write/20251031Hanabie/index.md
 753025387 181 ./write/testpost1.md

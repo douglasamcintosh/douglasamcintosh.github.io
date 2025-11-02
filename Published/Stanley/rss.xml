@@ -6,46 +6,27 @@
   <link>https://douglasamcintosh.github.io/Published/Stanley</link>
   <description>Stanley's blog</description>
   <language>en</language>
-  <pubDate>Sun, 02 Nov 2025 19:43:55 +0000</pubDate>
+  <pubDate>Sun, 02 Nov 2025 19:51:02 +0000</pubDate>
   <copyright>© 2025 Stanley</copyright>
   <atom:link href="https://douglasamcintosh.github.io/Published/Stanley/rss.xml" rel="self" type="application/rss+xml" />
 
 <item>
-  <title>About Stanley Text</title>
-  <link>https://douglasamcintosh.github.io/Published/Stanley/posts/testpost1.html</link>
-  <guid>https://douglasamcintosh.github.io/Published/Stanley/posts/testpost1.html</guid>
+  <title>About</title>
+  <link>https://douglasamcintosh.github.io/Published/Stanley/posts/about-image/index.html</link>
+  <guid>https://douglasamcintosh.github.io/Published/Stanley/posts/about-image/index.html</guid>
   <description><![CDATA[
         <main>
 
-<h1>About Stanley the Cat</h1>
-
-
-<p>Text about Stanley</p>
-
-    </main>
-  ]]></description>
-  <pubDate>Sun, 02 Nov 2025 00:00:00 UTC</pubDate>
-</item>
-
-<item>
-  <title>About Stanley with Images</title>
-  <link>https://douglasamcintosh.github.io/Published/Stanley/posts/about-stanley-image/index.html</link>
-  <guid>https://douglasamcintosh.github.io/Published/Stanley/posts/about-stanley-image/index.html</guid>
-  <description><![CDATA[
-        <main>
-
-<h1>About Stanley with Images</h1>
-
-<p>Text here.</p>
-
-<h2>Normal Stanley</h2>
+<h1>Stanley's Fat Cat Chat</h1>
 
 <figure>
-  <img src="stanley_250.jpg" alt="Normal Stanley" loading="lazy">
-  <figcaption>Normal Stanley</figcaption>
+  <img src="image.jpg" alt="Stanley" loading="lazy">
+  <figcaption>Stanley</figcaption>
 </figure>
 
-<p>I suspect I can only do one image.</p>
+<p>Stanley is a cat who pretends to write a blog. Nothing here should be taken seriously. Nothing here is meant.</p>
+
+<p>Thank you.</p>
 
     </main>
   ]]></description>

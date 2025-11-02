@@ -1,5 +1,5 @@
-about ./posts/testpost1.html
-page ./posts/testpost1.html
+about ./posts/about-image/index.html
+page ./posts/about-image/index.html
 music ./posts/20251030-Neph/index.html
 concert ./posts/20251030-Neph/index.html
 glasgow ./posts/20251030-Neph/index.html

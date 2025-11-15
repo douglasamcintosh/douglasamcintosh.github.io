@@ -1,6 +1,6 @@
 about ./posts/about-image/index.html ./posts/about.html
 page ./posts/about-image/index.html ./posts/about.html
-music ./posts/20251030-Neph/index.html ./posts/2025-11-04-ClassicRock.html ./posts/2025-11-08-SEAsianRock.html
+music ./posts/20251030-Neph/index.html ./posts/2025-11-04-ClassicRock.html ./posts/2025-11-08-SEAsianRock.html ./posts/2025-11-15-PicNMixList.html
 concert ./posts/20251030-Neph/index.html
 glasgow ./posts/20251030-Neph/index.html
 2025 ./posts/20251030-Neph/index.html ./posts/2025-11-04-ClassicRock.html
@@ -9,6 +9,6 @@ list ./posts/2025-11-04-ClassicRock.html
 youtube ./posts/2025-11-04-ClassicRock.html ./posts/2025-11-08-SEAsianRock.html
 aberdeen ./posts/20251108Aberdeen/index.html
 review ./posts/20251108Aberdeen/index.html
-playlist ./posts/2025-11-08-SEAsianRock.html
+playlist ./posts/2025-11-08-SEAsianRock.html ./posts/2025-11-15-PicNMixList.html
 rock ./posts/2025-11-08-SEAsianRock.html
 metal ./posts/2025-11-08-SEAsianRock.html

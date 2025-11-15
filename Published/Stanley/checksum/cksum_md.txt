@@ -7,4 +7,5 @@
 3390339580 297 ./write/about-image/index.md
 1877717046 193 ./write/template-image/index.md
 1877717046 193 ./write/20251031Hanabie/index.md
+954112161 6725 ./write/2025-11-15-PicNMixList.md
 2118146059 4286 ./write/2025-11-04-ClassicRock.md

@@ -1,4 +1,5 @@
 7117516 165 ./write/template.md
+2568076371 3784 ./write/2025-11-MusicList.md
 2017681088 4481 ./write/2025-11-08-SEAsianRock.md
 2190640391 146 ./write/about.md
 441909578 1100 ./write/20251030-Neph/index.md

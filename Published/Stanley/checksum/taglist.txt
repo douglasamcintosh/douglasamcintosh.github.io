@@ -1,11 +1,11 @@
 about ./posts/about-image/index.html ./posts/about.html
 page ./posts/about-image/index.html ./posts/about.html
-music ./posts/20251030-Neph/index.html ./posts/2025-11-04-ClassicRock.html ./posts/2025-11-08-SEAsianRock.html ./posts/2025-11-15-PicNMixList.html ./posts/20251115Espirit/index.html
+music ./posts/20251030-Neph/index.html ./posts/2025-11-04-ClassicRock.html ./posts/2025-11-08-SEAsianRock.html ./posts/2025-11-15-PicNMixList.html ./posts/20251115Espirit/index.html ./posts/2025-11-MusicList.html
 concert ./posts/20251030-Neph/index.html ./posts/20251115Espirit/index.html
 glasgow ./posts/20251030-Neph/index.html
-2025 ./posts/20251030-Neph/index.html ./posts/2025-11-04-ClassicRock.html ./posts/20251115Espirit/index.html
+2025 ./posts/20251030-Neph/index.html ./posts/2025-11-04-ClassicRock.html ./posts/20251115Espirit/index.html ./posts/2025-11-MusicList.html
 nephilim ./posts/20251030-Neph/index.html
-list ./posts/2025-11-04-ClassicRock.html
+list ./posts/2025-11-04-ClassicRock.html ./posts/2025-11-MusicList.html
 youtube ./posts/2025-11-04-ClassicRock.html ./posts/2025-11-08-SEAsianRock.html
 aberdeen ./posts/20251108Aberdeen/index.html
 review ./posts/20251108Aberdeen/index.html

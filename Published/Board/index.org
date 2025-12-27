@@ -17,12 +17,14 @@
 - [[#chess][Chess]]
   - [[#online][Online]]
   - [[#frontend][Frontend]]
+- [[#mahjong][Mahjong]]
+  - [[#online-1][Online]]
 - [[#makruk][Makruk]]
 - [[#shogi][Shogi]]
-  - [[#online-1][Online]]
+  - [[#online-2][Online]]
   - [[#frontends][Frontends]]
 - [[#xiangqi][Xiangqi]]
-  - [[#online-2][Online]]
+  - [[#online-3][Online]]
 
 * Introduction
 
@@ -35,13 +37,13 @@ I'm not putting it here but you should look at PySolFC for card games.
 ** Chess Type Game Engines
 
 
-*** Fairy Stockfish :linux:windows:chess:shogi:xiangqi:makruk:
+*** Fairy Stockfish
 
 [[https://github.com/fairy-stockfish/Fairy-Stockfish][GitHub - fairy-stockfish/Fairy-Stockfish]]
 
 Fairy-Stockfish is a chess variant engine derived from Stockfish designed for the support of fairy chess variants and easy extensibility with more games. It can play various regional, historical, and modern chess variants as well as games with user-defined rules. For compatibility with graphical user interfaces it supports the UCI, UCCI, USI, UCI-cyclone, and CECP/XBoard protocols.
 
-*** Sjaak  :chess:shatranji:windows/linux:macos:makruk:xiangqi:
+*** Sjaak 
 
 [[http://www.eglebbk.dds.nl/program/chess-index.html][Chess (Jazz & Sjaak) home]]
 
@@ -58,7 +60,7 @@ Leonidas is intermediate between Jazz and Sjaak and was designed primarily to pl
 * Multi-game Frontends
 
 
-** liground :chess:xiangqi:makruk:shogi:
+** liground 
 
 [[https://github.com/ml-research/liground][GitHub - ml-research/liground: A free, open-source and modern Chess Variant Analysis GUI for the 21st century]]
 
@@ -68,7 +70,7 @@ Its game logic uses the Fairy-Stockfish based ffishjs library, therefore it is v
 
 LiGround ships with preincluded engine binaries. By default all engines are downloaded automatically into the ./engines/ folder as postinstall action. 
 
-** Portable Puzzle Collection :windows:linux:android:
+** Portable Puzzle Collection 
 
 Not strictly board games but a lot of them occupy the same cognitive space for me.
 
@@ -78,7 +80,7 @@ Not strictly board games but a lot of them occupy the same cognitive space for m
 
 [[https://f-droid.org/packages/name.boyle.chris.sgtpuzzles/][Simon Tatham's Puzzles | F-Droid - Free and Open Source Android App Repository]]
 
-** Ludii Portal
+** Ludii Portal 
 
 [[https://ludii.games/library.php][Ludii Portal]]
 
@@ -91,7 +93,7 @@ Games are described as structured sets of ludemes (units of game-related informa
 
 * Backgammon
 
-** GNU Backgammon :windows:linux:
+** GNU Backgammon 
 
 [[https://www.gnu.org/software/gnubg/#downloading][GNU Backgammon]]
 
@@ -101,29 +103,29 @@ GNU Backgammon (GNUbg) plays and analyzes backgammon games and matches. It is ab
 
 ** Online
 
-*** Lichess :online:chess:
+*** Lichess
 
 [[https://lichess.org/@/Fairy-Stockfish][Fairy-Stockfish : Activity • lichess.org]]
 
 
-*** Pychess :online:chess:makruk:shogi:xiangqi:
+*** Pychess 
 
 [[https://www.pychess.org/][PyChess • Free Online Chess Variants]]
 
 
 ** Frontend
 
-*** Cutechess :chess:frontend:windows:linux:
+*** Cutechess 
 
 [[https://github.com/cutechess/cutechess][GitHub - cutechess/cutechess: Cute Chess is a graphical user interface, command-line interface and a library for playing chess.]]
 
-*** Pychess :chess:linux:windows:frontend:
+*** Pychess 
 
 [[https://pychess.github.io/download/][PyChess - download]]
 
 Welcome to PyChess, a free and feature-rich chess client designed for Linux and Windows platforms. Whether you're a beginner looking for a quick game or an advanced player seeking to enhance your skills, PyChess has you covered.
 
-*** Xboard / Winboard :linux:windows:frontend:chess:xiangqi:shogi:
+*** Xboard / Winboard 
 
 Xboard is almost certainly in your package repositories.
 
@@ -136,6 +138,28 @@ I have upgraded the popular Winboard GUI to be able to handle more different pie
 In addition, I included various adjudication possibilities for engine-engine games. WinBoard can now adjudicate theoretical draws, award 50-move and repetition draws (after an adjustable number of moves or repetitions), adjudicate trivial draws such as KBKB. It can also test draw and win claims by the engines for validity. The move legality testing is improved to the point where it should be 100% reliable, as WinBoard now also keeps track of castling rights and en-passant status.
 
 WinBoard is now also aware of pieces occurring in Capablanca Chess (ArchBishop and Chancellor), Shatranj (Alfil and Ferz), Xiangqi (Chinese Chess) and Shogi (Japanese Chess), so that these games can also be played with legality testing on. (Although the legality testing in the latter two might be not as strict as with Western Chess.)
+
+
+* Mahjong
+
+** Online
+
+*** Mah - A Mahjong Solitaire Game
+
+[[https://github.com/ffalt/mah][GitHub - ffalt/mah: a html5 mahjong solitaire game]]
+
+84 built-in boards
+
+Random board generator for countless and more challenging games
+
+13 tile/piece image sets; light and dark
+
+8 image backgrounds, 375 pattern backgrounds, light and dark mode, 14 color themes
+
+3 difficulty levels and 2 game setup generators
+
+Automatic saving and restoring of game state and best times.
+In your browser only - nothing is stored in the cloud!
 
 
 * Makruk

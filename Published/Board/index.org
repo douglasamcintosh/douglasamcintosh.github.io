@@ -1,0 +1,181 @@
+#+title: Awesome Classic Board Games List
+#+subtitle: A list of open source board games engines and implementations. Focused on classic games. For personal use.
+
+#+author:
+#+language: en
+
+* Contents :toc:
+- [[#introduction][Introduction]]
+- [[#game-engines][Game Engines]]
+  - [[#chess-type-game-engines][Chess Type Game Engines]]
+- [[#multi-game-frontends][Multi-game Frontends]]
+  - [[#liground][liground]]
+  - [[#portable-puzzle-collection][Portable Puzzle Collection]]
+  - [[#ludii-portal][Ludii Portal]]
+- [[#backgammon][Backgammon]]
+  - [[#gnu-backgammon][GNU Backgammon]]
+- [[#chess][Chess]]
+  - [[#online][Online]]
+  - [[#frontend][Frontend]]
+- [[#makruk][Makruk]]
+- [[#shogi][Shogi]]
+  - [[#online-1][Online]]
+  - [[#frontends][Frontends]]
+- [[#xiangqi][Xiangqi]]
+  - [[#online-2][Online]]
+
+* Introduction
+
+This is not intended to be complete. Just a collection of starting points for further exploration.
+
+I'm not putting it here but you should look at PySolFC for card games.
+
+* Game Engines
+
+** Chess Type Game Engines
+
+
+*** Fairy Stockfish :linux:windows:chess:shogi:xiangqi:makruk:
+
+[[https://github.com/fairy-stockfish/Fairy-Stockfish][GitHub - fairy-stockfish/Fairy-Stockfish]]
+
+Fairy-Stockfish is a chess variant engine derived from Stockfish designed for the support of fairy chess variants and easy extensibility with more games. It can play various regional, historical, and modern chess variants as well as games with user-defined rules. For compatibility with graphical user interfaces it supports the UCI, UCCI, USI, UCI-cyclone, and CECP/XBoard protocols.
+
+*** Sjaak  :chess:shatranji:windows/linux:macos:makruk:xiangqi:
+
+[[http://www.eglebbk.dds.nl/program/chess-index.html][Chess (Jazz & Sjaak) home]]
+
+ Welcome to the homepage dedicated to my expanding family of chess engines: Jazz, Sjaak and Leonidas!
+
+Jazz is a fairly standard chess program. It currently has no opening book, and doesn't use an endgame database.
+
+Sjaak is a much weaker chess program (Sjaak II less so than the old version), but in addition to normal chess it can play a (large) number of other games and chess variants.
+
+Leonidas is intermediate between Jazz and Sjaak and was designed primarily to play Spartan Chess (see below), but it plays some more variants.
+
+
+
+* Multi-game Frontends
+
+
+** liground :chess:xiangqi:makruk:shogi:
+
+[[https://github.com/ml-research/liground][GitHub - ml-research/liground: A free, open-source and modern Chess Variant Analysis GUI for the 21st century]]
+
+LiGround is a modern cross-platform chess variant GUI. It supports all lichess variants, as well as all major regional variants (Xiangqi, Shogi, Janggi, Makruk). Since the project still is rather new, it is not as feature rich as the other GUIs yet. Precompiled versions for each OS can be downloaded from the releases.
+
+Its game logic uses the Fairy-Stockfish based ffishjs library, therefore it is very well compatible with Fairy-Stockfish.
+
+LiGround ships with preincluded engine binaries. By default all engines are downloaded automatically into the ./engines/ folder as postinstall action. 
+
+** Portable Puzzle Collection :windows:linux:android:
+
+Not strictly board games but a lot of them occupy the same cognitive space for me.
+
+[[https://www.chiark.greenend.org.uk/~sgtatham/puzzles/][Simon Tatham's Portable Puzzle Collection]]
+
+[[https://apps.microsoft.com/detail/9nblggh16n44?ocid=webpdpshare][Portable Puzzle Collection - Free download and play on Windows | Microsoft Store]]
+
+[[https://f-droid.org/packages/name.boyle.chris.sgtpuzzles/][Simon Tatham's Puzzles | F-Droid - Free and Open Source Android App Repository]]
+
+** Ludii Portal
+
+[[https://ludii.games/library.php][Ludii Portal]]
+
+Welcome to the Ludii Portal!
+
+Ludii is a general game system designed to play, evaluate and design a wide range of games, including board games, card games, dice games, mathematical games, and so on. Download the Ludii player to explore our ever-growing database of games, test your AI search algorithms, and design your own games.
+
+Games are described as structured sets of ludemes (units of game-related information). This allows the full range of traditional strategy games from around the world to be modelled in a single playable database for the first time. Ludii is being developed as part of the ERC-funded Digital Ludeme Project.
+
+
+* Backgammon
+
+** GNU Backgammon :windows:linux:
+
+[[https://www.gnu.org/software/gnubg/#downloading][GNU Backgammon]]
+
+GNU Backgammon (GNUbg) plays and analyzes backgammon games and matches. It is able to play and analyze both money games and tournament matches, evaluate and roll out positions, and more. Driven by a command-line interface, it displays an ASCII rendering of a board on text-only terminals, but also allows the user to play games and manipulate positions with a graphical GTK+ interface. GNU Backgammon is extensible on platforms which support Python. 
+
+* Chess
+
+** Online
+
+*** Lichess :online:chess:
+
+[[https://lichess.org/@/Fairy-Stockfish][Fairy-Stockfish : Activity • lichess.org]]
+
+
+*** Pychess :online:chess:makruk:shogi:xiangqi:
+
+[[https://www.pychess.org/][PyChess • Free Online Chess Variants]]
+
+
+** Frontend
+
+*** Cutechess :chess:frontend:windows:linux:
+
+[[https://github.com/cutechess/cutechess][GitHub - cutechess/cutechess: Cute Chess is a graphical user interface, command-line interface and a library for playing chess.]]
+
+*** Pychess :chess:linux:windows:frontend:
+
+[[https://pychess.github.io/download/][PyChess - download]]
+
+Welcome to PyChess, a free and feature-rich chess client designed for Linux and Windows platforms. Whether you're a beginner looking for a quick game or an advanced player seeking to enhance your skills, PyChess has you covered.
+
+*** Xboard / Winboard :linux:windows:frontend:chess:xiangqi:shogi:
+
+Xboard is almost certainly in your package repositories.
+
+[[http://hgm.nubati.net/][WinBoard 4.7]]
+
+A Graphical User Interface for Chess and its Variants
+
+I have upgraded the popular Winboard GUI to be able to handle more different piece types, and larger board sizes. I also improved the support for variants with piece drops, such as Crazyhouse and Bughouse.
+
+In addition, I included various adjudication possibilities for engine-engine games. WinBoard can now adjudicate theoretical draws, award 50-move and repetition draws (after an adjustable number of moves or repetitions), adjudicate trivial draws such as KBKB. It can also test draw and win claims by the engines for validity. The move legality testing is improved to the point where it should be 100% reliable, as WinBoard now also keeps track of castling rights and en-passant status.
+
+WinBoard is now also aware of pieces occurring in Capablanca Chess (ArchBishop and Chancellor), Shatranj (Alfil and Ferz), Xiangqi (Chinese Chess) and Shogi (Japanese Chess), so that these games can also be played with legality testing on. (Although the legality testing in the latter two might be not as strict as with Western Chess.)
+
+
+* Makruk
+
+Thai chess.
+
+[[https://en.wikipedia.org/wiki/Makruk][Makruk - Wikipedia]]
+
+Fairy stockfish can be used as an engine.
+
+
+* Shogi :shogi:
+
+** Online
+
+*** Lishogi :online:shogi:
+
+[[https://lishogi.org/@/Fairy-Stockfish][Fairy-Stockfish : Activity | lishogi.org]]
+
+
+** Frontends
+
+*** ShogiHome :windows:macos:linux:frontend:
+
+[[https://sunfish-shogi.github.io/shogihome/index.en.html][ShogiHome]]
+
+ ShogiHome is a desktop shogi app running on Windows, macOS, and Linux. Anyone can get the source code create their version and distribute it. 
+
+* Xiangqi :xiangqi:
+
+** Online
+
+*** Xiangqi.com
+
+[[https://www.xiangqi.com/][Free Online Chinese Chess | Play Xiangqi]]
+
+Xiangqi (pronounced “shiang-chee”) has been played for hundreds of years and is today still one of the most popular board games in the world, played in China and across Asia, and recently, in the West as well. You can usually find men playing xiangqi in Chinatown neighborhoods across the world.
+
+*** Classic Xiangqi Online
+
+[[https://www.classicxiangqi.com/][Classic Xiangqi]]
+
+Experience the ancient art of Chinese Chess in a modern setting. Challenge players worldwide and improve your strategic skills!

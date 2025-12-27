@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Awesome Classic Board Games List</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Awesome Classic Board Games List</h1>
+<p class="subtitle">A list of open source board games engines and
+implementations. Focused on classic games. For personal use.</p>
+</header>
+<h1 id="contents">Contents <span class="tag" data-tag-name="toc"><span
+class="smallcaps">toc</span></span></h1>
+<ul>
+<li><a href="#introduction">Introduction</a></li>
+<li><a href="#game-engines">Game Engines</a>
+<ul>
+<li><a href="#chess-type-game-engines">Chess Type Game Engines</a></li>
+</ul></li>
+<li><a href="#multi-game-frontends">Multi-game Frontends</a>
+<ul>
+<li><a href="#liground">liground</a></li>
+<li><a href="#portable-puzzle-collection">Portable Puzzle
+Collection</a></li>
+<li><a href="#ludii-portal">Ludii Portal</a></li>
+</ul></li>
+<li><a href="#backgammon">Backgammon</a>
+<ul>
+<li><a href="#gnu-backgammon">GNU Backgammon</a></li>
+</ul></li>
+<li><a href="#chess">Chess</a>
+<ul>
+<li><a href="#online">Online</a></li>
+<li><a href="#frontend">Frontend</a></li>
+</ul></li>
+<li><a href="#makruk">Makruk</a></li>
+<li><a href="#shogi">Shogi</a>
+<ul>
+<li><a href="#online-1">Online</a></li>
+<li><a href="#frontends">Frontends</a></li>
+</ul></li>
+<li><a href="#xiangqi">Xiangqi</a>
+<ul>
+<li><a href="#online-2">Online</a></li>
+</ul></li>
+</ul>
+<h1 id="introduction">Introduction</h1>
+<p>This is not intended to be complete. Just a collection of starting
+points for further exploration.</p>
+<p>I'm not putting it here but you should look at PySolFC for card
+games.</p>
+<h1 id="game-engines">Game Engines</h1>
+<h2 id="chess-type-game-engines">Chess Type Game Engines</h2>
+<h3 id="fairy-stockfish">Fairy Stockfish <span class="tag"
+data-tag-name="linux"><span class="smallcaps">linux</span></span> <span
+class="tag" data-tag-name="windows"><span
+class="smallcaps">windows</span></span> <span class="tag"
+data-tag-name="chess"><span class="smallcaps">chess</span></span> <span
+class="tag" data-tag-name="shogi"><span
+class="smallcaps">shogi</span></span> <span class="tag"
+data-tag-name="xiangqi"><span
+class="smallcaps">xiangqi</span></span> <span class="tag"
+data-tag-name="makruk"><span class="smallcaps">makruk</span></span></h3>
+<p><a href="https://github.com/fairy-stockfish/Fairy-Stockfish">GitHub -
+fairy-stockfish/Fairy-Stockfish</a></p>
+<p>Fairy-Stockfish is a chess variant engine derived from Stockfish
+designed for the support of fairy chess variants and easy extensibility
+with more games. It can play various regional, historical, and modern
+chess variants as well as games with user-defined rules. For
+compatibility with graphical user interfaces it supports the UCI, UCCI,
+USI, UCI-cyclone, and CECP/XBoard protocols.</p>
+<h3 id="sjaak-chessshatranjiwindowslinux">Sjaak
+:chess:shatranji:windows/linux <span class="tag"
+data-tag-name="macos"><span class="smallcaps">macos</span></span> <span
+class="tag" data-tag-name="makruk"><span
+class="smallcaps">makruk</span></span> <span class="tag"
+data-tag-name="xiangqi"><span
+class="smallcaps">xiangqi</span></span></h3>
+<p><a href="http://www.eglebbk.dds.nl/program/chess-index.html">Chess
+(Jazz &amp; Sjaak) home</a></p>
+<p>Welcome to the homepage dedicated to my expanding family of chess
+engines: Jazz, Sjaak and Leonidas!</p>
+<p>Jazz is a fairly standard chess program. It currently has no opening
+book, and doesn't use an endgame database.</p>
+<p>Sjaak is a much weaker chess program (Sjaak II less so than the old
+version), but in addition to normal chess it can play a (large) number
+of other games and chess variants.</p>
+<p>Leonidas is intermediate between Jazz and Sjaak and was designed
+primarily to play Spartan Chess (see below), but it plays some more
+variants.</p>
+<h1 id="multi-game-frontends">Multi-game Frontends</h1>
+<h2 id="liground">liground <span class="tag" data-tag-name="chess"><span
+class="smallcaps">chess</span></span> <span class="tag"
+data-tag-name="xiangqi"><span
+class="smallcaps">xiangqi</span></span> <span class="tag"
+data-tag-name="makruk"><span
+class="smallcaps">makruk</span></span> <span class="tag"
+data-tag-name="shogi"><span class="smallcaps">shogi</span></span></h2>
+<p><a href="https://github.com/ml-research/liground">GitHub -
+ml-research/liground: A free, open-source and modern Chess Variant
+Analysis GUI for the 21st century</a></p>
+<p>LiGround is a modern cross-platform chess variant GUI. It supports
+all lichess variants, as well as all major regional variants (Xiangqi,
+Shogi, Janggi, Makruk). Since the project still is rather new, it is not
+as feature rich as the other GUIs yet. Precompiled versions for each OS
+can be downloaded from the releases.</p>
+<p>Its game logic uses the Fairy-Stockfish based ffishjs library,
+therefore it is very well compatible with Fairy-Stockfish.</p>
+<p>LiGround ships with preincluded engine binaries. By default all
+engines are downloaded automatically into the ./engines/ folder as
+postinstall action.</p>
+<h2 id="portable-puzzle-collection">Portable Puzzle Collection <span
+class="tag" data-tag-name="windows"><span
+class="smallcaps">windows</span></span> <span class="tag"
+data-tag-name="linux"><span class="smallcaps">linux</span></span> <span
+class="tag" data-tag-name="android"><span
+class="smallcaps">android</span></span></h2>
+<p>Not strictly board games but a lot of them occupy the same cognitive
+space for me.</p>
+<p><a href="https://www.chiark.greenend.org.uk/~sgtatham/puzzles/">Simon
+Tatham's Portable Puzzle Collection</a></p>
+<p><a
+href="https://apps.microsoft.com/detail/9nblggh16n44?ocid=webpdpshare">Portable
+Puzzle Collection - Free download and play on Windows | Microsoft
+Store</a></p>
+<p><a
+href="https://f-droid.org/packages/name.boyle.chris.sgtpuzzles/">Simon
+Tatham's Puzzles | F-Droid - Free and Open Source Android App
+Repository</a></p>
+<h2 id="ludii-portal">Ludii Portal <span class="tag"
+data-tag-name="multi"><span class="smallcaps">multi</span></span> <span
+class="tag" data-tag-name="online"><span
+class="smallcaps">online</span></span></h2>
+<p><a href="https://ludii.games/library.php">Ludii Portal</a></p>
+<p>Welcome to the Ludii Portal!</p>
+<p>Ludii is a general game system designed to play, evaluate and design
+a wide range of games, including board games, card games, dice games,
+mathematical games, and so on. Download the Ludii player to explore our
+ever-growing database of games, test your AI search algorithms, and
+design your own games.</p>
+<p>Games are described as structured sets of ludemes (units of
+game-related information). This allows the full range of traditional
+strategy games from around the world to be modelled in a single playable
+database for the first time. Ludii is being developed as part of the
+ERC-funded Digital Ludeme Project.</p>
+<h1 id="backgammon">Backgammon</h1>
+<h2 id="gnu-backgammon">GNU Backgammon <span class="tag"
+data-tag-name="windows"><span
+class="smallcaps">windows</span></span> <span class="tag"
+data-tag-name="linux"><span class="smallcaps">linux</span></span></h2>
+<p><a href="https://www.gnu.org/software/gnubg/#downloading">GNU
+Backgammon</a></p>
+<p>GNU Backgammon (GNUbg) plays and analyzes backgammon games and
+matches. It is able to play and analyze both money games and tournament
+matches, evaluate and roll out positions, and more. Driven by a
+command-line interface, it displays an ASCII rendering of a board on
+text-only terminals, but also allows the user to play games and
+manipulate positions with a graphical GTK+ interface. GNU Backgammon is
+extensible on platforms which support Python.</p>
+<h1 id="chess">Chess</h1>
+<h2 id="online">Online</h2>
+<h3 id="lichess">Lichess <span class="tag" data-tag-name="online"><span
+class="smallcaps">online</span></span> <span class="tag"
+data-tag-name="chess"><span class="smallcaps">chess</span></span></h3>
+<p><a href="https://lichess.org/@/Fairy-Stockfish">Fairy-Stockfish :
+Activity • lichess.org</a></p>
+<h3 id="pychess">Pychess <span class="tag" data-tag-name="online"><span
+class="smallcaps">online</span></span> <span class="tag"
+data-tag-name="chess"><span class="smallcaps">chess</span></span> <span
+class="tag" data-tag-name="makruk"><span
+class="smallcaps">makruk</span></span> <span class="tag"
+data-tag-name="shogi"><span class="smallcaps">shogi</span></span> <span
+class="tag" data-tag-name="xiangqi"><span
+class="smallcaps">xiangqi</span></span></h3>
+<p><a href="https://www.pychess.org/">PyChess • Free Online Chess
+Variants</a></p>
+<h2 id="frontend">Frontend</h2>
+<h3 id="cutechess">Cutechess <span class="tag"
+data-tag-name="chess"><span class="smallcaps">chess</span></span> <span
+class="tag" data-tag-name="frontend"><span
+class="smallcaps">frontend</span></span> <span class="tag"
+data-tag-name="windows"><span
+class="smallcaps">windows</span></span> <span class="tag"
+data-tag-name="linux"><span class="smallcaps">linux</span></span></h3>
+<p><a href="https://github.com/cutechess/cutechess">GitHub -
+cutechess/cutechess: Cute Chess is a graphical user interface,
+command-line interface and a library for playing chess.</a></p>
+<h3 id="pychess-1">Pychess <span class="tag" data-tag-name="chess"><span
+class="smallcaps">chess</span></span> <span class="tag"
+data-tag-name="linux"><span class="smallcaps">linux</span></span> <span
+class="tag" data-tag-name="windows"><span
+class="smallcaps">windows</span></span> <span class="tag"
+data-tag-name="frontend"><span
+class="smallcaps">frontend</span></span></h3>
+<p><a href="https://pychess.github.io/download/">PyChess -
+download</a></p>
+<p>Welcome to PyChess, a free and feature-rich chess client designed for
+Linux and Windows platforms. Whether you're a beginner looking for a
+quick game or an advanced player seeking to enhance your skills, PyChess
+has you covered.</p>
+<h3 id="xboard-winboard">Xboard / Winboard <span class="tag"
+data-tag-name="linux"><span class="smallcaps">linux</span></span> <span
+class="tag" data-tag-name="windows"><span
+class="smallcaps">windows</span></span> <span class="tag"
+data-tag-name="frontend"><span
+class="smallcaps">frontend</span></span> <span class="tag"
+data-tag-name="chess"><span class="smallcaps">chess</span></span> <span
+class="tag" data-tag-name="xiangqi"><span
+class="smallcaps">xiangqi</span></span> <span class="tag"
+data-tag-name="shogi"><span class="smallcaps">shogi</span></span></h3>
+<p>Xboard is almost certainly in your package repositories.</p>
+<p><a href="http://hgm.nubati.net/">WinBoard 4.7</a></p>
+<p>A Graphical User Interface for Chess and its Variants</p>
+<p>I have upgraded the popular Winboard GUI to be able to handle more
+different piece types, and larger board sizes. I also improved the
+support for variants with piece drops, such as Crazyhouse and
+Bughouse.</p>
+<p>In addition, I included various adjudication possibilities for
+engine-engine games. WinBoard can now adjudicate theoretical draws,
+award 50-move and repetition draws (after an adjustable number of moves
+or repetitions), adjudicate trivial draws such as KBKB. It can also test
+draw and win claims by the engines for validity. The move legality
+testing is improved to the point where it should be 100% reliable, as
+WinBoard now also keeps track of castling rights and en-passant
+status.</p>
+<p>WinBoard is now also aware of pieces occurring in Capablanca Chess
+(ArchBishop and Chancellor), Shatranj (Alfil and Ferz), Xiangqi (Chinese
+Chess) and Shogi (Japanese Chess), so that these games can also be
+played with legality testing on. (Although the legality testing in the
+latter two might be not as strict as with Western Chess.)</p>
+<h1 id="mahjong">Mahjong</h1>
+<h2 id="online-1">Online</h2>
+<h3 id="mah---a-mahjong-solitaire-game">Mah - A Mahjong Solitaire
+Game</h3>
+<p><a href="https://github.com/ffalt/mah">GitHub - ffalt/mah: a html5
+mahjong solitaire game</a></p>
+<p>84 built-in boards</p>
+<p>Random board generator for countless and more challenging games</p>
+<p>13 tile/piece image sets; light and dark</p>
+<p>8 image backgrounds, 375 pattern backgrounds, light and dark mode, 14
+color themes</p>
+<p>3 difficulty levels and 2 game setup generators</p>
+<p>Automatic saving and restoring of game state and best times. In your
+browser only - nothing is stored in the cloud!</p>
+<h1 id="makruk">Makruk</h1>
+<p>Thai chess.</p>
+<p><a href="https://en.wikipedia.org/wiki/Makruk">Makruk -
+Wikipedia</a></p>
+<p>Fairy stockfish can be used as an engine.</p>
+<h1 id="shogi">Shogi <span class="tag" data-tag-name="shogi"><span
+class="smallcaps">shogi</span></span></h1>
+<h2 id="online-2">Online</h2>
+<h3 id="lishogi">Lishogi <span class="tag" data-tag-name="online"><span
+class="smallcaps">online</span></span> <span class="tag"
+data-tag-name="shogi"><span class="smallcaps">shogi</span></span></h3>
+<p><a href="https://lishogi.org/@/Fairy-Stockfish">Fairy-Stockfish :
+Activity | lishogi.org</a></p>
+<h2 id="frontends">Frontends</h2>
+<h3 id="shogihome">ShogiHome <span class="tag"
+data-tag-name="windows"><span
+class="smallcaps">windows</span></span> <span class="tag"
+data-tag-name="macos"><span class="smallcaps">macos</span></span> <span
+class="tag" data-tag-name="linux"><span
+class="smallcaps">linux</span></span> <span class="tag"
+data-tag-name="frontend"><span
+class="smallcaps">frontend</span></span></h3>
+<p><a
+href="https://sunfish-shogi.github.io/shogihome/index.en.html">ShogiHome</a></p>
+<p>ShogiHome is a desktop shogi app running on Windows, macOS, and
+Linux. Anyone can get the source code create their version and
+distribute it.</p>
+<h1 id="xiangqi">Xiangqi <span class="tag" data-tag-name="xiangqi"><span
+class="smallcaps">xiangqi</span></span></h1>
+<h2 id="online-3">Online</h2>
+<h3 id="xiangqi.com">Xiangqi.com</h3>
+<p><a href="https://www.xiangqi.com/">Free Online Chinese Chess | Play
+Xiangqi</a></p>
+<p>Xiangqi (pronounced “shiang-chee”) has been played for hundreds of
+years and is today still one of the most popular board games in the
+world, played in China and across Asia, and recently, in the West as
+well. You can usually find men playing xiangqi in Chinatown
+neighborhoods across the world.</p>
+<h3 id="classic-xiangqi-online">Classic Xiangqi Online</h3>
+<p><a href="https://www.classicxiangqi.com/">Classic Xiangqi</a></p>
+<p>Experience the ancient art of Chinese Chess in a modern setting.
+Challenge players worldwide and improve your strategic skills!</p>
+</body>
+</html>

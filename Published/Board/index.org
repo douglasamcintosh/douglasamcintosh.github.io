@@ -17,6 +17,8 @@
 - [[#chess][Chess]]
   - [[#online][Online]]
   - [[#frontend][Frontend]]
+- [[#gomoku][Gomoku]]
+  - [[#application][Application]]
 - [[#mahjong][Mahjong]]
   - [[#online-1][Online]]
 - [[#makruk][Makruk]]
@@ -139,6 +141,28 @@ In addition, I included various adjudication possibilities for engine-engine gam
 
 WinBoard is now also aware of pieces occurring in Capablanca Chess (ArchBishop and Chancellor), Shatranj (Alfil and Ferz), Xiangqi (Chinese Chess) and Shogi (Japanese Chess), so that these games can also be played with legality testing on. (Although the legality testing in the latter two might be not as strict as with Western Chess.)
 
+
+* Gomoku
+
+** Application
+
+*** Gomoku World
+
+[[https://github.com/nighm/gomoku_world][GitHub - nighm/gomoku_world: A modern implementation of the classic Gomoku (Five in a Row) game]]
+
+A modern Gomoku (Five in a Row) game platform with advanced AI opponents, online multiplayer, and tournament features.
+
+*** GoBang Project
+
+[[https://zongzewu23.github.io/GoBang/][GoBang Project | GoBang]]
+
+GoBang is a JavaScript-based Gomoku (Five in a Row) game offering:
+
+-     Single-player mode against an AI opponent.
+-    Local two-player mode for offline multiplayer.
+-   Online multiplayer mode (future feature).
+
+    
 
 * Mahjong
 

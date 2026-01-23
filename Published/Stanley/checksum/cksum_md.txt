@@ -13,3 +13,4 @@
 1877717046 193 ./write/20251031Hanabie/index.md
 954112161 6725 ./write/2025-11-15-PicNMixList.md
 2118146059 4286 ./write/2025-11-04-ClassicRock.md
+1829210642 3964 ./write/20260123-Listicle/index.md

@@ -7,3 +7,4 @@
 4262029512 380247 ./write/20251115Espirit/image.jpg
 1741061853 31114 ./write/template-image/image.jpg
 520433636 396678 ./write/20251031Hanabie/image.jpg
+1741061853 31114 ./write/20260123-Listicle/image.jpg

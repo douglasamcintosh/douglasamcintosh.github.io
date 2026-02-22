@@ -1,5 +1,7 @@
 109807041 76761 ./write/202512-SatnleyXmasListicle/heartfart.jpg
+3989583199 9679 ./write/20260222-Listicle/index.md~
 2263492114 176544 ./write/20260222-Listicle/image.jpg
+4294967295 0 ./write/20260222-Listicle/DEADJOE
 3952166992 134564 ./write/20251231-EndOfYear/image.jpg
 4068250815 378400 ./write/20251030-Neph/image.jpg
 40684978 511786 ./write/20251030-Neph/index.pdf

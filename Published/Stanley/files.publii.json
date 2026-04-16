@@ -107,7 +107,7 @@
     {
         "path": "/authors/stanley-cat-the-cat/index.html",
         "type": "file",
-        "md5": "d2c63590079f7b35edcbcb48c72f28f9"
+        "md5": "237d23a910248d96f04888217e2e3d20"
     },
     {
         "path": "authors/stanley-cat-the-cat/page",
@@ -122,22 +122,22 @@
     {
         "path": "/authors/stanley-cat-the-cat/page/2/index.html",
         "type": "file",
-        "md5": "172e75e036866f7916edfc6d6bf934fc"
+        "md5": "752c7bf2a89a4c10576a6e79f5bc5236"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "14393c30bb9694c769153bd3fae6b316"
+        "md5": "883b5b15713eda5dfafeca57b0ac0ea2"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "1ebe8d7d420e048f5135abc54ea54cea"
+        "md5": "852582ebf64e8edc815b2e452ea625b7"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "f97c19ea12bc5f8e51b2f66aabfc3cce"
+        "md5": "3450489d2320db2bd04bb6031cb15d15"
     },
     {
         "path": "media",
@@ -352,7 +352,7 @@
     {
         "path": "/posts/index.html",
         "type": "file",
-        "md5": "e2e1cc99c7dba82dbb07e23e4a065b6f"
+        "md5": "eb5f2956831f0861e585c8b464461e6e"
     },
     {
         "path": "posts/metal-and-rock-playlist",
@@ -362,7 +362,7 @@
     {
         "path": "/posts/metal-and-rock-playlist/index.html",
         "type": "file",
-        "md5": "3e40b3dbecea36b45b89c6623ac64c0d"
+        "md5": "2016b0b6048e1064cfdc3584380241ee"
     },
     {
         "path": "posts/page",
@@ -377,7 +377,7 @@
     {
         "path": "/posts/page/2/index.html",
         "type": "file",
-        "md5": "9ec6e97a8f69db686e81999ba9bf9c28"
+        "md5": "c330b8e88e50a3d4c050f66df8374615"
     },
     {
         "path": "posts/random-music-playlist",
@@ -397,7 +397,7 @@
     {
         "path": "/posts/south-east-asian-rock-and-metal-playlist/index.html",
         "type": "file",
-        "md5": "efd82feae45bf06cfbc2dbfaf5fbdfc8"
+        "md5": "d294c2d6f89ff6d21d9cb0639d25535e"
     },
     {
         "path": "posts/stanley-christmas-soundtrack",
@@ -427,7 +427,7 @@
     {
         "path": "/posts/stanleys-list-of-near-purrfect-b-movies/index.html",
         "type": "file",
-        "md5": "b6cad54118fd0088bdbc7ced76f7516d"
+        "md5": "37f76900846a603c2f9dffbe6ba2cb29"
     },
     {
         "path": "posts/stanleys-music-listicle-2025-nyaavember-edition",

@@ -1,0 +1,477 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "65d4b80822cdccfaae021dc930d88e31"
+    },
+    {
+        "path": "about-stanley",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/about-stanley/index.html",
+        "type": "file",
+        "md5": "a74a0a2e3ac5da8b21a3c57c67f4047f"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "e5909a88ba1158a79ba2dbf82d6b2d86"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "99a9c549237f04b501682ead35569509"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "0dbe2aa6ff68ee10c9eaf9a26e93ae05"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts/aleo",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/aleo/aleo.woff2",
+        "type": "file",
+        "md5": "d972168af4846da95cd20803fd9e9b8b"
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "bbe9995f7e2156956f75b2b1201a8dc8"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "b2d91bcadbf5db401b76eb5bb3092eb7"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "edadc70a4de28c12ca24735b42f0f99d"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "92c2948f54b3fbcc72bd7c6755b6efea"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/stanley-cat-the-cat",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/stanley-cat-the-cat/index.html",
+        "type": "file",
+        "md5": "fddae49d7a2dab84f98e17a5963e7c1c"
+    },
+    {
+        "path": "authors/stanley-cat-the-cat/page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/stanley-cat-the-cat/page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/stanley-cat-the-cat/page/2/index.html",
+        "type": "file",
+        "md5": "ff3f56ba220a3d917bab5609d1e2b46c"
+    },
+    {
+        "path": "feed.json",
+        "type": "file",
+        "md5": "346524edcdad0b90b163a6af6ce3a6fc"
+    },
+    {
+        "path": "feed.xml",
+        "type": "file",
+        "md5": "ddb41b4f138b873ec4d399fe0ea7de59"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "2a7372b7b5bcf2128fe258ff926a9bcc"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/1",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/image.jpg",
+        "type": "file",
+        "md5": "b27d07cb95146e0bd2e62455ebe87c42"
+    },
+    {
+        "path": "media/posts/1/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/responsive/image-md.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/1/responsive/image-sm.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/1/responsive/image-xl.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/1/responsive/image-xs.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "media/posts/10",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/10/image.jpg",
+        "type": "file",
+        "md5": "b27d07cb95146e0bd2e62455ebe87c42"
+    },
+    {
+        "path": "media/posts/10/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/10/responsive/image-md.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/10/responsive/image-sm.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/10/responsive/image-xl.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/10/responsive/image-xs.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "media/posts/11",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/heartfart.jpg",
+        "type": "file",
+        "md5": "7ef02dbfe00a71c8d5d59e251e1b0e19"
+    },
+    {
+        "path": "media/posts/11/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/responsive/heartfart-md.jpg",
+        "type": "file",
+        "md5": "2c91941042e94fb3a5881b307d5cac81"
+    },
+    {
+        "path": "/media/posts/11/responsive/heartfart-sm.jpg",
+        "type": "file",
+        "md5": "6e2cdce870ae146bb1b9d064c6dc9574"
+    },
+    {
+        "path": "/media/posts/11/responsive/heartfart-xl.jpg",
+        "type": "file",
+        "md5": "c4e258ba4422f4302226bb72e5874fcf"
+    },
+    {
+        "path": "/media/posts/11/responsive/heartfart-xs.jpg",
+        "type": "file",
+        "md5": "0f254fb9d287656f333a26e04cd7d88e"
+    },
+    {
+        "path": "media/posts/9",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/image.jpg",
+        "type": "file",
+        "md5": "91fb9a89d4c29c13a7d9604c5102e6a7"
+    },
+    {
+        "path": "media/posts/9/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/responsive/image-md.jpg",
+        "type": "file",
+        "md5": "8fac7b529259c5111dec7a43e8a16ea6"
+    },
+    {
+        "path": "/media/posts/9/responsive/image-sm.jpg",
+        "type": "file",
+        "md5": "dcc9d360c77c08fb50c3a11a2fcfd183"
+    },
+    {
+        "path": "/media/posts/9/responsive/image-xl.jpg",
+        "type": "file",
+        "md5": "871b1c3195da6e3ea7ae5491ff6463eb"
+    },
+    {
+        "path": "/media/posts/9/responsive/image-xs.jpg",
+        "type": "file",
+        "md5": "5dfd07c11401b435be16a80cb22502c6"
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/website/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/responsive/stanley_250-md.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/website/responsive/stanley_250-sm.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/website/responsive/stanley_250-xl.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/website/responsive/stanley_250-xs.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/website/stanley_250.jpg",
+        "type": "file",
+        "md5": "b27d07cb95146e0bd2e62455ebe87c42"
+    },
+    {
+        "path": "posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "posts/2026-feb-stanleys-music-listicle",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/2026-feb-stanleys-music-listicle/index.html",
+        "type": "file",
+        "md5": "e0cbf8b2bc23d4e01ef3550f65bef105"
+    },
+    {
+        "path": "posts/2026-march-listicle",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/2026-march-listicle/index.html",
+        "type": "file",
+        "md5": "bf9a41e2447e52b9da77b11eb75c10d4"
+    },
+    {
+        "path": "/posts/index.html",
+        "type": "file",
+        "md5": "b7496dfe94d9ce7dc15d6517fd1c90cc"
+    },
+    {
+        "path": "posts/metal-and-rock-playlist",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/metal-and-rock-playlist/index.html",
+        "type": "file",
+        "md5": "3e40b3dbecea36b45b89c6623ac64c0d"
+    },
+    {
+        "path": "posts/page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "posts/page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/page/2/index.html",
+        "type": "file",
+        "md5": "ea6de4888b7b1ca500be9a5886fb4956"
+    },
+    {
+        "path": "posts/random-music-playlist",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/random-music-playlist/index.html",
+        "type": "file",
+        "md5": "e7a02dd5111bf416dd582fed3817bf3f"
+    },
+    {
+        "path": "posts/south-east-asian-rock-and-metal-playlist",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/south-east-asian-rock-and-metal-playlist/index.html",
+        "type": "file",
+        "md5": "efd82feae45bf06cfbc2dbfaf5fbdfc8"
+    },
+    {
+        "path": "posts/stanley-christmas-soundtrack",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/stanley-christmas-soundtrack/index.html",
+        "type": "file",
+        "md5": "39484de4d41dcf20d977204280ffc694"
+    },
+    {
+        "path": "posts/stanleys-end-of-year-top-songs",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/stanleys-end-of-year-top-songs/index.html",
+        "type": "file",
+        "md5": "26482e235b5eec6d41bf07c2e9843d16"
+    },
+    {
+        "path": "posts/stanleys-list-of-near-purrfect-b-movies",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/stanleys-list-of-near-purrfect-b-movies/index.html",
+        "type": "file",
+        "md5": "b6cad54118fd0088bdbc7ced76f7516d"
+    },
+    {
+        "path": "posts/stanleys-music-listicle-2025-nyaavember-edition",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/stanleys-music-listicle-2025-nyaavember-edition/index.html",
+        "type": "file",
+        "md5": "e61e0e70ea0bd30e1ca641a551930bfb"
+    },
+    {
+        "path": "posts/stanleys-music-listicle-2026-jan",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/posts/stanleys-music-listicle-2026-jan/index.html",
+        "type": "file",
+        "md5": "cc79d1cbb759592f4e76e241f04f5bb2"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "b0b4cf45e8147a2a90f58ba6b6243e4c"
+    },
+    {
+        "path": "sitemap.xml",
+        "type": "file",
+        "md5": "a3652140f41d9ab143451e06ce80b9de"
+    },
+    {
+        "path": "sitemap.xsl",
+        "type": "file",
+        "md5": "51a7bcec43fa1ef0366100d5c2edbe75"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "e9bcd676b30d7340d18e71482d89f236"
+    }
+]

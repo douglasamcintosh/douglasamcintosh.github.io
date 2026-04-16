@@ -1,39 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1">
-
+<?xml-stylesheet type="text/xsl" href="https://douglasamcintosh.github.io/Published/Stanley/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-  <loc>https://douglasamcintosh.github.io/Published/Stanley</loc>
-  <lastmod>2025-11-02</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>1.0</priority>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/</loc>
 </url>
-
 <url>
-  <loc>https://douglasamcintosh.github.io/Published/Stanley/all-posts.html</loc>
-  <lastmod>2025-11-02</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.8</priority>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/2026-feb-stanleys-music-listicle/</loc>
 </url>
-
 <url>
-  <loc>https://douglasamcintosh.github.io/Published/Stanley/all-tags.html</loc>
-  <lastmod>2025-11-02</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.4</priority>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/2026-march-listicle/</loc>
 </url>
-
 <url>
-  <loc>https://douglasamcintosh.github.io/Published/Stanley/posts/</loc>
-  <lastmod>2025-11-02</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.9</priority>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/metal-and-rock-playlist/</loc>
 </url>
-
 <url>
-  <loc>https://douglasamcintosh.github.io/Published/Stanley/tags/</loc>
-  <lastmod>2025-11-02</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.3</priority>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/</loc>
 </url>
-
+<url>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/page/2/</loc>
+</url>
+<url>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/random-music-playlist/</loc>
+</url>
+<url>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/south-east-asian-rock-and-metal-playlist/</loc>
+</url>
+<url>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/stanley-christmas-soundtrack/</loc>
+</url>
+<url>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/stanleys-end-of-year-top-songs/</loc>
+</url>
+<url>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/stanleys-list-of-near-purrfect-b-movies/</loc>
+</url>
+<url>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/stanleys-music-listicle-2025-nyaavember-edition/</loc>
+</url>
+<url>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/posts/stanleys-music-listicle-2026-jan/</loc>
+</url>
+<url>
+<loc>https://douglasamcintosh.github.io/Published/Stanley/about-stanley/</loc>
+<lastmod>2026-04-16T20:20:12+01:00</lastmod>
+<image:image>
+<image:loc>https://douglasamcintosh.github.io/Published/Stanley/media/posts/1/image.jpg</image:loc>
+<image:title><![CDATA[Stanley the Cat]]></image:title>
+</image:image>
+</url>
 </urlset>

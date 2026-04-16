@@ -1,4 +1,7 @@
+User-agent: ChatGPT-User
+Disallow: /
+User-agent: GPTBot
+Disallow: /
 User-agent: *
 Disallow:
-User-agent: *
-Disallow:
+Sitemap: https://douglasamcintosh.github.io/Published/Stanley/sitemap.xml

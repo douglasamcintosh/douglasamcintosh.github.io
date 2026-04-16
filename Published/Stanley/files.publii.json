@@ -107,7 +107,7 @@
     {
         "path": "/authors/stanley-cat-the-cat/index.html",
         "type": "file",
-        "md5": "fddae49d7a2dab84f98e17a5963e7c1c"
+        "md5": "d2c63590079f7b35edcbcb48c72f28f9"
     },
     {
         "path": "authors/stanley-cat-the-cat/page",
@@ -122,22 +122,22 @@
     {
         "path": "/authors/stanley-cat-the-cat/page/2/index.html",
         "type": "file",
-        "md5": "ff3f56ba220a3d917bab5609d1e2b46c"
+        "md5": "172e75e036866f7916edfc6d6bf934fc"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "346524edcdad0b90b163a6af6ce3a6fc"
+        "md5": "14393c30bb9694c769153bd3fae6b316"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "ddb41b4f138b873ec4d399fe0ea7de59"
+        "md5": "1ebe8d7d420e048f5135abc54ea54cea"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "2a7372b7b5bcf2128fe258ff926a9bcc"
+        "md5": "f97c19ea12bc5f8e51b2f66aabfc3cce"
     },
     {
         "path": "media",
@@ -352,7 +352,7 @@
     {
         "path": "/posts/index.html",
         "type": "file",
-        "md5": "b7496dfe94d9ce7dc15d6517fd1c90cc"
+        "md5": "e2e1cc99c7dba82dbb07e23e4a065b6f"
     },
     {
         "path": "posts/metal-and-rock-playlist",
@@ -377,7 +377,7 @@
     {
         "path": "/posts/page/2/index.html",
         "type": "file",
-        "md5": "ea6de4888b7b1ca500be9a5886fb4956"
+        "md5": "9ec6e97a8f69db686e81999ba9bf9c28"
     },
     {
         "path": "posts/random-music-playlist",
@@ -437,7 +437,7 @@
     {
         "path": "/posts/stanleys-music-listicle-2025-nyaavember-edition/index.html",
         "type": "file",
-        "md5": "e61e0e70ea0bd30e1ca641a551930bfb"
+        "md5": "84cae476c6e2b086f760c435e56d372d"
     },
     {
         "path": "posts/stanleys-music-listicle-2026-jan",

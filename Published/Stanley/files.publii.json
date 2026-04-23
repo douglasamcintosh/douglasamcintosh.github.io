@@ -1,8 +1,38 @@
 [
     {
+        "path": "2026-april-stanleys-music-listicle",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/2026-april-stanleys-music-listicle/index.html",
+        "type": "file",
+        "md5": "3c31d4c14aababc7e6e04dfccd52fdf6"
+    },
+    {
+        "path": "2026-feb-stanleys-music-listicle",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/2026-feb-stanleys-music-listicle/index.html",
+        "type": "file",
+        "md5": "e93483c51be7a35a860fe9faef0e49fd"
+    },
+    {
+        "path": "2026-march-listicle",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/2026-march-listicle/index.html",
+        "type": "file",
+        "md5": "7cb2b997706af94d13a77433a2104b86"
+    },
+    {
         "path": "404.html",
         "type": "file",
-        "md5": "65d4b80822cdccfaae021dc930d88e31"
+        "md5": "9844338b48ffbc36939fcba38157c08d"
     },
     {
         "path": "about-stanley",
@@ -12,7 +42,7 @@
     {
         "path": "/about-stanley/index.html",
         "type": "file",
-        "md5": "a74a0a2e3ac5da8b21a3c57c67f4047f"
+        "md5": "37707f7739a911e3d53d3f4cac69ea63"
     },
     {
         "path": "assets",
@@ -37,7 +67,7 @@
     {
         "path": "/assets/css/style.css",
         "type": "file",
-        "md5": "0dbe2aa6ff68ee10c9eaf9a26e93ae05"
+        "md5": "16e859e3f7fef04941bff974b77530c6"
     },
     {
         "path": "assets/dynamic",
@@ -58,6 +88,26 @@
         "path": "/assets/dynamic/fonts/aleo/aleo.woff2",
         "type": "file",
         "md5": "d972168af4846da95cd20803fd9e9b8b"
+    },
+    {
+        "path": "assets/dynamic/fonts/redrose",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/redrose/redrose.woff2",
+        "type": "file",
+        "md5": "fd4c141694a2ddfdfe89e545ebbf8ca7"
+    },
+    {
+        "path": "assets/dynamic/fonts/spartan",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/spartan/spartan.woff2",
+        "type": "file",
+        "md5": "1a737b3bf53937deb3037bd61f675cb3"
     },
     {
         "path": "assets/js",
@@ -107,7 +157,7 @@
     {
         "path": "/authors/stanley-cat-the-cat/index.html",
         "type": "file",
-        "md5": "237d23a910248d96f04888217e2e3d20"
+        "md5": "4e4a3b8ceab46cdae89a219082cb8461"
     },
     {
         "path": "authors/stanley-cat-the-cat/page",
@@ -122,22 +172,22 @@
     {
         "path": "/authors/stanley-cat-the-cat/page/2/index.html",
         "type": "file",
-        "md5": "752c7bf2a89a4c10576a6e79f5bc5236"
+        "md5": "849cb0b1cf631d1d1f3358c218f825af"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "883b5b15713eda5dfafeca57b0ac0ea2"
+        "md5": "d74c468685e3412de50c253023b5fe5a"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "852582ebf64e8edc815b2e452ea625b7"
+        "md5": "8856c8475597642bdd8644cd44eb6de4"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "3450489d2320db2bd04bb6031cb15d15"
+        "md5": "c39b0cf6c536d40773ed7516f70670f8"
     },
     {
         "path": "media",
@@ -255,6 +305,41 @@
         "md5": "0f254fb9d287656f333a26e04cd7d88e"
     },
     {
+        "path": "media/posts/12",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/2026-04-23_21-48.png",
+        "type": "file",
+        "md5": "67bf1f2d88656e8c40af0172982428eb"
+    },
+    {
+        "path": "media/posts/12/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/responsive/2026-04-23_21-48-md.png",
+        "type": "file",
+        "md5": "52c59c84d1f34716690d912c53105ba1"
+    },
+    {
+        "path": "/media/posts/12/responsive/2026-04-23_21-48-sm.png",
+        "type": "file",
+        "md5": "47cf9950772b2e6d1548d1edc69eb180"
+    },
+    {
+        "path": "/media/posts/12/responsive/2026-04-23_21-48-xl.png",
+        "type": "file",
+        "md5": "7e8683d492495f91b866dafa4d31b1eb"
+    },
+    {
+        "path": "/media/posts/12/responsive/2026-04-23_21-48-xs.png",
+        "type": "file",
+        "md5": "3cf8ef0ff9a5bfee403e916ffbd1976a"
+    },
+    {
         "path": "media/posts/9",
         "type": "directory",
         "md5": false
@@ -325,144 +410,114 @@
         "md5": "b27d07cb95146e0bd2e62455ebe87c42"
     },
     {
-        "path": "posts",
+        "path": "metal-and-rock-playlist",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "posts/2026-feb-stanleys-music-listicle",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/posts/2026-feb-stanleys-music-listicle/index.html",
+        "path": "/metal-and-rock-playlist/index.html",
         "type": "file",
-        "md5": "e0cbf8b2bc23d4e01ef3550f65bef105"
+        "md5": "bdb49dcba8407602c42c3d9e638d1dd3"
     },
     {
-        "path": "posts/2026-march-listicle",
+        "path": "page",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/posts/2026-march-listicle/index.html",
-        "type": "file",
-        "md5": "bf9a41e2447e52b9da77b11eb75c10d4"
-    },
-    {
-        "path": "/posts/index.html",
-        "type": "file",
-        "md5": "eb5f2956831f0861e585c8b464461e6e"
-    },
-    {
-        "path": "posts/metal-and-rock-playlist",
+        "path": "page/2",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "/posts/metal-and-rock-playlist/index.html",
+        "path": "/page/2/index.html",
         "type": "file",
-        "md5": "2016b0b6048e1064cfdc3584380241ee"
+        "md5": "7a59fef38ac59889d51e558c2b4a1b71"
     },
     {
-        "path": "posts/page",
+        "path": "random-music-playlist",
         "type": "directory",
         "md5": false
     },
     {
-        "path": "posts/page/2",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/posts/page/2/index.html",
+        "path": "/random-music-playlist/index.html",
         "type": "file",
-        "md5": "c330b8e88e50a3d4c050f66df8374615"
-    },
-    {
-        "path": "posts/random-music-playlist",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/posts/random-music-playlist/index.html",
-        "type": "file",
-        "md5": "e7a02dd5111bf416dd582fed3817bf3f"
-    },
-    {
-        "path": "posts/south-east-asian-rock-and-metal-playlist",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/posts/south-east-asian-rock-and-metal-playlist/index.html",
-        "type": "file",
-        "md5": "d294c2d6f89ff6d21d9cb0639d25535e"
-    },
-    {
-        "path": "posts/stanley-christmas-soundtrack",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/posts/stanley-christmas-soundtrack/index.html",
-        "type": "file",
-        "md5": "39484de4d41dcf20d977204280ffc694"
-    },
-    {
-        "path": "posts/stanleys-end-of-year-top-songs",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/posts/stanleys-end-of-year-top-songs/index.html",
-        "type": "file",
-        "md5": "26482e235b5eec6d41bf07c2e9843d16"
-    },
-    {
-        "path": "posts/stanleys-list-of-near-purrfect-b-movies",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/posts/stanleys-list-of-near-purrfect-b-movies/index.html",
-        "type": "file",
-        "md5": "37f76900846a603c2f9dffbe6ba2cb29"
-    },
-    {
-        "path": "posts/stanleys-music-listicle-2025-nyaavember-edition",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/posts/stanleys-music-listicle-2025-nyaavember-edition/index.html",
-        "type": "file",
-        "md5": "84cae476c6e2b086f760c435e56d372d"
-    },
-    {
-        "path": "posts/stanleys-music-listicle-2026-jan",
-        "type": "directory",
-        "md5": false
-    },
-    {
-        "path": "/posts/stanleys-music-listicle-2026-jan/index.html",
-        "type": "file",
-        "md5": "cc79d1cbb759592f4e76e241f04f5bb2"
+        "md5": "d7ae80ba25e727b59cb106bfa63d4c63"
     },
     {
         "path": "robots.txt",
         "type": "file",
-        "md5": "b0b4cf45e8147a2a90f58ba6b6243e4c"
+        "md5": "24897ecd0d18a1dd8a3e8871973f1d52"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "a3652140f41d9ab143451e06ce80b9de"
+        "md5": "0a17c3def84d0078a915ec9dd2deadd4"
     },
     {
         "path": "sitemap.xsl",
         "type": "file",
         "md5": "51a7bcec43fa1ef0366100d5c2edbe75"
+    },
+    {
+        "path": "south-east-asian-rock-and-metal-playlist",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/south-east-asian-rock-and-metal-playlist/index.html",
+        "type": "file",
+        "md5": "93c8c95bc7baab1a5337d1ea19148412"
+    },
+    {
+        "path": "stanley-christmas-soundtrack",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanley-christmas-soundtrack/index.html",
+        "type": "file",
+        "md5": "493b331e0323236f69690d56a8f32175"
+    },
+    {
+        "path": "stanleys-end-of-year-top-songs",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanleys-end-of-year-top-songs/index.html",
+        "type": "file",
+        "md5": "398caad770876180faed12b3f7901b21"
+    },
+    {
+        "path": "stanleys-list-of-near-purrfect-b-movies",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanleys-list-of-near-purrfect-b-movies/index.html",
+        "type": "file",
+        "md5": "42d742a78ff700091999d79b622aac6d"
+    },
+    {
+        "path": "stanleys-music-listicle-2025-nyaavember-edition",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanleys-music-listicle-2025-nyaavember-edition/index.html",
+        "type": "file",
+        "md5": "eeebe8c6938608b516ebcb3428dab98c"
+    },
+    {
+        "path": "stanleys-music-listicle-2026-jan",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanleys-music-listicle-2026-jan/index.html",
+        "type": "file",
+        "md5": "d8bfac614d769814b347a4f1ae4c3c1b"
     },
     {
         "path": "tags",
@@ -472,6 +527,6 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "e9bcd676b30d7340d18e71482d89f236"
+        "md5": "02a7cc7fa526f5c32c579fedb604de19"
     }
 ]

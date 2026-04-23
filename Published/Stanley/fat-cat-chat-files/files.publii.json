@@ -1,0 +1,532 @@
+[
+    {
+        "path": "2026-april-stanleys-music-listicle",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/2026-april-stanleys-music-listicle/index.html",
+        "type": "file",
+        "md5": "1eec190071b563bd1ba154587b79d236"
+    },
+    {
+        "path": "2026-feb-stanleys-music-listicle",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/2026-feb-stanleys-music-listicle/index.html",
+        "type": "file",
+        "md5": "e93483c51be7a35a860fe9faef0e49fd"
+    },
+    {
+        "path": "2026-march-listicle",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/2026-march-listicle/index.html",
+        "type": "file",
+        "md5": "7cb2b997706af94d13a77433a2104b86"
+    },
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "9844338b48ffbc36939fcba38157c08d"
+    },
+    {
+        "path": "about-stanley",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/about-stanley/index.html",
+        "type": "file",
+        "md5": "37707f7739a911e3d53d3f4cac69ea63"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "e5909a88ba1158a79ba2dbf82d6b2d86"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "99a9c549237f04b501682ead35569509"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "16e859e3f7fef04941bff974b77530c6"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/dynamic/fonts/aleo",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/aleo/aleo.woff2",
+        "type": "file",
+        "md5": "d972168af4846da95cd20803fd9e9b8b"
+    },
+    {
+        "path": "assets/dynamic/fonts/redrose",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/redrose/redrose.woff2",
+        "type": "file",
+        "md5": "fd4c141694a2ddfdfe89e545ebbf8ca7"
+    },
+    {
+        "path": "assets/dynamic/fonts/spartan",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/dynamic/fonts/spartan/spartan.woff2",
+        "type": "file",
+        "md5": "1a737b3bf53937deb3037bd61f675cb3"
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "bbe9995f7e2156956f75b2b1201a8dc8"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "b2d91bcadbf5db401b76eb5bb3092eb7"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "7c0d2bb7276904b382e80bf2d85e8a96"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "edadc70a4de28c12ca24735b42f0f99d"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "92c2948f54b3fbcc72bd7c6755b6efea"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/stanley-cat-the-cat",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/stanley-cat-the-cat/index.html",
+        "type": "file",
+        "md5": "6b679a52ebdc0b84f0572b7cf4c817df"
+    },
+    {
+        "path": "authors/stanley-cat-the-cat/page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/stanley-cat-the-cat/page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/stanley-cat-the-cat/page/2/index.html",
+        "type": "file",
+        "md5": "849cb0b1cf631d1d1f3358c218f825af"
+    },
+    {
+        "path": "feed.json",
+        "type": "file",
+        "md5": "454228ce1df2573943fa5470b4ddf115"
+    },
+    {
+        "path": "feed.xml",
+        "type": "file",
+        "md5": "c908c13488df7e882e36d2bec579d7b8"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "101ca55b675c547dad50b661a2ba217f"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/posts/1",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/image.jpg",
+        "type": "file",
+        "md5": "b27d07cb95146e0bd2e62455ebe87c42"
+    },
+    {
+        "path": "media/posts/1/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/1/responsive/image-md.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/1/responsive/image-sm.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/1/responsive/image-xl.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/1/responsive/image-xs.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "media/posts/10",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/10/image.jpg",
+        "type": "file",
+        "md5": "b27d07cb95146e0bd2e62455ebe87c42"
+    },
+    {
+        "path": "media/posts/10/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/10/responsive/image-md.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/10/responsive/image-sm.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/10/responsive/image-xl.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/posts/10/responsive/image-xs.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "media/posts/11",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/heartfart.jpg",
+        "type": "file",
+        "md5": "7ef02dbfe00a71c8d5d59e251e1b0e19"
+    },
+    {
+        "path": "media/posts/11/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/responsive/heartfart-md.jpg",
+        "type": "file",
+        "md5": "2c91941042e94fb3a5881b307d5cac81"
+    },
+    {
+        "path": "/media/posts/11/responsive/heartfart-sm.jpg",
+        "type": "file",
+        "md5": "6e2cdce870ae146bb1b9d064c6dc9574"
+    },
+    {
+        "path": "/media/posts/11/responsive/heartfart-xl.jpg",
+        "type": "file",
+        "md5": "c4e258ba4422f4302226bb72e5874fcf"
+    },
+    {
+        "path": "/media/posts/11/responsive/heartfart-xs.jpg",
+        "type": "file",
+        "md5": "0f254fb9d287656f333a26e04cd7d88e"
+    },
+    {
+        "path": "media/posts/12",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/2026-04-23_21-48.png",
+        "type": "file",
+        "md5": "67bf1f2d88656e8c40af0172982428eb"
+    },
+    {
+        "path": "media/posts/12/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/12/responsive/2026-04-23_21-48-md.png",
+        "type": "file",
+        "md5": "52c59c84d1f34716690d912c53105ba1"
+    },
+    {
+        "path": "/media/posts/12/responsive/2026-04-23_21-48-sm.png",
+        "type": "file",
+        "md5": "47cf9950772b2e6d1548d1edc69eb180"
+    },
+    {
+        "path": "/media/posts/12/responsive/2026-04-23_21-48-xl.png",
+        "type": "file",
+        "md5": "7e8683d492495f91b866dafa4d31b1eb"
+    },
+    {
+        "path": "/media/posts/12/responsive/2026-04-23_21-48-xs.png",
+        "type": "file",
+        "md5": "3cf8ef0ff9a5bfee403e916ffbd1976a"
+    },
+    {
+        "path": "media/posts/9",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/image.jpg",
+        "type": "file",
+        "md5": "91fb9a89d4c29c13a7d9604c5102e6a7"
+    },
+    {
+        "path": "media/posts/9/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/9/responsive/image-md.jpg",
+        "type": "file",
+        "md5": "8fac7b529259c5111dec7a43e8a16ea6"
+    },
+    {
+        "path": "/media/posts/9/responsive/image-sm.jpg",
+        "type": "file",
+        "md5": "dcc9d360c77c08fb50c3a11a2fcfd183"
+    },
+    {
+        "path": "/media/posts/9/responsive/image-xl.jpg",
+        "type": "file",
+        "md5": "871b1c3195da6e3ea7ae5491ff6463eb"
+    },
+    {
+        "path": "/media/posts/9/responsive/image-xs.jpg",
+        "type": "file",
+        "md5": "5dfd07c11401b435be16a80cb22502c6"
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/website/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/responsive/stanley_250-md.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/website/responsive/stanley_250-sm.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/website/responsive/stanley_250-xl.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/website/responsive/stanley_250-xs.jpg",
+        "type": "file",
+        "md5": "e9fb0eb5b614c017c405dd4840b17988"
+    },
+    {
+        "path": "/media/website/stanley_250.jpg",
+        "type": "file",
+        "md5": "b27d07cb95146e0bd2e62455ebe87c42"
+    },
+    {
+        "path": "metal-and-rock-playlist",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/metal-and-rock-playlist/index.html",
+        "type": "file",
+        "md5": "bdb49dcba8407602c42c3d9e638d1dd3"
+    },
+    {
+        "path": "page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/page/2/index.html",
+        "type": "file",
+        "md5": "7a59fef38ac59889d51e558c2b4a1b71"
+    },
+    {
+        "path": "random-music-playlist",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/random-music-playlist/index.html",
+        "type": "file",
+        "md5": "d7ae80ba25e727b59cb106bfa63d4c63"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "24897ecd0d18a1dd8a3e8871973f1d52"
+    },
+    {
+        "path": "sitemap.xml",
+        "type": "file",
+        "md5": "73351fc851a3939bc6519b0580b433b6"
+    },
+    {
+        "path": "sitemap.xsl",
+        "type": "file",
+        "md5": "51a7bcec43fa1ef0366100d5c2edbe75"
+    },
+    {
+        "path": "south-east-asian-rock-and-metal-playlist",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/south-east-asian-rock-and-metal-playlist/index.html",
+        "type": "file",
+        "md5": "93c8c95bc7baab1a5337d1ea19148412"
+    },
+    {
+        "path": "stanley-christmas-soundtrack",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanley-christmas-soundtrack/index.html",
+        "type": "file",
+        "md5": "493b331e0323236f69690d56a8f32175"
+    },
+    {
+        "path": "stanleys-end-of-year-top-songs",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanleys-end-of-year-top-songs/index.html",
+        "type": "file",
+        "md5": "398caad770876180faed12b3f7901b21"
+    },
+    {
+        "path": "stanleys-list-of-near-purrfect-b-movies",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanleys-list-of-near-purrfect-b-movies/index.html",
+        "type": "file",
+        "md5": "42d742a78ff700091999d79b622aac6d"
+    },
+    {
+        "path": "stanleys-music-listicle-2025-nyaavember-edition",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanleys-music-listicle-2025-nyaavember-edition/index.html",
+        "type": "file",
+        "md5": "eeebe8c6938608b516ebcb3428dab98c"
+    },
+    {
+        "path": "stanleys-music-listicle-2026-jan",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/stanleys-music-listicle-2026-jan/index.html",
+        "type": "file",
+        "md5": "d8bfac614d769814b347a4f1ae4c3c1b"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "02a7cc7fa526f5c32c579fedb604de19"
+    }
+]

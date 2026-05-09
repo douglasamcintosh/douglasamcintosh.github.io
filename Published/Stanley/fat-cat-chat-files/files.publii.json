@@ -7,7 +7,7 @@
     {
         "path": "/2026-april-stanleys-music-listicle/index.html",
         "type": "file",
-        "md5": "1a6d7225346f009936a9ac252f26e4e5"
+        "md5": "6749f4ba668fa8eca0b10caa9013c0b4"
     },
     {
         "path": "2026-feb-stanleys-music-listicle",
@@ -17,7 +17,7 @@
     {
         "path": "/2026-feb-stanleys-music-listicle/index.html",
         "type": "file",
-        "md5": "e93483c51be7a35a860fe9faef0e49fd"
+        "md5": "af613682945760b1569a383d0ef7be51"
     },
     {
         "path": "2026-march-listicle",
@@ -27,7 +27,7 @@
     {
         "path": "/2026-march-listicle/index.html",
         "type": "file",
-        "md5": "7cb2b997706af94d13a77433a2104b86"
+        "md5": "cd322cc87cc27d2694832bf6e517dc24"
     },
     {
         "path": "404.html",
@@ -157,7 +157,7 @@
     {
         "path": "/authors/stanley-cat-the-cat/index.html",
         "type": "file",
-        "md5": "6b679a52ebdc0b84f0572b7cf4c817df"
+        "md5": "96ba97731184e77f8096574192964735"
     },
     {
         "path": "authors/stanley-cat-the-cat/page",
@@ -172,22 +172,22 @@
     {
         "path": "/authors/stanley-cat-the-cat/page/2/index.html",
         "type": "file",
-        "md5": "849cb0b1cf631d1d1f3358c218f825af"
+        "md5": "b540fd9cc04e0c70e11b7d7271aa82e6"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "7567dfba959f7137b98255c1a0fec4c7"
+        "md5": "7f877c60c2d65bfdd8c56a9758d9d625"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "27dab4313ead83b90c477b9c0478b5e7"
+        "md5": "41805348273e45a6b8349151592e4ac2"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "101ca55b675c547dad50b661a2ba217f"
+        "md5": "262b1af42351d90fef7903eb02947e45"
     },
     {
         "path": "media",
@@ -340,6 +340,111 @@
         "md5": "3cf8ef0ff9a5bfee403e916ffbd1976a"
     },
     {
+        "path": "media/posts/5",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/maxresdefault.jpg",
+        "type": "file",
+        "md5": "70d5c91cdf36e6db136a3f7cd41397fc"
+    },
+    {
+        "path": "media/posts/5/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/5/responsive/maxresdefault-md.jpg",
+        "type": "file",
+        "md5": "6797244aec6233d997d922c269893308"
+    },
+    {
+        "path": "/media/posts/5/responsive/maxresdefault-sm.jpg",
+        "type": "file",
+        "md5": "a6cfe64d86e5e9b6e3876e8012f5e067"
+    },
+    {
+        "path": "/media/posts/5/responsive/maxresdefault-xl.jpg",
+        "type": "file",
+        "md5": "17d1ca989dbf32ac4c0a57fcd6b35075"
+    },
+    {
+        "path": "/media/posts/5/responsive/maxresdefault-xs.jpg",
+        "type": "file",
+        "md5": "215b9cde23c12c2510ac1253ebf7490e"
+    },
+    {
+        "path": "media/posts/7",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/7/psrcm.jpg",
+        "type": "file",
+        "md5": "bd95906ab3acbfd8d333ec0e3166da75"
+    },
+    {
+        "path": "media/posts/7/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/7/responsive/psrcm-md.jpg",
+        "type": "file",
+        "md5": "25952a590da7bd3a6847727bcd10f0e6"
+    },
+    {
+        "path": "/media/posts/7/responsive/psrcm-sm.jpg",
+        "type": "file",
+        "md5": "541188d9fb38079d89cb53eb6ff0bf45"
+    },
+    {
+        "path": "/media/posts/7/responsive/psrcm-xl.jpg",
+        "type": "file",
+        "md5": "97ed4a638238d52e52a1fa7ae0aa354e"
+    },
+    {
+        "path": "/media/posts/7/responsive/psrcm-xs.jpg",
+        "type": "file",
+        "md5": "bde9a720160309073229a68c4ac6b03a"
+    },
+    {
+        "path": "media/posts/8",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/8/YMMRNB.jpg",
+        "type": "file",
+        "md5": "08993cb8111639b4bf188c89709c8655"
+    },
+    {
+        "path": "media/posts/8/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/8/responsive/YMMRNB-md.jpg",
+        "type": "file",
+        "md5": "13ab3eae4005a3af50a8274f0a83cf71"
+    },
+    {
+        "path": "/media/posts/8/responsive/YMMRNB-sm.jpg",
+        "type": "file",
+        "md5": "e41ce0cbd01f8b0b94bcc8b6c1b76c38"
+    },
+    {
+        "path": "/media/posts/8/responsive/YMMRNB-xl.jpg",
+        "type": "file",
+        "md5": "5f968cafde8cab93394026f640644fe2"
+    },
+    {
+        "path": "/media/posts/8/responsive/YMMRNB-xs.jpg",
+        "type": "file",
+        "md5": "9a4f7b984fb2bd07b83533cd3f7feb35"
+    },
+    {
         "path": "media/posts/9",
         "type": "directory",
         "md5": false
@@ -432,7 +537,7 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "7a59fef38ac59889d51e558c2b4a1b71"
+        "md5": "db4dee970930f12730f5d053b9bee6b8"
     },
     {
         "path": "random-music-playlist",
@@ -452,7 +557,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "99bdba8380cd4764011fc96d9bc4cc0c"
+        "md5": "999fc405fd68aa543e47be198c60b034"
     },
     {
         "path": "sitemap.xsl",
@@ -467,7 +572,7 @@
     {
         "path": "/south-east-asian-rock-and-metal-playlist/index.html",
         "type": "file",
-        "md5": "93c8c95bc7baab1a5337d1ea19148412"
+        "md5": "c5ddec7f764a97ddfd73e440d700a323"
     },
     {
         "path": "stanley-christmas-soundtrack",
@@ -477,7 +582,7 @@
     {
         "path": "/stanley-christmas-soundtrack/index.html",
         "type": "file",
-        "md5": "493b331e0323236f69690d56a8f32175"
+        "md5": "067e88e2072a42daab37763f9e8837f6"
     },
     {
         "path": "stanleys-end-of-year-top-songs",
@@ -487,7 +592,7 @@
     {
         "path": "/stanleys-end-of-year-top-songs/index.html",
         "type": "file",
-        "md5": "398caad770876180faed12b3f7901b21"
+        "md5": "42149ce8964a3d83ea21c859d45bc98c"
     },
     {
         "path": "stanleys-list-of-near-purrfect-b-movies",
@@ -507,7 +612,7 @@
     {
         "path": "/stanleys-music-listicle-2025-nyaavember-edition/index.html",
         "type": "file",
-        "md5": "eeebe8c6938608b516ebcb3428dab98c"
+        "md5": "6a2e977a959651d78d24a5c21c274e4b"
     },
     {
         "path": "stanleys-music-listicle-2026-jan",
@@ -517,7 +622,7 @@
     {
         "path": "/stanleys-music-listicle-2026-jan/index.html",
         "type": "file",
-        "md5": "d8bfac614d769814b347a4f1ae4c3c1b"
+        "md5": "b92605da7831f091e6cfe70e349d169b"
     },
     {
         "path": "tags",
